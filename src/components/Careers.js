@@ -1,27 +1,48 @@
-import React, { useState } from "react";
+import React, { useState, useEffect, useMemo } from "react";
 import Header from "./Header";
 import careers1 from "../assets/careers1.jpg";
-import items from "../datacareers";
+import { dataCareers } from "../datacareers";
 import Buttonz from "./Buttonz";
 import Menuz from "./Menuz";
-import MenuAll from "./MenuAll";
+import SlickImage from "./SlickImage";
+import Footer from "./Footer";
 
-const allCat = ['Featured', ...new Set(items.map(item => item.category))];
+
 function Careers() {
-  const [menuItem, setMenuItem] = useState(items);
-  const [buttons, setButtons] = useState(allCat);
-  
-  const filter = (buttons) =>{
+  const [buttons, setButtons] = useState([]);
+  const allData = useMemo(() => {
+    const dataBaru = [];
+    dataCareers.map((x) =>
+      dataBaru?.filter((a) => a.category === x.category).length > 0
+        ? null
+        : dataBaru?.push(x)
+    );
+    return dataBaru;
+    //eslint-disable-next-line
+  }, []);
 
-    if(buttons ==='Featured'){
-      setMenuItem(items);
-      return
+  useEffect(() => {
+    setButtons([
+      {
+        id: Math.random(),
+        category: "Featured",
+      },
+      ...allData,
+    ]);
+    //eslint-disable-next-line
+  }, []);
+
+  const [menuItem, setMenuItem] = useState(dataCareers);
+  const filter = (buttons) => {
+    if (buttons.category === "Featured") {
+      setMenuItem(dataCareers);
+      return;
     }
-     const filteredData = items.filter(item => item.category === buttons);
-     setMenuItem(filteredData)
-     
-  }
-
+    const filteredData = dataCareers.filter(
+      (item) => item.category === buttons.category
+    );
+    setMenuItem(filteredData);
+  };
 
   return (
     <div className="h-full overflow-hidden mx-auto">
@@ -44,7 +65,8 @@ function Careers() {
                   Work at Discord
                 </h1>
                 <div className="col-span-4 mt-[40px] text-white text-center text-xl px-40">
-                  Discord is home to passionate people who value our mission—giving you the power to create belonging in your life.
+                  Discord is home to passionate people who value our
+                  mission—giving you the power to create belonging in your life.
                 </div>
               </div>
 
@@ -52,25 +74,36 @@ function Careers() {
                 <div className="relative col-start-3 col-end-[span_8] pt-[120px] ">
                   <div className="relative z-50 rounded-2xl w-full block pb-[56.25%]">
                     <iframe
-                    src="https://www.youtube.com/embed/hX9MOVIMYkg"
-                    className="absolute top-0 left-0 w-full h-full will-change-[opacity]"
-                  ></iframe>
+                      src="https://www.youtube.com/embed/hX9MOVIMYkg"
+                      className="absolute top-0 left-0 w-full h-full will-change-[opacity]"
+                    ></iframe>
                   </div>
                   <div className="contents relative w-full h-auto">
                     <div className="top-[10%] left-[-40%] absolute">
-                      <img className="rounded-xl h-[220px] w-[380px]" src={careers1}></img>
+                      <img
+                        className="rounded-xl h-[220px] w-[380px]"
+                        src={careers1}
+                      ></img>
                     </div>
                     <div className="top-[90%] left-[-10%] absolute">
-                      <img className="rounded-xl w-[180px] h-[103px]" src={careers1}></img>
+                      <img
+                        className="rounded-xl w-[180px] h-[103px]"
+                        src={careers1}
+                      ></img>
                     </div>
                     <div className="top-[15%] left-[80%] absolute h-[160px] w-[280px]">
-                      <img className="rounded-xl w-full h-[160px]" src={careers1}></img>
+                      <img
+                        className="rounded-xl w-full h-[160px]"
+                        src={careers1}
+                      ></img>
                     </div>
                     <div className="top-[80%] left-[80%] h-[220px] w-[380px] absolute">
-                      <img className="rounded-xl h-[220px] w-[380px]" src={careers1}></img>
+                      <img
+                        className="rounded-xl h-[220px] w-[380px]"
+                        src={careers1}
+                      ></img>
                     </div>
                   </div>
-
                 </div>
               </div>
             </div>
@@ -111,8 +144,8 @@ function Careers() {
               </h4>
             </div>
 
-          <Buttonz button={buttons} filter={filter} menuItem={menuItem[0]}></Buttonz>
-          <Menuz menuItem={menuItem}></Menuz>
+            <Buttonz button={buttons} filter={filter}></Buttonz>
+            <Menuz menuItem={menuItem}></Menuz>
           </div>
 
           <div className="bg-[#5865f2] py-[120px] w-full flex items-center flex-col text-white ">
@@ -322,131 +355,87 @@ function Careers() {
               </div>
             </div>
           </div>
-          
+
           <div className="bg-[#2c2f33] py-[120px] w-full flex items-center flex-col text-white ">
-              <div className="w-full max-w-[1260px] gird grid-cols-12 box-border gap-5 py-0 px-[40px] ">
-                      <div className="text-white col-span-12 mb-[120px] text-[24px] leading-[140%]">
-                        <p>If you're wanting to work with a motivated team on something that gives millions of users a space to find belonging, check out the four values of working at Discord <a href="" className="text-blue-800">on our blog </a>. For all roles, we're hiring people to join us in our beautiful San Francisco office (when it reopens), and for select, indicated positions, we're currently open to having people join our team remotely in these states:</p>
-                        <p className="mt-[34px] text-center">Alabama - Arizona - California - Colorado - District of Columbia - Florida - Georgia - Illinois - Iowa - Massachusetts - Maryland - Michigan - Minnesota - Montana - Kansas - Nevada - New Jersey - New York - North Carolina - Oklahoma - Oregon - Pennsylvania - Texas - Virginia - Washington</p>
-                      </div>
+            <div className="w-full max-w-[1260px] gird grid-cols-12 box-border gap-5 py-0 px-[40px] ">
+              <div className="text-white col-span-12 mb-[120px] text-[24px] leading-[140%]">
+                <p>
+                  If you're wanting to work with a motivated team on something
+                  that gives millions of users a space to find belonging, check
+                  out the four values of working at Discord{" "}
+                  <a href="" className="text-blue-800">
+                    on our blog{" "}
+                  </a>
+                  . For all roles, we're hiring people to join us in our
+                  beautiful San Francisco office (when it reopens), and for
+                  select, indicated positions, we're currently open to having
+                  people join our team remotely in these states:
+                </p>
+                <p className="mt-[34px] text-center">
+                  Alabama - Arizona - California - Colorado - District of
+                  Columbia - Florida - Georgia - Illinois - Iowa - Massachusetts
+                  - Maryland - Michigan - Minnesota - Montana - Kansas - Nevada
+                  - New Jersey - New York - North Carolina - Oklahoma - Oregon -
+                  Pennsylvania - Texas - Virginia - Washington
+                </p>
               </div>
+              <SlickImage></SlickImage>
+            </div>
 
-              <div className="w-full">
-                  <div className="mb-[10px] w-full overflow-hidden relative">
-                    <div className="flex translate-x-1/4">
-                      <div className=" w-[640px] flex-shrink-0 ">
-                        <div className="py-0 px-[20px]">
-                          <div className=" w-full h-0 pb-[56.25%]">
-                              <img className="rounded-2xl w-full h-auto" src={careers1}></img>
-                          </div>
-                        </div>
+            {/* <div className="w-full">
+              <div className="mb-[10px] w-full overflow-hidden relative">
+                <div className="flex translate-x-1/4"> */}
+                  
+                  {/* <div className=" w-[640px] flex-shrink-0 ">
+                    <div className="py-0 px-[20px]">
+                      <div className=" w-full h-0 pb-[56.25%]">
+                        <img
+                          className="rounded-2xl w-full h-auto"
+                          src={careers1}
+                          alt="carrers1"
+                        ></img>
                       </div>
+                    </div>
+                  </div> */}
 
-                      <div className=" w-[640px] flex-shrink-0 ">
-                        <div className="py-0 px-[20px]">
-                          <div className=" w-full h-0 pb-[56.25%]">
-                              <img className=" rounded-2xl w-full h-auto" src={careers1}></img>
-                          </div>
-                        </div>
-                      </div>
+                  
 
-                      <div className=" w-[640px] flex-shrink-0 ">
-                        <div className="py-0 px-[20px]">
-                          <div className="rounded-2xl w-full h-0 pb-[56.25%]">
-                              <img className="w-full h-auto" src={careers1}></img>
-                          </div>
-                        </div>
-                      </div>
+         
 
-                      <div className=" w-[640px] flex-shrink-0 ">
-                        <div className="py-0 px-[20px]">
-                          <div className="rounded-2xl w-full h-0 pb-[56.25%]">
-                              <img className="w-full h-auto" src={careers1}></img>
-                          </div>
-                        </div>
-                      </div>
+                
 
-                      <div className=" w-[640px] flex-shrink-0 ">
-                        <div className="py-0 px-[20px]">
-                          <div className="rounded-2xl w-full h-0 pb-[56.25%]">
-                              <img className="w-full h-auto" src={careers1}></img>
-                          </div>
-                        </div>
-                      </div>
-
-                      <div className=" w-[640px] flex-shrink-0 ">
-                        <div className="py-0 px-[20px]">
-                          <div className="rounded-2xl w-full h-0 pb-[56.25%]">
-                              <img className="w-full h-auto" src={careers1}></img>
-                          </div>
-                        </div>
-                      </div>
-
-                      <div className=" w-[640px] flex-shrink-0 ">
-                        <div className="py-0 px-[20px]">
-                          <div className="rounded-2xl w-full h-0 pb-[56.25%]">
-                              <img className="w-full h-auto" src={careers1}></img>
-                          </div>
-                        </div>
-                      </div>
-
-                      <div className=" w-[640px] flex-shrink-0 ">
-                        <div className="py-0 px-[20px]">
-                          <div className="rounded-2xl w-full h-0 pb-[56.25%]">
-                              <img className="w-full h-auto" src={careers1}></img>
-                          </div>
-                        </div>
-                      </div>
-
-                      <div className=" w-[640px] flex-shrink-0 ">
-                        <div className="py-0 px-[20px]">
-                          <div className="rounded-2xl w-full h-0 pb-[56.25%]">
-                              <img className="w-full h-auto" src={careers1}></img>
-                          </div>
-                        </div>
-                      </div>
-
-                      <div className=" w-[640px] flex-shrink-0 ">
-                        <div className="py-0 px-[20px]">
-                          <div className="rounded-2xl w-full h-0 pb-[56.25%]">
-                              <img className="w-full h-auto" src={careers1}></img>
-                          </div>
-                        </div>
-                      </div>
-
+                {/* <div className="absolute top-0 bottom-0 right-0 left-0 select-none">
+                  <div className="flex items-center w-full h-full justify-between">
+                    <div className="m-[8px] w-[40px] h-[40px] cursor-pointer rounded-[50%] bg-[#292c30] justify-center flex items-center">
+                      <svg
+                        class="arrowLeft-1uowgb"
+                        width="32px"
+                        height="32px"
+                        viewBox="0 0 32 32"
+                      >
+                        <path d="M22.2398 17.0778L11.8576 27.5689C11.2532 28.1437 10.3287 28.1437 9.75984 27.5689C9.19095 26.994 9.19095 26.0599 9.75984 25.4491L19.1109 16L9.75984 6.5509C9.19095 5.97605 9.19095 5.00599 9.75984 4.43114C10.3287 3.85629 11.2532 3.85629 11.8576 4.43114L22.2398 14.9581C22.8087 15.5329 22.8087 16.4671 22.2398 17.0778Z"></path>
+                      </svg>
                     </div>
 
-                    <div className="absolute top-0 bottom-0 right-0 left-0 select-none">
-                        <div className="flex items-center w-full h-full justify-between"> 
-                          <div className="m-[8px] w-[40px] h-[40px] cursor-pointer rounded-[50%] bg-[#292c30] justify-center flex items-center">
-                            <svg 
-                            class="arrowLeft-1uowgb"
-                            width="32px"
-                            height="32px"
-                            viewBox="0 0 32 32">
-                            <path d="M22.2398 17.0778L11.8576 27.5689C11.2532 28.1437 10.3287 28.1437 9.75984 27.5689C9.19095 26.994 9.19095 26.0599 9.75984 25.4491L19.1109 16L9.75984 6.5509C9.19095 5.97605 9.19095 5.00599 9.75984 4.43114C10.3287 3.85629 11.2532 3.85629 11.8576 4.43114L22.2398 14.9581C22.8087 15.5329 22.8087 16.4671 22.2398 17.0778Z"></path>
-                            </svg>
-                          </div>
-
-                          <div className="m-[8px] w-[40px] h-[40px] cursor-pointer rounded-[50%] bg-[#292c30] justify-center flex items-center">
-                            <svg 
-                            class="arrowLeft-1uowgb"
-                            width="32px"
-                            height="32px"
-                            viewBox="0 0 32 32">
-                            <path d="M22.2398 17.0778L11.8576 27.5689C11.2532 28.1437 10.3287 28.1437 9.75984 27.5689C9.19095 26.994 9.19095 26.0599 9.75984 25.4491L19.1109 16L9.75984 6.5509C9.19095 5.97605 9.19095 5.00599 9.75984 4.43114C10.3287 3.85629 11.2532 3.85629 11.8576 4.43114L22.2398 14.9581C22.8087 15.5329 22.8087 16.4671 22.2398 17.0778Z"></path>
-                            </svg>
-                          </div>
-                        </div>
+                    <div className="m-[8px] w-[40px] h-[40px] cursor-pointer rounded-[50%] bg-[#292c30] justify-center flex items-center">
+                      <svg
+                        class="arrowLeft-1uowgb"
+                        width="32px"
+                        height="32px"
+                        viewBox="0 0 32 32"
+                      >
+                        <path d="M22.2398 17.0778L11.8576 27.5689C11.2532 28.1437 10.3287 28.1437 9.75984 27.5689C9.19095 26.994 9.19095 26.0599 9.75984 25.4491L19.1109 16L9.75984 6.5509C9.19095 5.97605 9.19095 5.00599 9.75984 4.43114C10.3287 3.85629 11.2532 3.85629 11.8576 4.43114L22.2398 14.9581C22.8087 15.5329 22.8087 16.4671 22.2398 17.0778Z"></path>
+                      </svg>
                     </div>
                   </div>
+                </div> */}
               </div>
-
+            </div>
           </div>
-
-        </div>
-      </div>
-    </div>
+          <Footer />
+       </div>
+    //   </div>
+    // </div>
   );
 }
 

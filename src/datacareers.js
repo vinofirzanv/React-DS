@@ -26,7 +26,7 @@
 //   },
 // ];
 
-export default [
+export const dataCareers =  [
   {
     id: 1,
     category: "Administrative Business Partner",

@@ -11,37 +11,53 @@ import Linux from "../assets/Linux.svg";
 import Android from "../assets/Android.svg";
 import Nitros from "../assets/Nitro.svg";
 import NitrosClassic from "../assets/Nitro Classic.svg";
+import videoHeader from "../assets/videoNitro.webm";
 import Card from "./Card";
 import Header from "./Header";
+import Footer from "./Footer";
 function Nitro() {
   return (
     <Fragment>
       <Header></Header>
-      <div className="relative">
-        <div className=" bg-gradient-to-r from-[#00a295] via-[#26e8f4] to-[#3dcda7] w-full flex items-center flex-col">
-          <nav></nav>
-          <div className="container mt-[120px] mb-[176px] z-10 box-border grid grid-cols-12 p-[40px] gap-y-0 gap-x-[20px]">
-            <div className="col-start-1 col-end-[span_6] relative">
+      <div className="relative ">
+        <div className=" bg-gradient-to-r from-[#b473f5] to-[#e292aa] w-full flex items-center flex-col  ">
+          <div className="container mt-[120px] mb-[176px]  box-border grid grid-cols-12 p-[40px] gap-y-0 gap-x-[20px]">
+            <div className="col-start-1 col-end-[span_6] relative z-30">
               <img
-                className="mx-0 mt-0 block w-[300px] "
+                className="mx-0 mt-0 block w-[300px]  "
                 src={Nitros}
                 alt="Gambar1"
               />
             </div>
 
-            <div className="col-start-1 col-end-[_span_6] relative text-left text-white mt-[40px] text-[24px] leading-[140%]">
+            <div className="col-start-1 col-end-[_span_6] relative text-left text-white mt-[40px] text-[24px] leading-[140%] z-30">
               Get a enhanced Discord experience for one low monthly cost.
               Upgrade your emoji, enjoy bigger file uploads, stand out in your
               favorite Discords, and more.
             </div>
 
-            <div className="col-start-1 col-end-[span_6] flex flex-wrap mt-[40px]">
-            <button className="mr-[42px] w-auto mb-[24px] inline-flex py-[16px] px-[32px] rounded-[28px] items-center justify-center shadow-slate-700 hover:shadow-2xl  bg-black text-white text-[20px] leading-6 font-medium cursor-pointer">
-                $99.99 per year <div className="bg-[#5865f2] rounded-3xl py-0 px-2 ml-[10px] text-[12px] leading-6">16% off</div>
+            <div className="col-start-1 col-end-[span_6] flex flex-wrap mt-[40px] z-30">
+              <button className="mr-[42px] w-auto mb-[24px] inline-flex py-[16px] px-[32px] rounded-[28px] items-center justify-center shadow-slate-700 hover:shadow-2xl  bg-black text-white text-[20px] leading-6 font-medium cursor-pointer">
+                $99.99 per year{" "}
+                <div className="bg-[#5865f2] rounded-3xl py-0 px-2 ml-[10px] text-[12px] leading-6">
+                  16% off
+                </div>
               </button>
               <button className=" w-auto mb-[24px] inline-flex py-[16px] px-[32px] rounded-[28px] items-center shadow-slate-700 hover:shadow-2xl justify-center bg-black text-white text-[20px] leading-6 font-medium cursor-pointer">
                 $9.99 per month
               </button>
+            </div>
+
+            <div className="absolute top-0 left-0 overflow-hidden z-10 w-full h-full">
+              <video
+                src={videoHeader}
+                loop
+                muted
+                autoPlay={"autoplay"}
+                preLoad="auto"
+                className="absolute z-0 w-auto h-auto object-contain min-w-full min-h-full max-w-none"
+              >          
+              </video>
             </div>
           </div>
         </div>
@@ -59,8 +75,7 @@ function Nitro() {
         </div>
 
         <div className=" mt-[120px] gap-x-5 gap-y-5 w-full box-border grid grid-cols-12 p-[40px]">
-        
-          <Card  
+          <Card
             src={Card1}
             title="Better Emoji"
             text="Collect or make your own custom and animated emojis."
@@ -108,12 +123,14 @@ function Nitro() {
             Doitdoitdoitdoitdoitdoit
           </h3>
           <button className="col-start-3 col-end-[span_4] inline-flex mt-[40px] py-[16px] px-[32px] rounded-[28px] justify-center bg-black shadow-slate-700 hover:shadow-2xl text-white text-[20px] leading-6 font-medium cursor-pointer">
-            $99.99 per year <div className="bg-[#5865f2] rounded-3xl py-0 px-2 ml-[10px] text-[12px] leading-6">16% off</div>
+            $99.99 per year{" "}
+            <div className="bg-[#5865f2] rounded-3xl py-0 px-2 ml-[10px] text-[12px] leading-6">
+              16% off
+            </div>
           </button>
           <button className="col-span-4 col-end-auto mt-[40px] py-[16px] px-[32px] rounded-[28px] justify-center bg-black text-white text-[20px]  shadow-slate-700 hover:shadow-2xl leading-6 font-medium cursor-pointer">
             $9.99 per month
           </button>
-      
         </div>
       </div>
 
@@ -129,16 +146,21 @@ function Nitro() {
               Keep it simple — get the base chat perks without a Server Boost.
             </div>
             <div className="flex flex-wrap mt-[32px]">
-            <button className="mr-[42px] w-auto mb-[24px] inline-flex py-[16px] px-[32px] rounded-[28px] items-center justify-center shadow-slate-700 hover:shadow-2xl  bg-black text-white text-[20px] leading-6 font-medium cursor-pointer">
-                $99.99 per year <div className="bg-[#5865f2] rounded-3xl py-0 px-2 ml-[10px] text-[12px] leading-6">16% off</div>
+              <button className="mr-[42px] w-auto mb-[24px] inline-flex py-[16px] px-[32px] rounded-[28px] items-center justify-center shadow-slate-700 hover:shadow-2xl  bg-black text-white text-[20px] leading-6 font-medium cursor-pointer">
+                $99.99 per year{" "}
+                <div className="bg-[#5865f2] rounded-3xl py-0 px-2 ml-[10px] text-[12px] leading-6">
+                  16% off
+                </div>
               </button>
               <button className=" w-auto mb-[24px] inline-flex py-[16px] px-[32px] rounded-[28px] items-center shadow-slate-700 hover:shadow-2xl justify-center bg-black text-white text-[20px] leading-6 font-medium cursor-pointer">
                 $9.99 per month
               </button>
             </div>
+            
           </div>
         </div>
       </div>
+      <Footer></Footer>
     </Fragment>
   );
 }

@@ -89,41 +89,54 @@ function Safety() {
                       isHovering ? "" : "hidden" }`}
                   >
                     <li className="block rounded-lg hover:bg-gray-300 ">
-                      <Link to={"/Content"}>
+                      <Link to={"/ControllingExperience1"}>
                         <div className="block p-2 cursor-pointer hover:bg-gray-400">
                           Four steps to a super safe account{" "}
                         </div>
                       </Link>
                     </li>
-                    <li className="block rounded-lg hover:bg-gray-300">
-                      <a href="/Content" className="block p-2 cursor-pointer">
-                        Four steps to a super safe server{" "}
-                      </a>
+                    <li className="block rounded-lg  hover:bg-gray-300">
+                      <Link to={"/ControllingExperience2"}>
+                        <div className="block p-2 cursor-pointer">
+                          Four steps to a super safe server{" "}
+                        </div>
+                      </Link>
                     </li>
+
                     <li className="block rounded-lg hover:bg-gray-300 ">
-                      <a className="block p-2 cursor-pointer">
-                        Role of administrators and moderators on Discord
-                      </a>
+                      <Link to={"/Roleofadministrators"}>
+                        <div className="block p-2 cursor-pointer">
+                          Role of administrators and moderators on Discord
+                        </div>
+                      </Link>
                     </li>
                     <li className="block rounded-lg hover:bg-gray-300">
-                      <a className="block p-2 cursor-pointer">
-                        Reporting problems to Discord{" "}
-                      </a>
+                      <Link to={"/Reportingproblems"}>
+                        <div className="block p-2 cursor-pointer">
+                          Reporting problems to Discord{" "}
+                        </div>
+                      </Link>
                     </li>
                     <li className="block rounded-lg hover:bg-gray-300">
-                      <a className="block p-2 cursor-pointer">
-                        Mental health on Discord{" "}
-                      </a>
+                      <Link to={"/Mentalhealth"}>
+                        <div className="block p-2 cursor-pointer">
+                          Mental health on Discord{" "}
+                        </div>
+                      </Link>
                     </li>
                     <li className="block rounded-lg hover:bg-gray-300">
-                      <a className="block p-2 cursor-pointer">
-                        Age-Restricted Content on Discord{" "}
-                      </a>
+                      <Link to={"/AgeRestricted"}>
+                        <div className="block p-2 cursor-pointer">
+                          Age-Restricted Content on Discord{" "}
+                        </div>
+                      </Link>
                     </li>
                     <li className="block rounded-lg hover:bg-gray-300">
-                      <a className="block p-2 cursor-pointer">
-                        Tips against spam and hacking{" "}
-                      </a>
+                      <Link to={"/Tipsagainst"}>
+                        <div className="block p-2 cursor-pointer">
+                          Tips against spam and hacking{" "}
+                        </div>
+                      </Link>
                     </li>
                   </ul>
                 </div>

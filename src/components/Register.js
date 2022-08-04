@@ -1,7 +1,7 @@
 import React from "react";
 
 import { Link } from "react-router-dom";
-import MonthList from "./MonthList";
+import SelectMonth from "./SelectMonth";
 
 function Register() {
   return (
@@ -61,22 +61,21 @@ function Register() {
                       <h5 className="text-[#b9bbbe] mb-[8px] text-[12px] leading-[16px] font-medium uppercase">
                         DATE OF BIRTHDAY
                       </h5>
-                      <div className="flex text-center mb-[4px] text-[16px] w-full rounded justify-between">
-                        <div className="w-[35%] text-left">
-                          <div>
-                            <div className="relative box-border">
+                      {/* <div className="flex text-center mb-[4px] text-[16px] w-full rounded justify-between"> */}
+                        {/* <div className="w-[35%] text-left">
+                          <div> */}
+                            {/* <div className="relative box-border">
                               <div className="bg-[#313339] border-[#202225] rounded text-center border border-solid flex flex-wrap justify-between min-h-[40px] box-border">
                                 <div className="flex flex-1 flex-wrap py-[2px] px-[8px] item-center relative">
-                                  <div className="mx-[2px] absolute">
-                                    Select
-                                    {/* <MonthList></MonthList> */}
-                                  </div>
+                                  <div className="mx-[2px] absolute"> */}
+                                   <SelectMonth />
+                                  {/* </div>
                                 </div>
                               </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
+                            </div> */}
+                          {/* </div>
+                        </div> */}
+                      {/* </div> */}
                     </div>
 
 

@@ -8,12 +8,12 @@ import Android from "../assets/Android.svg";
 import HeaderBlack from "./HeaderBlack";
 import Footer from "./Footer";
 function Download() {
-  const [show, setShow] = useState(false);
+  const [show, setShow] = useState(true);
   const handleClick = () => {
     setShow(!show);
   };
 
-  const [show1, setShow1] = useState(false);
+  const [show1, setShow1] = useState(true);
   const handleClick1 = () => {
     setShow1(!show1);
   };
