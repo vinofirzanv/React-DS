@@ -54,10 +54,7 @@ function ControllingExperience1() {
       setIsHovering3(false);
     }
   };
-  const [textColor, setTextColor] = useState("#23272a");
-  const handleChangeTextColor = (e) => {
-    setTextColor("#00b0f4");
-  };
+
   return (
     <Fragment>
       <Header></Header>
@@ -180,39 +177,53 @@ function ControllingExperience1() {
                   }`}
                 >
                   <li className="block rounded-lg hover:bg-gray-300 ">
-                    <a className="block p-2 cursor-pointer">
-                      What is Discord?{" "}
-                    </a>
+                    <Link to={"/WhatisDiscord"}>
+                      <div className="block p-2 cursor-pointer">
+                        What is Discord?{" "}
+                      </div>
+                    </Link>
                   </li>
                   <li className="block rounded-lg hover:bg-gray-300">
-                    <a className="block p-2 cursor-pointer">
-                      Discord's commitment to a safe and trusted experience{" "}
-                    </a>
+                    <Link to={"/DiscordCommitment"}>
+                      <div className="block p-2 cursor-pointer">
+                        Discord's commitment to a safe and trusted experience{" "}
+                      </div>
+                    </Link>
                   </li>
                   <li className="block rounded-lg hover:bg-gray-300 ">
-                    <a className="block p-2 cursor-pointer">
-                      Helping your teen stay safe on Discord
-                    </a>
+                    <Link to={"/HelpingYourTeen"}>
+                      <div className="block p-2 cursor-pointer">
+                        Helping your teen stay safe on Discord
+                      </div>
+                    </Link>
                   </li>
                   <li className="block rounded-lg hover:bg-gray-300">
-                    <a className="block p-2 cursor-pointer">
-                      Talking about online safety with your teen
-                    </a>
+                    <Link to={"/TalkingAboutOnline"}>
+                      <div className="block p-2 cursor-pointer">
+                        Talking about online safety with your teen
+                      </div>
+                    </Link>
                   </li>
                   <li className="block rounded-lg hover:bg-gray-300">
-                    <a className="block p-2 cursor-pointer">
-                      Answering parents' and educators' top questions{" "}
-                    </a>
+                    <Link to={"/AnsweringParents"}>
+                      <div className="block p-2 cursor-pointer">
+                        Answering parents' and educators' top questions{" "}
+                      </div>
+                    </Link>
                   </li>
                   <li className="block rounded-lg hover:bg-gray-300">
-                    <a className="block p-2 cursor-pointer">
-                      If your teen encounters an issue{" "}
-                    </a>
+                    <Link to={"/EncountersanIssue"}>
+                      <div className="block p-2 cursor-pointer">
+                        If your teen encounters an issue{" "}
+                      </div>
+                    </Link>
                   </li>
                   <li className="block rounded-lg hover:bg-gray-300">
-                    <a className="block p-2 cursor-pointer">
-                      Working with CARU to protect users on Discord
-                    </a>
+                    <Link to={"/WorkingwithCARU"}>
+                      <div className="block p-2 cursor-pointer">
+                        Working with CARU to protect users on Discord
+                      </div>
+                    </Link>
                   </li>
                 </ul>
               </li>
@@ -241,45 +252,61 @@ function ControllingExperience1() {
                   }`}
                 >
                   <li className="block rounded-lg hover:bg-gray-300 ">
-                    <a className="block p-2 cursor-pointer">Our policies </a>
+                    <Link to={"/OurPolicies"}>
+                      <div className="block p-2 cursor-pointer">
+                        Our policies{" "}
+                      </div>
+                    </Link>
                   </li>
                   <li className="block rounded-lg hover:bg-gray-300">
-                    <a className="block p-2 cursor-pointer">
-                      Enforcing our rules{" "}
-                    </a>
+                    <Link to={"/EnforcingourRules"}>
+                      <div className="block p-2 cursor-pointer">
+                        Enforcing our rules{" "}
+                      </div>
+                    </Link>
                   </li>
                   <li className="block rounded-lg hover:bg-gray-300 ">
-                    <a className="block p-2 cursor-pointer">
-                      How we investigate
-                    </a>
+                    <Link to={"/HowweInvestigate"}>
+                      <div className="block p-2 cursor-pointer">
+                        How we investigate
+                      </div>
+                    </Link>
                   </li>
                   <li className="block rounded-lg hover:bg-gray-300">
-                    <a className="block p-2 cursor-pointer">
-                      What actions we take
-                    </a>
+                    <Link to={"/WhatActionweTake"}>
+                      <div className="block p-2 cursor-pointer">
+                        What actions we take
+                      </div>
+                    </Link>
                   </li>
                   <li className="block rounded-lg hover:bg-gray-300">
-                    <a className="block p-2 cursor-pointer">
-                      How you can appeal our actions{" "}
-                    </a>
+                    <Link to={"/HowyouCanAppeal"}>
+                      <div className="block p-2 cursor-pointer">
+                        How you can appeal our actions{" "}
+                      </div>
+                    </Link>
                   </li>
                   <li className="block rounded-lg hover:bg-gray-300">
-                    <a className="block p-2 cursor-pointer">
-                      Discord's Transparency Report
-                    </a>
+                    <Link to={"/DiscordTransparencyReport"}>
+                      <div className="block p-2 cursor-pointer">
+                        Discord's Transparency Report
+                      </div>
+                    </Link>
                   </li>
                   <li className="block rounded-lg hover:bg-gray-300">
-                    <a className="block p-2 cursor-pointer">
-                      Working with law enforcement
-                    </a>
+                    <Link to={"/WorkingwithLawEnforcement"}>
+                      <div className="block p-2 cursor-pointer">
+                        Working with law enforcement
+                      </div>
+                    </Link>
                   </li>
                 </ul>
               </li>
             </ul>
           </div>
 
-          <div className="font-bold  lg:font-bold lg:text-7xl text-4xl lg:pl-10 my-5 text-[#23272a]">
-            <h1 className="uppercase">Four steps to a super safe account</h1>
+          <div className=" lg:text-7xl text-4xl lg:pl-10 my-5 text-[#23272a]">
+            <h1 className="font-bold lg:font-bold uppercase">Four steps to a super safe account</h1>
             <div className="mt-[40px] text-[20px] leading-[140%] block ">
               <p>
                 On Discord, you get to choose the friends and communities you
@@ -299,8 +326,8 @@ function ControllingExperience1() {
               <div className="text-[12px] leading-[20px] font-bold uppercase text-[#23272a]">
                 Content
               </div>
-              <ol className="list-none" onClick={handleChangeTextColor}>
-               <li className="mt-[24px] hover:underline">
+              <ol className="list-none">
+                <li className="mt-[24px] hover:underline">
                   <a
                     href="#satu"
                     className="block text-[#00b0f4] text-[16px] leading-[26px]"
@@ -393,7 +420,7 @@ function ControllingExperience1() {
                 </li>
               </ul>
               <p className="my-[16px]">
-                <img src={Safetyz} />
+                <img src={Safetyz} alt="Gambar1"/>
               </p>
 
               <h5
@@ -680,7 +707,7 @@ function ControllingExperience1() {
                 If you have blocked a user but they create a new account to try
                 and contact you, please report the user to the Trust & Safety
                 team. You can learn more about how to do this at{" "}
-                <a href="" className="text-blue-600 hover:underline">
+                <a href="/" className="text-blue-600 hover:underline">
                   this link.
                 </a>
               </p>

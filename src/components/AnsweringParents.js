@@ -2,7 +2,7 @@ import React, { Fragment, useState } from "react";
 import Header from "./Header";
 import { Link } from "react-router-dom";
 import Footer from "./Footer";
-function Mentalhealth() {
+function AnsweringParents() {
   const [isHovering, setIsHovering] = useState(false);
   const [isHovering2, setIsHovering2] = useState(false);
   const [isHovering3, setIsHovering3] = useState(false);
@@ -50,7 +50,7 @@ function Mentalhealth() {
       setIsHovering3(false);
     }
   };
- 
+
   return (
     <Fragment>
       <Header></Header>
@@ -75,12 +75,12 @@ function Mentalhealth() {
                 onMouseEnter={onMouseEnter}
                 onMouseLeave={onMouseExit}
               >
-                <span className="flex pt-0 px-[16px] pb-[10px] center text-[#5865F2] border-[#5865F2] border-b-[2px]">
+                <span className="flex pt-0 px-[16px] pb-[10px] center   text-[#747f8d] border-b-[2px]">
                   <span className=" leading-[1.625] text-[20px]">
                     Controlling Your Experince
                   </span>
                   <svg
-                    fill="#5865F2"
+                    fill="#747f8d"
                     width="24px"
                     height="24px"
                     viewBox="0 -3 20 20"
@@ -124,7 +124,7 @@ function Mentalhealth() {
                         </div>
                       </Link>
                     </li>
-                    <li className="block rounded-lg text-[#00b0f4] hover:bg-gray-300">
+                    <li className="block rounded-lg hover:bg-gray-300">
                       <Link to={"/Mentalhealth"}>
                         <div className="block p-2 cursor-pointer">
                           Mental health on Discord{" "}
@@ -154,12 +154,12 @@ function Mentalhealth() {
                 onMouseEnter={onMouseEnter2}
                 onMouseLeave={onMouseExit2}
               >
-                <span className="flex pt-0 px-[16px] pb-[10px] center text-[#747f8d]">
+                <span className="flex pt-0 px-[16px] pb-[10px] center text-[#5865F2] border-[#5865F2] border-b-[2px]">
                   <span className=" leading-[1.625] text-[20px]">
                     Parents & Educators
                   </span>
                   <svg
-                    fill="#747f8d"
+                    fill="#5865F2"
                     width="24px"
                     height="24px"
                     viewBox="0 -3 20 20"
@@ -172,7 +172,7 @@ function Mentalhealth() {
                     isHovering2 ? "" : "hidden"
                   }`}
                 >
-                  <li className="block rounded-lg hover:bg-gray-300 ">
+                  <li className="block rounded-lg hover:bg-gray-300  ">
                     <Link to={"/WhatisDiscord"}>
                       <div className="block p-2 cursor-pointer">
                         What is Discord?{" "}
@@ -193,14 +193,14 @@ function Mentalhealth() {
                       </div>
                     </Link>
                   </li>
-                  <li className="block rounded-lg hover:bg-gray-300">
+                  <li className="block rounded-lg hover:bg-gray-300 ">
                     <Link to={"/TalkingAboutOnline"}>
                       <div className="block p-2 cursor-pointer">
                         Talking about online safety with your teen
                       </div>
                     </Link>
                   </li>
-                  <li className="block rounded-lg hover:bg-gray-300">
+                  <li className="block rounded-lg hover:bg-gray-300 text-[#00b0f4]">
                     <Link to={"/AnsweringParents"}>
                       <div className="block p-2 cursor-pointer">
                         Answering parents' and educators' top questions{" "}
@@ -248,80 +248,63 @@ function Mentalhealth() {
                   }`}
                 >
                   <li className="block rounded-lg hover:bg-gray-300 ">
-                  <Link to={"/OurPolicies"}>
-                    <div className="block p-2 cursor-pointer">Our policies </div>
+                    <Link to={"/OurPolicies"}>
+                      <div className="block p-2 cursor-pointer">
+                        Our policies{" "}
+                      </div>
                     </Link>
                   </li>
                   <li className="block rounded-lg hover:bg-gray-300">
-                  <Link to={"/EnforcingourRules"}>
-                    <div className="block p-2 cursor-pointer">
-                      Enforcing our rules{" "}
-                    </div>
+                    <Link to={"/EnforcingourRules"}>
+                      <div className="block p-2 cursor-pointer">
+                        Enforcing our rules{" "}
+                      </div>
                     </Link>
                   </li>
                   <li className="block rounded-lg hover:bg-gray-300 ">
-                  <Link to={"/HowweInvestigate"}>
-                    <div className="block p-2 cursor-pointer">
-                      How we investigate
-                    </div>
+                    <Link to={"/HowweInvestigate"}>
+                      <div className="block p-2 cursor-pointer">
+                        How we investigate
+                      </div>
                     </Link>
                   </li>
                   <li className="block rounded-lg hover:bg-gray-300">
-                  <Link to={"/WhatActionweTake"}>
-                    <div className="block p-2 cursor-pointer">
-                      What actions we take
-                    </div>
+                    <Link to={"/WhatActionweTake"}>
+                      <div className="block p-2 cursor-pointer">
+                        What actions we take
+                      </div>
                     </Link>
                   </li>
                   <li className="block rounded-lg hover:bg-gray-300">
-                  <Link to={"/HowyouCanAppeal"}>
-                    <div className="block p-2 cursor-pointer">
-                      How you can appeal our actions{" "}
-                    </div>
+                    <Link to={"/HowyouCanAppeal"}>
+                      <div className="block p-2 cursor-pointer">
+                        How you can appeal our actions{" "}
+                      </div>
                     </Link>
                   </li>
                   <li className="block rounded-lg hover:bg-gray-300">
-                  <Link to={"/DiscordTransparencyReport"}>
-                    <div className="block p-2 cursor-pointer">
-                      Discord's Transparency Report
-                    </div>
+                    <Link to={"/DiscordTransparencyReport"}>
+                      <div className="block p-2 cursor-pointer">
+                        Discord's Transparency Report
+                      </div>
                     </Link>
                   </li>
                   <li className="block rounded-lg hover:bg-gray-300">
                     <Link to={"/WorkingwithLawEnforcement"}>
-                    <div className="block p-2 cursor-pointer">
-                      Working with law enforcement
-                    </div>
+                      <div className="block p-2 cursor-pointer">
+                        Working with law enforcement
+                      </div>
                     </Link>
-                    
                   </li>
                 </ul>
               </li>
             </ul>
           </div>
 
-          <div className="lg:text-7xl text-4xl lg:pl-10 my-5 text-[#23272a]">
-            <h1 className="font-bold  lg:font-bold  uppercase">Mental health on Discord</h1>
-            <div className="mt-[40px] text-[20px] leading-[140%] block ">
-              <p>
-                What should I do if someone posts or says something about
-                self-harm or suicide?
-              </p>
-              <p>
-                It can be difficult to know what to say or do when someone
-                expresses a desire to harm themselves.{" "}
-                <span className="text-red-600 font-bold">
-                  If you are struggling with thoughts of suicide or if another
-                  user is in immediate physical danger of harming themselves,
-                  please contact a{" "}
-                  <a href="#health" className="text-[#00b0f4]">
-                    {" "}
-                    suicide hotline{" "}
-                  </a>{" "}
-                  or law enforcement immediately.
-                </span>
-              </p>
-            </div>
+          <div className="  lg:text-7xl text-4xl lg:pl-10 my-5 text-[#23272a]">
+            <h1 className="uppercase font-bold lg:font-bold">
+            Answering parents' and educators' top questions
+            </h1>
           </div>
         </div>
       </header>
@@ -333,13 +316,13 @@ function Mentalhealth() {
               <div className="text-[12px] leading-[20px] font-bold uppercase text-[#23272a]">
                 Content
               </div>
-              <ol className="list-none " >
+              <ol className="list-none">
                 <li className="mt-[24px] hover:underline">
                   <a
                     href="#satu"
                     className="block text-[#00b0f4] text-[16px] leading-[26px]"
                   >
-                    Contact your server admins
+                    1. Is Discord safe for my teens to use?
                   </a>
                 </li>
                 <li className="mt-[24px] hover:underline">
@@ -347,7 +330,7 @@ function Mentalhealth() {
                     href="#dua"
                     className="block text-[#23272a] text-[16px] leading-[26px]"
                   >
-                    Provide some support resources
+                  2. What is the minimum age to be on Discord? How do you ensure teens under 13 can’t create an account?
                   </a>
                 </li>
                 <li className="mt-[24px] hover:underline">
@@ -355,7 +338,7 @@ function Mentalhealth() {
                     href="#tiga"
                     className="block text-[#23272a] text-[16px] leading-[26px]"
                   >
-                    Talk to a parent or trusted adult
+                  3. What personal information does Discord collect about my teen? Do you sell it?
                   </a>
                 </li>
                 <li className="mt-[24px] hover:underline">
@@ -363,7 +346,7 @@ function Mentalhealth() {
                     href="#empat"
                     className="block text-[#23272a] text-[16px] leading-[26px]"
                   >
-                    Report to Trust & Safety
+                   4. Can my teen be exposed to inappropriate content on Discord?
                   </a>
                 </li>
                 <li className="mt-[24px] hover:underline">
@@ -371,7 +354,7 @@ function Mentalhealth() {
                     href="#lima"
                     className="block text-[#23272a] text-[16px] leading-[26px]"
                   >
-                    Contact law enforcement
+                    5. Can my teen interact with people they don’t know on Discord?
                   </a>
                 </li>
                 <li className="mt-[24px] hover:underline">
@@ -379,7 +362,7 @@ function Mentalhealth() {
                     href="#enam"
                     className="block text-[#23272a] text-[16px] leading-[26px]"
                   >
-                    Suicide Prevention
+                   6. Are there parental controls on Discord I can use to control my teen's account?
                   </a>
                 </li>
                 <li className="mt-[24px] hover:underline">
@@ -387,7 +370,7 @@ function Mentalhealth() {
                     href="#tujuh"
                     className="block text-[#23272a] text-[16px] leading-[26px]"
                   >
-                    Substance Abuse Support
+                    7. How can I monitor what my teen is doing on Discord? 
                   </a>
                 </li>
                 <li className="mt-[24px] hover:underline">
@@ -395,7 +378,7 @@ function Mentalhealth() {
                     href="#delapan"
                     className="block text-[#23272a] text-[16px] leading-[26px]"
                   >
-                    Eating Disorder Support
+                   8. What are Student Hubs?
                   </a>
                 </li>
                 <li className="mt-[24px] hover:underline">
@@ -403,15 +386,7 @@ function Mentalhealth() {
                     href="#sembilan"
                     className="block text-[#23272a] text-[16px] leading-[26px]"
                   >
-                    Child Abuse and Domestic Violence
-                  </a>
-                </li>
-                <li className="mt-[24px] hover:underline">
-                  <a
-                    href="#sepuluh"
-                    className="block text-[#23272a] text-[16px] leading-[26px]"
-                  >
-                    LGBTQ+ Support
+                    9. What safety measures are in place for the students participating in Student Hubs?
                   </a>
                 </li>
               </ol>
@@ -424,265 +399,161 @@ function Mentalhealth() {
                 className="text-[#23272a] mb-4 text-[24px] leading-[120%] font-bold"
                 id="satu"
               >
-                Contact your server admins
+               1. Is Discord safe for my teens to use?
               </h5>
-              <p className="mb-[16px]">
-                If someone has posted comments about harming themselves in a
-                server, you may consider reaching out to your server
-                administrators or owner to let them know about the situation, so
-                they can moderate their server as needed and provide support to
-                the server member
-              </p>
 
+              <p className="mb-[16px]">
+              There are a few things that make Discord a great and safe place for teens:
+              </p>
+              <ul className="mt-[16px] ml-[1em] list-disc">
+                <li>
+                <span className="font-bold">All conversations are opt-in.</span> Conversations on Discord are driven by the people you choose and the topics you choose to talk about. Each user gets to choose who can message them, who can add them as a friend, and what kind of content they can receive.  
+                </li>
+                <li>
+                <span className="font-bold">No sharing of personal information.</span> We’ve designed our app to be secure. We protect sensitive information, including contact information and private conversations, from any searches. Discord does not ask for a real name on signup, and we do not share any user’s personal information with other users. We also do not sell our user data to advertisers. 
+                </li>
+                <li>
+                <span className="font-bold">Private, invite-only groups.</span> Most Discord servers are small, private, invite-only groups where your teen can spend time with their friends or schoolmates. There is no news feed, no algorithm, no endless scrolling, no unexpected content. 
+                </li>
+              </ul>
+              <p className="my-[16px]">
+              To help your teen use Discord safely, it’s important to understand how Discord works and how you can best control your teen’s experience on it. We have listed a number of tips to do so <a href="/HelpingYourTeen" className="text-[#00b0f4] hover:underline">here </a>.
+              </p>
+              <p className="mb-[16px]">
+              Just like with every other online service, the best way to ensure your teen stays safe online is to have clear guidelines on what they should and shouldn’t be looking at or posting online, and make sure that you keep clear lines of communication. 
+              </p>
+             
               <h5
-                className="text-[#23272a] mt-12 mb-4 text-[24px] leading-[120%] font-bold"
+                className="text-[#23272a] mb-4 mt-16 text-[24px] leading-[120%] font-bold"
                 id="dua"
               >
-                Provide some support resources
+                2. What is the minimum age to be on Discord? How do you ensure teens under 13 can’t create an account?
               </h5>
               <p className="mb-[16px]">
-                If you are still in touch with the user, you may wish to provide
-                them with one of the help hotlines listed below.
+              Discord's Terms of Service requires people to be over a minimum age to access our app or website. The minimum age to access Discord is 13, unless local legislation mandates an older age. 
+              </p>
+              <p className="mb-[16px]">
+              To ensure that users satisfy that minimum age requirement, we are in the process of rolling out a gate that asks them to confirm their date of birth upon creating an account. If a user is reported as being under 13, we lock them out of their account until they can verify their age using an official ID document.  
               </p>
 
               <h5
-                className="text-[#23272a] mt-12 mb-4 text-[24px] leading-[120%] font-bold"
+                className="text-[#23272a] mb-4 mt-16 text-[24px] leading-[120%] font-bold"
                 id="tiga"
               >
-                Talk to a parent or trusted adult
+                3. What personal information does Discord collect about my teen? Do you sell it?
               </h5>
               <p className="mb-[16px]">
-                You may not feel qualified to help a friend who expresses their
-                desire to hurt themselves, and it may be helpful to ask a parent
-                or another trusted adult for help in handling the situation.
+              Discord does not sell user data, nor do we share it with 3rd parties for advertising purposes. We do not ask for a real name on signup, and we do not share any user’s personal information with other users. We protect sensitive information, including contact information and private conversations, from any searches. 
               </p>
 
               <h5
-                className="text-[#23272a] mt-12 mb-4 text-[24px] leading-[120%] font-bold"
+                className="text-[#23272a] mb-4 mt-16 text-[24px] leading-[120%] font-bold"
                 id="empat"
               >
-                Report to Trust & Safety
+                4. Can my teen be exposed to inappropriate content on Discord?
               </h5>
               <p className="mb-[16px]">
-                You can always report concerning content to the Trust & Safety
-                team using{" "}
-                <a href="#health" className="text-[#00b0f4]">
-                  {" "}
-                  this form.
-                </a>{" "}
-                You can read about what information we need to investigate{" "}
-                <a href="#health" className="text-[#00b0f4]">
-                  {" "}
-                  here.
-                </a>
+              Like on every internet platform, there is age-restricted content on Discord. Each user chooses which server they want to join and who they want to interact with. 
               </p>
               <p className="mb-[16px]">
-                When we receive reports of self-harm threats, we investigate the
-                situation and may contact authorities, but in the event of an
-                emergency, we encourage you to contact law enforcement in
-                addition to contacting us.
+              In servers, age-restricted content must be posted in a channel marked as age-restricted, which cannot be accessed by users under 18. In Direct Messages, we recommend that every user under 18 activates the age-restricted content filter (in <span className="font-bold text-style: italic">User Settings</span> {">"} <span className="font-bold text-style: italic">Privacy & Safety</span> {">"} and select <span className="font-bold text-style: italic">'Keep Me Safe'</span> under <span className="font-bold text-style: italic">Safe Direct Messaging)</span>. This setting is on by default and will scan images and videos in all direct messages and block age-restricted content. 
               </p>
               <p className="mb-[16px]">
-                Please note that for privacy and security reasons we are unable
-                to provide personal information such as contact information or
-                location to someone who is not the account holder. If you are
-                concerned that someone is in immediate danger, please contact
-                law enforcement.
+              We believe that the best way to make sure that your teenagers are accessing content that they should is to set clear guidelines on what they should and shouldn’t be looking at or posting online, and make sure that you keep clear lines of communication. 
               </p>
 
               <h5
-                className="text-[#23272a] mt-12 mb-4 text-[24px] leading-[120%] font-bold"
+                className="text-[#23272a] mb-4 mt-16 text-[24px] leading-[120%] font-bold"
                 id="lima"
               >
-                Contact law enforcement
+                5. Can my teen interact with people they don’t know on Discord?
               </h5>
-              <p className="mb-[16px]">
-                If you or another user you know is in urgent trouble, please
-                contact authorities right away, regardless of the limited
-                information you might be able to provide. Law enforcement has
-                investigative resources and can contact Discord Trust & Safety
-                for information that we aren't allowed to disclose otherwise and
-                can identify those users to get them help.
+
+              <p className="mb-6">
+              All interactions on Discord are opt-in. Unlike other platforms where someone might be able to message you or find you as soon as you sign up for an account, this isn’t the case on Discord. Every person that signs up needs to accept another user as a friend before they can be messaged by that user. They need to decide to join a community before being messaged by anyone in that community.
               </p>
-              <p>Mental health support vs. self-harm encouragement </p>
-              <p className="mb-[16px]">
-                Support networks and online communities can play a key role in
-                helping people who are experiencing mental health issues. We
-                support mental health communities on Discord where people can
-                come together, and we want these spaces to remain positive and
-                healthy.
+
+              <p className="mb-6">
+              Each user has total control over the following:
               </p>
-              <p className="mb-[16px]">
-                When we receive reports of users or communities discussing or
-                encouraging self-harm, we review such content carefully, and we
-                take into account the context in which comments are posted. We
-                will take action on communities or users that promote,
-                encourage, or glorify suicide or self-harm. This includes
-                content that encourages others to cut or injure themselves or
-                content that encourages or glorifies eating disorders.
+
+              <ul className="mt-[16px] ml-[1em] list-disc">
+                <li>
+                Who can DM you and who can add you as a friend
+                </li>
+                <li>
+                Which servers you want to join and be a part of
+                </li>
+                <li>
+                Who can join the servers that you create
+                </li>
+                <li>
+                Whether you want your messages to be scanned for age-restricted content automatically
+                </li>
+              </ul>
+              
+              <p className="my-6">
+            <span className="font-bold">Users should only accept friend requests from users that you know and trust.</span> If your teen isn’t sure, there’s no harm in rejecting the friend request. They can always add them later if it’s a mistake.
               </p>
-              <p className="mb-[16px]" id="health">
-                Mental Health Resources
+              <p className="mb-6">
+              If your teen is ever uncomfortable interacting with someone on Discord, they can always block that specific user. Blocking a user removes them from your Friends List, prevents them from messaging you directly, and hides their messages in any shared servers.
               </p>
 
               <h5
-                className="text-[#23272a] mt-12 mb-4 text-[24px] leading-[120%] font-bold"
+                className="text-[#23272a] mb-4 mt-16 text-[24px] leading-[120%] font-bold"
                 id="enam"
               >
-                Suicide Prevention
+                6. Are there parental controls on Discord I can use to control my teen's account?
               </h5>
-              <p className="font-bold">
-                National Suicide Prevention Hotline (U.S.):{" "}
+
+              <p className="mb-6">
+              We have detailed all the controls you have to help make your teen’s account safer <a href="/HelpingYourTeen" className="text-[#00b0f4] hover:underline">here </a>. We recommend going through these settings together with your teen and having an open conversation about why you are choosing certain settings.
               </p>
-              <p>
-                <span className="font-bold">Call: </span> 1-800-273-8255,
-                available 24/7 for emotional support
-              </p>
-              <p>
-                <span className="font-bold">Text: HOME </span> to 741741
-              </p>
-              <a
-                href="https://suicidepreventionlifeline.org/chat/"
-                className="text-[#00b0f4] hover:underline"
-              >
-                https://suicidepreventionlifeline.org/chat/
-              </a>
-              <p className="my-4">
-                <span className="font-bold">Outside the U.S.: </span> Find a
-                supportive resource on this{" "}
-                <span className="text-[#00b0f4]  hover:underline">
-                  {" "}
-                  Wikipedia list of worldwide crisis hotlines{" "}
-                </span>
+
+              <p className="mb-6">
+              iOS and Android operating systems offer parental controls that can help you manage your teen's phone usage, including Discord, if needed. Apple and Microsoft offer similar controls for computers.
               </p>
 
               <h5
-                className="text-[#23272a] mt-12 mb-4 text-[24px] leading-[120%] font-bold"
+                className="text-[#23272a] mb-4 mt-16 text-[24px] leading-[120%] font-bold"
                 id="tujuh"
               >
-                Substance Abuse Support
+                7. How can I monitor what my teen is doing on Discord? 
               </h5>
-              <p className="font-bold">
-                Substance Abuse and Mental Health Services Hotline
+
+              <p className="mb-6">
+              Privacy is incredibly important to us, including your teen’s privacy. We can’t share their login information with you, but we encourage you to discuss how to use Discord safely directly with your teen.
               </p>
-              <p>
-                <span className="font-bold">Call: </span> 800-662-HELP
-              </p>
-              <a
-                href="https://www.samhsa.gov/"
-                className="text-[#00b0f4] hover:underline"
-              >
-                https://www.samhsa.gov/
-              </a>
-              <p className="mb-4 text-style: italic">
-                Please note that this is not a crisis hotline and should be used
-                for referrals only.
+
+              <p className="mb-6">
+              If you ever believe that your teen is in danger on Discord, and have access to their email address, you can email us from that email address and request that we delete the account. 
               </p>
 
               <h5
-                className="text-[#23272a] mt-12 mb-4 text-[24px] leading-[120%] font-bold"
+                className="text-[#23272a] mb-4 mt-16 text-[24px] leading-[120%] font-bold"
                 id="delapan"
               >
-                Eating Disorder Support
+                8. What are Student Hubs?
               </h5>
-              <p className="font-bold">
-                National Eating Disorder Association (NEDA) Helpline
-              </p>
-              <p>
-                <span className="font-bold">Call or Text: </span> 1-800-931-2237
-              </p>
-              <a
-                href="https://www.nationaleatingdisorders.org/help-support/contact-helpline"
-                className="text-[#00b0f4] hover:underline"
-              >
-                https://www.nationaleatingdisorders.org/help-support/contact-helpline
-              </a>
 
-              <p className="font-bold mt-4">
-                Association of Anorexia Nervosa and Associated Disorders
+              <p className="mb-6">
+              Discord Hubs for Students allow students to verify their Discord account with their official student email, and unlock access to an exclusive hub for students at their school. Within the hub, they can connect with other verified students, discover servers for study groups or classes, and share their own servers for fellow students to join. Hubs are not affiliated with or managed by a school or school staff. Servers in a Hub are student-run but may include non-students.
               </p>
-              <p>
-                <span className="font-bold">Call: </span> 630-577-1330
+
+              <p className="mb-6">
+              For more information on Student Hubs, please check out our <a href="/" className="text-[#00b0f4] hover:underline">Student Hubs FAQs</a>.
               </p>
-              <a
-                href="https://anad.org/our-services/eating-disorders-helpline/"
-                className="text-[#00b0f4] hover:underline"
-              >
-                https://anad.org/our-services/eating-disorders-helpline/
-              </a>
 
               <h5
-                className="text-[#23272a] mt-12 mb-4 text-[24px] leading-[120%] font-bold"
-                id="sembilan"
+                className="text-[#23272a] mb-4 mt-16 text-[24px] leading-[120%] font-bold"
+                id="delapan"
               >
-                Child Abuse and Domestic Violence
+               9. What safety measures are in place for the students participating in Student Hubs?
               </h5>
-              <p className="font-bold">National Child Abuse Hotline</p>
-              <p>
-                <span className="font-bold">Call or Text: </span> 800-422-4453
-              </p>
-              <a
-                href="www.childhelp.org/childhelp-hotline/"
-                className="text-[#00b0f4] hover:underline"
-              >
-                www.childhelp.org/childhelp-hotline/
-              </a>
 
-              <p className="font-bold mt-4">National Sexual Assault Hotline</p>
-              <p>
-                <span className="font-bold">Call: </span> 1-800-656-HOPE (4673)
+              <p className="mb-6">
+              Only those with a school-assigned email address can access a school’s specific hub. Click here to dive into our Student Hubs policy. All servers and users in the hub must also comply with our Community Guidelines, Terms of Service, and Privacy Policy. We also have all of our existing user controls for servers, such as setting specific roles and access to #channels in a server, blocking, banning, mod bots, and more. Students can also submit a report from within their hub to bring attention to any inappropriate behavior.
               </p>
-              <a
-                href="https://hotline.rainn.org/online"
-                className="text-[#00b0f4] hover:underline"
-              >
-                https://hotline.rainn.org/online
-              </a>
-
-              <p className="font-bold mt-4">
-                National Domestic Violence Hotline
-              </p>
-              <p>
-                <span className="font-bold">Call: </span> 1-800-799-7233,
-                1-800-787-3224 (TTY) En Español
-              </p>
-              <a
-                href="https://www.thehotline.org/"
-                className="text-[#00b0f4] hover:underline"
-              >
-                https://www.thehotline.org/
-              </a>
-
-              <h5
-                className="text-[#23272a] mt-12 mb-4 text-[24px] leading-[120%] font-bold"
-                id="sepuluh"
-              >
-                LGBTQ+ Support
-              </h5>
-              <p className="font-bold">The Trevor Project</p>
-              <p>
-                <span className="font-bold">Call: </span> 1-866-488-7386
-              </p>
-              <p>
-                <span className="font-bold">Text: START </span> to 678-678
-              </p>
-              <a
-                href="https://www.thetrevorproject.org/get-help-now/"
-                className="text-[#00b0f4] hover:underline"
-              >
-                https://www.thetrevorproject.org/get-help-now/
-              </a>
-
-              <p className="font-bold mt-4">Trans Lifeline</p>
-              <p>
-                <span className="font-bold">Call: </span>877-565-8860
-              </p>
-              <a
-                href="https://translifeline.org/"
-                className="text-[#00b0f4] hover:underline"
-              >
-                https://translifeline.org/
-              </a>
             </div>
           </div>
         </div>
@@ -693,4 +564,4 @@ function Mentalhealth() {
   );
 }
 
-export default Mentalhealth;
+export default AnsweringParents;

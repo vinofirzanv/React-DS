@@ -3,14 +3,14 @@ import Button from "./Button";
 import logo2 from "../assets/Logo Blue.svg";
 function Header3() {
   const [navbarOpen, setNavbarOpen] = useState(false);
-  let Links = [
-    { name: "Download", link: "https://www.instagram.com/discord/" },
-    { name: "Nitro", link: "/" },
-    { name: "Safety", link: "./Safety.js" },
-    { name: "Support", link: "/" },
-    { name: "Blog", link: "/" },
-    { name: "Careers", link: "/" },
-  ];
+  // let Links = [
+  //   { name: "Download", link: "https://www.instagram.com/discord/" },
+  //   { name: "Nitro", link: "/" },
+  //   { name: "Safety", link: "./Safety.js" },
+  //   { name: "Support", link: "/" },
+  //   { name: "Blog", link: "/" },
+  //   { name: "Careers", link: "/" },
+  // ];
   return (
     <>
       <nav className="relative flex flex-wrap items-center justify-between px-2 py-3 bg-slate-500 mb-3">
@@ -22,7 +22,7 @@ function Header3() {
             >
               <img
             src={logo2}
-            class="mr-3 h-6 sm:h-9"
+            className="mr-3 h-6 sm:h-9"
             alt="Flowbite Logo"
           />
             </a>

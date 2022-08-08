@@ -53,7 +53,7 @@ function Careers() {
             <div className="py-[120px] ">
               <div className="mx-auto w-full max-w-[1260px] gird box-border grid-cols-12 py-0 px-[40px] gap-5">
                 <div className="grid-cols-12 w-full flex justify-center">
-                  <a href="" className="text-black text-center mb-8">
+                  <a href="/" className="text-black text-center mb-8">
                     {" "}
                     <button className="rounded-[28px] py-[16px] px-[32px] bg-white">
                       {" "}
@@ -76,6 +76,7 @@ function Careers() {
                     <iframe
                       src="https://www.youtube.com/embed/hX9MOVIMYkg"
                       className="absolute top-0 left-0 w-full h-full will-change-[opacity]"
+                      title="Discord"
                     ></iframe>
                   </div>
                   <div className="contents relative w-full h-auto">
@@ -83,24 +84,28 @@ function Careers() {
                       <img
                         className="rounded-xl h-[220px] w-[380px]"
                         src={careers1}
+                        alt="Gambar1"
                       ></img>
                     </div>
                     <div className="top-[90%] left-[-10%] absolute">
                       <img
                         className="rounded-xl w-[180px] h-[103px]"
                         src={careers1}
+                        alt="Gambar2"
                       ></img>
                     </div>
                     <div className="top-[15%] left-[80%] absolute h-[160px] w-[280px]">
                       <img
                         className="rounded-xl w-full h-[160px]"
                         src={careers1}
+                        alt="Gambar3"
                       ></img>
                     </div>
                     <div className="top-[80%] left-[80%] h-[220px] w-[380px] absolute">
                       <img
                         className="rounded-xl h-[220px] w-[380px]"
                         src={careers1}
+                        alt="Gambar4"
                       ></img>
                     </div>
                   </div>
@@ -363,7 +368,7 @@ function Careers() {
                   If you're wanting to work with a motivated team on something
                   that gives millions of users a space to find belonging, check
                   out the four values of working at Discord{" "}
-                  <a href="" className="text-blue-800">
+                  <a href="/" className="text-blue-800">
                     on our blog{" "}
                   </a>
                   . For all roles, we're hiring people to join us in our
@@ -408,7 +413,7 @@ function Careers() {
                   <div className="flex items-center w-full h-full justify-between">
                     <div className="m-[8px] w-[40px] h-[40px] cursor-pointer rounded-[50%] bg-[#292c30] justify-center flex items-center">
                       <svg
-                        class="arrowLeft-1uowgb"
+                        className="arrowLeft-1uowgb"
                         width="32px"
                         height="32px"
                         viewBox="0 0 32 32"
@@ -419,7 +424,7 @@ function Careers() {
 
                     <div className="m-[8px] w-[40px] h-[40px] cursor-pointer rounded-[50%] bg-[#292c30] justify-center flex items-center">
                       <svg
-                        class="arrowLeft-1uowgb"
+                        className="arrowLeft-1uowgb"
                         width="32px"
                         height="32px"
                         viewBox="0 0 32 32"

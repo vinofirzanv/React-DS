@@ -2,7 +2,7 @@ import React, { Fragment, useState } from "react";
 import Header from "./Header";
 import { Link } from "react-router-dom";
 import Footer from "./Footer";
-function Mentalhealth() {
+function WorkingwithLawEnforcement() {
   const [isHovering, setIsHovering] = useState(false);
   const [isHovering2, setIsHovering2] = useState(false);
   const [isHovering3, setIsHovering3] = useState(false);
@@ -50,7 +50,7 @@ function Mentalhealth() {
       setIsHovering3(false);
     }
   };
- 
+
   return (
     <Fragment>
       <Header></Header>
@@ -75,12 +75,12 @@ function Mentalhealth() {
                 onMouseEnter={onMouseEnter}
                 onMouseLeave={onMouseExit}
               >
-                <span className="flex pt-0 px-[16px] pb-[10px] center text-[#5865F2] border-[#5865F2] border-b-[2px]">
+                <span className="flex pt-0 px-[16px] pb-[10px] center text-[#747f8d] border-b-[2px]">
                   <span className=" leading-[1.625] text-[20px]">
                     Controlling Your Experince
                   </span>
                   <svg
-                    fill="#5865F2"
+                    fill="#747f8d"
                     width="24px"
                     height="24px"
                     viewBox="0 -3 20 20"
@@ -124,7 +124,7 @@ function Mentalhealth() {
                         </div>
                       </Link>
                     </li>
-                    <li className="block rounded-lg text-[#00b0f4] hover:bg-gray-300">
+                    <li className="block rounded-lg hover:bg-gray-300">
                       <Link to={"/Mentalhealth"}>
                         <div className="block p-2 cursor-pointer">
                           Mental health on Discord{" "}
@@ -154,7 +154,7 @@ function Mentalhealth() {
                 onMouseEnter={onMouseEnter2}
                 onMouseLeave={onMouseExit2}
               >
-                <span className="flex pt-0 px-[16px] pb-[10px] center text-[#747f8d]">
+                <span className="flex pt-0 px-[16px] pb-[10px] center text-[#747f8d] border-b-[2px]">
                   <span className=" leading-[1.625] text-[20px]">
                     Parents & Educators
                   </span>
@@ -172,14 +172,14 @@ function Mentalhealth() {
                     isHovering2 ? "" : "hidden"
                   }`}
                 >
-                  <li className="block rounded-lg hover:bg-gray-300 ">
+                  <li className="block rounded-lg hover:bg-gray-300  ">
                     <Link to={"/WhatisDiscord"}>
                       <div className="block p-2 cursor-pointer">
                         What is Discord?{" "}
                       </div>
                     </Link>
                   </li>
-                  <li className="block rounded-lg hover:bg-gray-300">
+                  <li className="block rounded-lg hover:bg-gray-300 ">
                     <Link to={"/DiscordCommitment"}>
                       <div className="block p-2 cursor-pointer">
                         Discord's commitment to a safe and trusted experience{" "}
@@ -207,7 +207,7 @@ function Mentalhealth() {
                       </div>
                     </Link>
                   </li>
-                  <li className="block rounded-lg hover:bg-gray-300">
+                  <li className="block rounded-lg hover:bg-gray-300 ">
                     <Link to={"/EncountersanIssue"}>
                       <div className="block p-2 cursor-pointer">
                         If your teen encounters an issue{" "}
@@ -229,12 +229,12 @@ function Mentalhealth() {
                 onMouseEnter={onMouseEnter3}
                 onMouseLeave={onMouseExit3}
               >
-                <span className="flex pt-0 px-[16px] pb-[10px] center text-[#747f8d]">
+                <span className="flex pt-0 px-[16px] pb-[10px] center text-[#5865F2] border-[#5865F2] border-b-[2px]">
                   <span className="leading-[1.625] text-[20px]">
                     How We Enforce Rules{" "}
                   </span>
                   <svg
-                    fill="#747f8d"
+                    fill="#5865F2"
                     width="24px"
                     height="24px"
                     viewBox="0 -3 20 20"
@@ -248,78 +248,73 @@ function Mentalhealth() {
                   }`}
                 >
                   <li className="block rounded-lg hover:bg-gray-300 ">
-                  <Link to={"/OurPolicies"}>
-                    <div className="block p-2 cursor-pointer">Our policies </div>
-                    </Link>
-                  </li>
-                  <li className="block rounded-lg hover:bg-gray-300">
-                  <Link to={"/EnforcingourRules"}>
-                    <div className="block p-2 cursor-pointer">
-                      Enforcing our rules{" "}
-                    </div>
+                    <Link to={"/OurPolicies"}>
+                      <div className="block p-2 cursor-pointer">
+                        Our policies{" "}
+                      </div>
                     </Link>
                   </li>
                   <li className="block rounded-lg hover:bg-gray-300 ">
-                  <Link to={"/HowweInvestigate"}>
-                    <div className="block p-2 cursor-pointer">
-                      How we investigate
-                    </div>
+                    <Link to={"/EnforcingourRules"}>
+                      <div className="block p-2 cursor-pointer">
+                        Enforcing our rules{" "}
+                      </div>
                     </Link>
                   </li>
-                  <li className="block rounded-lg hover:bg-gray-300">
-                  <Link to={"/WhatActionweTake"}>
-                    <div className="block p-2 cursor-pointer">
-                      What actions we take
-                    </div>
+                  <li className="block rounded-lg hover:bg-gray-300 ">
+                    <Link to={"/HowweInvestigate"}>
+                      <div className="block p-2 cursor-pointer">
+                        How we investigate
+                      </div>
                     </Link>
                   </li>
-                  <li className="block rounded-lg hover:bg-gray-300">
-                  <Link to={"/HowyouCanAppeal"}>
-                    <div className="block p-2 cursor-pointer">
-                      How you can appeal our actions{" "}
-                    </div>
+                  <li className="block rounded-lg hover:bg-gray-300 ">
+                    <Link to={"/WhatActionweTake"}>
+                      <div className="block p-2 cursor-pointer">
+                        What actions we take
+                      </div>
                     </Link>
                   </li>
-                  <li className="block rounded-lg hover:bg-gray-300">
-                  <Link to={"/DiscordTransparencyReport"}>
-                    <div className="block p-2 cursor-pointer">
-                      Discord's Transparency Report
-                    </div>
+                  <li className="block rounded-lg hover:bg-gray-300 ">
+                    <Link to={"/HowyouCanAppeal"}>
+                      <div className="block p-2 cursor-pointer">
+                        How you can appeal our actions{" "}
+                      </div>
                     </Link>
                   </li>
-                  <li className="block rounded-lg hover:bg-gray-300">
+                  <li className="block rounded-lg hover:bg-gray-300 ">
+                    <Link to={"/DiscordTransparencyReport"}>
+                      <div className="block p-2 cursor-pointer">
+                        Discord's Transparency Report
+                      </div>
+                    </Link>
+                  </li>
+                  <li className="block rounded-lg hover:bg-gray-300 text-[#00b0f4]">
                     <Link to={"/WorkingwithLawEnforcement"}>
-                    <div className="block p-2 cursor-pointer">
-                      Working with law enforcement
-                    </div>
+                      <div className="block p-2 cursor-pointer">
+                        Working with law enforcement
+                      </div>
                     </Link>
-                    
                   </li>
                 </ul>
               </li>
             </ul>
           </div>
 
-          <div className="lg:text-7xl text-4xl lg:pl-10 my-5 text-[#23272a]">
-            <h1 className="font-bold  lg:font-bold  uppercase">Mental health on Discord</h1>
+          <div className="  lg:text-7xl text-4xl lg:pl-10 my-5 text-[#23272a]">
+            <h1 className="uppercase font-bold lg:font-bold">
+              Working with law enforcement
+            </h1>
             <div className="mt-[40px] text-[20px] leading-[140%] block ">
-              <p>
-                What should I do if someone posts or says something about
-                self-harm or suicide?
-              </p>
-              <p>
-                It can be difficult to know what to say or do when someone
-                expresses a desire to harm themselves.{" "}
-                <span className="text-red-600 font-bold">
-                  If you are struggling with thoughts of suicide or if another
-                  user is in immediate physical danger of harming themselves,
-                  please contact a{" "}
-                  <a href="#health" className="text-[#00b0f4]">
-                    {" "}
-                    suicide hotline{" "}
-                  </a>{" "}
-                  or law enforcement immediately.
-                </span>
+              <p className="mb-6">
+                These guidelines are intended for law enforcement authorities
+                seeking information/records about Discord users. Discord
+                provides user information to law enforcement when we are in
+                receipt of enforceable legal process. Discord works with law
+                enforcement agencies in cases of immediate danger and/or
+                self-harm, pursuant to 18 U.S.C. § 2702. We swiftly report child
+                abuse material and the users responsible to the National Center
+                for Missing and Exploited Children.
               </p>
             </div>
           </div>
@@ -333,13 +328,13 @@ function Mentalhealth() {
               <div className="text-[12px] leading-[20px] font-bold uppercase text-[#23272a]">
                 Content
               </div>
-              <ol className="list-none " >
+              <ol className="list-none">
                 <li className="mt-[24px] hover:underline">
                   <a
                     href="#satu"
                     className="block text-[#00b0f4] text-[16px] leading-[26px]"
                   >
-                    Contact your server admins
+                    What is Discord?
                   </a>
                 </li>
                 <li className="mt-[24px] hover:underline">
@@ -347,7 +342,7 @@ function Mentalhealth() {
                     href="#dua"
                     className="block text-[#23272a] text-[16px] leading-[26px]"
                   >
-                    Provide some support resources
+                    Contact Information and Service of Process
                   </a>
                 </li>
                 <li className="mt-[24px] hover:underline">
@@ -355,7 +350,7 @@ function Mentalhealth() {
                     href="#tiga"
                     className="block text-[#23272a] text-[16px] leading-[26px]"
                   >
-                    Talk to a parent or trusted adult
+                    Emergency Requests
                   </a>
                 </li>
                 <li className="mt-[24px] hover:underline">
@@ -363,7 +358,7 @@ function Mentalhealth() {
                     href="#empat"
                     className="block text-[#23272a] text-[16px] leading-[26px]"
                   >
-                    Report to Trust & Safety
+                    Preservation Request
                   </a>
                 </li>
                 <li className="mt-[24px] hover:underline">
@@ -371,7 +366,7 @@ function Mentalhealth() {
                     href="#lima"
                     className="block text-[#23272a] text-[16px] leading-[26px]"
                   >
-                    Contact law enforcement
+                    International Legal Process Requests
                   </a>
                 </li>
                 <li className="mt-[24px] hover:underline">
@@ -379,7 +374,7 @@ function Mentalhealth() {
                     href="#enam"
                     className="block text-[#23272a] text-[16px] leading-[26px]"
                   >
-                    Suicide Prevention
+                    Child Safety Policy
                   </a>
                 </li>
                 <li className="mt-[24px] hover:underline">
@@ -387,7 +382,7 @@ function Mentalhealth() {
                     href="#tujuh"
                     className="block text-[#23272a] text-[16px] leading-[26px]"
                   >
-                    Substance Abuse Support
+                    Data Retention Policy
                   </a>
                 </li>
                 <li className="mt-[24px] hover:underline">
@@ -395,7 +390,7 @@ function Mentalhealth() {
                     href="#delapan"
                     className="block text-[#23272a] text-[16px] leading-[26px]"
                   >
-                    Eating Disorder Support
+                    User Notification
                   </a>
                 </li>
                 <li className="mt-[24px] hover:underline">
@@ -403,15 +398,7 @@ function Mentalhealth() {
                     href="#sembilan"
                     className="block text-[#23272a] text-[16px] leading-[26px]"
                   >
-                    Child Abuse and Domestic Violence
-                  </a>
-                </li>
-                <li className="mt-[24px] hover:underline">
-                  <a
-                    href="#sepuluh"
-                    className="block text-[#23272a] text-[16px] leading-[26px]"
-                  >
-                    LGBTQ+ Support
+                    Cost Reimbursement
                   </a>
                 </li>
               </ol>
@@ -424,265 +411,252 @@ function Mentalhealth() {
                 className="text-[#23272a] mb-4 text-[24px] leading-[120%] font-bold"
                 id="satu"
               >
-                Contact your server admins
+                What is Discord?
               </h5>
-              <p className="mb-[16px]">
-                If someone has posted comments about harming themselves in a
-                server, you may consider reaching out to your server
-                administrators or owner to let them know about the situation, so
-                they can moderate their server as needed and provide support to
-                the server member
+              <p className="mb-20">
+                Discord is a voice, video, and text chat app that's used by tens
+                of millions of people ages 13+ to talk and hang out with their
+                communities and friends.
+              </p>
+              <p className="mb-20">
+                The vast majority of servers are private, invite-only spaces for
+                groups of friends and communities to stay in touch and spend
+                time together. There are also larger, more open communities,
+                generally centered around specific topics. All conversations are
+                opt-in, so people have total control over whom they interact
+                with and what their experience on Discord is.
+              </p>
+              <p className="mb-20">
+                More information about Discord and our community goals can be
+                found{" "}
+                <a
+                  href="/WhatisDiscord"
+                  className="text-[#00b0f4] hover:underline"
+                >
+                  here
+                </a>
+                .
               </p>
 
               <h5
-                className="text-[#23272a] mt-12 mb-4 text-[24px] leading-[120%] font-bold"
+                className="text-[#23272a] mb-4 text-[24px] leading-[120%] font-bold"
                 id="dua"
               >
-                Provide some support resources
+                Contact Information and Service of Process
               </h5>
-              <p className="mb-[16px]">
-                If you are still in touch with the user, you may wish to provide
-                them with one of the help hotlines listed below.
-              </p>
+              <ul className="mt-[16px] ml-[1em] list-disc">
+                <li>
+                  Our contact preference is email. Please contact us at
+                  lawenforcement@discord.com with any questions or legal process
+                  documents.
+                </li>
+                <li>
+                  We will not respond to correspondence sent by non-law
+                  enforcement officials to the email address listed above.
+                </li>
+                <li>
+                  All legal correspondence should be sent on company or agency
+                  letterhead with requisite signatures included.
+                </li>
+                <li>We will not comply with overly broad or vague requests.</li>
+                <ul className="my-[16px] ml-[1em] list-disc">
+                  <li>
+                    The legal process should identify the user for whom
+                    information is being requested.
+                  </li>
+                  <li>
+                    Users should be identified by their 17-18 digit user
+                    identification number.
+                  </li>
+                  <li>
+                    If the user identification number is unattainable, a
+                    username and four-digit discriminator should be provided.
+                  </li>
+                  <li>
+                    Instructions on how to identify a user can be found{" "}
+                    <a href="/" className="text-[#00b0f4] hover:underline">
+                      here
+                    </a>
+                    .
+                  </li>
+                </ul>
+                <li>
+                  Be advised, users are allowed to change their usernames and
+                  four-digit discriminators, thus responses rendered by Discord
+                  may list different usernames and four-digit discriminators
+                  than those originally requested.
+                </li>
+                <li>
+                  All legal processes should comply with 18 U.S. Code §
+                  2701-2712.
+                </li>
+              </ul>
 
               <h5
                 className="text-[#23272a] mt-12 mb-4 text-[24px] leading-[120%] font-bold"
                 id="tiga"
               >
-                Talk to a parent or trusted adult
+               Emergency Requests
               </h5>
-              <p className="mb-[16px]">
-                You may not feel qualified to help a friend who expresses their
-                desire to hurt themselves, and it may be helpful to ask a parent
-                or another trusted adult for help in handling the situation.
-              </p>
+              <ul className="mt-[16px] ml-[1em] list-disc">
+                <li>
+                If you believe that an emergency involving danger of death or serious physical injury to any person requires disclosure without delay, please contact us at lawenforcement@discord.com with the subject line ‘Emergency Request’, and provide the factual basis for the request so that we might evaluate it under 18 U.S.C. § 2702.
+                </li>
+                <li>
+                We provide emergency disclosure responses only when enough information is provided for Discord to, in good faith, believe that the exigent situation requires disclosure of user information, as outlined in 18 U.S.C. § 2702. 
+                </li>
+                <li>
+                We do not disclose information for emergency requests unless they are from law enforcement.
+                </li>
+              </ul>
 
               <h5
                 className="text-[#23272a] mt-12 mb-4 text-[24px] leading-[120%] font-bold"
                 id="empat"
               >
-                Report to Trust & Safety
+               Preservation Request
               </h5>
-              <p className="mb-[16px]">
-                You can always report concerning content to the Trust & Safety
-                team using{" "}
-                <a href="#health" className="text-[#00b0f4]">
-                  {" "}
-                  this form.
-                </a>{" "}
-                You can read about what information we need to investigate{" "}
-                <a href="#health" className="text-[#00b0f4]">
-                  {" "}
-                  here.
-                </a>
-              </p>
-              <p className="mb-[16px]">
-                When we receive reports of self-harm threats, we investigate the
-                situation and may contact authorities, but in the event of an
-                emergency, we encourage you to contact law enforcement in
-                addition to contacting us.
-              </p>
-              <p className="mb-[16px]">
-                Please note that for privacy and security reasons we are unable
-                to provide personal information such as contact information or
-                location to someone who is not the account holder. If you are
-                concerned that someone is in immediate danger, please contact
-                law enforcement.
-              </p>
+              <ul className="mt-[16px] ml-[1em] list-disc">
+                <li>
+                Discord accepts requests to preserve records pursuant to 18 U.S.C. § 2703(f).
+                </li>
+                <li>
+                We take steps to preserve account records once proper requests have been received and processed. 
+                </li>
+                <li>
+                Content and non-content information is preserved for 90 days, from the time of processing, and can only be extended for an additional 90 day period, pursuant to 18 U.S.C. § 2703. In certain cases, an additional 90 days may be requested.
+                </li>
+                <li>
+                Please reference the initial preservation request by providing the assigned ticket number and clear date range when sending legal process to obtain the preserved information. 
+                </li>
+                <li>
+                We are not permitted to disclose user information when solely in receipt of a preservation request. 
+                </li>
+              </ul>
 
               <h5
                 className="text-[#23272a] mt-12 mb-4 text-[24px] leading-[120%] font-bold"
                 id="lima"
               >
-                Contact law enforcement
+              International Legal Process Requests 
               </h5>
-              <p className="mb-[16px]">
-                If you or another user you know is in urgent trouble, please
-                contact authorities right away, regardless of the limited
-                information you might be able to provide. Law enforcement has
-                investigative resources and can contact Discord Trust & Safety
-                for information that we aren't allowed to disclose otherwise and
-                can identify those users to get them help.
-              </p>
-              <p>Mental health support vs. self-harm encouragement </p>
-              <p className="mb-[16px]">
-                Support networks and online communities can play a key role in
-                helping people who are experiencing mental health issues. We
-                support mental health communities on Discord where people can
-                come together, and we want these spaces to remain positive and
-                healthy.
-              </p>
-              <p className="mb-[16px]">
-                When we receive reports of users or communities discussing or
-                encouraging self-harm, we review such content carefully, and we
-                take into account the context in which comments are posted. We
-                will take action on communities or users that promote,
-                encourage, or glorify suicide or self-harm. This includes
-                content that encourages others to cut or injure themselves or
-                content that encourages or glorifies eating disorders.
-              </p>
-              <p className="mb-[16px]" id="health">
-                Mental Health Resources
-              </p>
+              <ul className="mt-[16px] ml-[1em] list-disc">
+                <li>
+                Please be advised that Discord is headquartered in and offers its services from the United States of America. Our customer data is stored exclusively in the United States. 
+                </li>
+                <li>
+                If you would like to obtain the requested information from Discord, please follow a Mutual Legal Assistance Treaty (MLAT) or letters rogatory process so that a U.S. court might issue the required U.S. legal process to Discord. 
+                </li>
+                <li>
+                If an international legal process includes reports of child exploitation, Discord will investigate and take steps to archive these materials, remove them from our platform, and report any exploitative content. 
+                </li>
+              </ul>
 
               <h5
                 className="text-[#23272a] mt-12 mb-4 text-[24px] leading-[120%] font-bold"
                 id="enam"
               >
-                Suicide Prevention
+             Child Safety Policy 
               </h5>
-              <p className="font-bold">
-                National Suicide Prevention Hotline (U.S.):{" "}
-              </p>
-              <p>
-                <span className="font-bold">Call: </span> 1-800-273-8255,
-                available 24/7 for emotional support
-              </p>
-              <p>
-                <span className="font-bold">Text: HOME </span> to 741741
-              </p>
-              <a
-                href="https://suicidepreventionlifeline.org/chat/"
-                className="text-[#00b0f4] hover:underline"
-              >
-                https://suicidepreventionlifeline.org/chat/
-              </a>
-              <p className="my-4">
-                <span className="font-bold">Outside the U.S.: </span> Find a
-                supportive resource on this{" "}
-                <span className="text-[#00b0f4]  hover:underline">
-                  {" "}
-                  Wikipedia list of worldwide crisis hotlines{" "}
-                </span>
-              </p>
+              <ul className="mt-[16px] ml-[1em] list-disc">
+                <li>
+                When we are made aware of potential Child Safety concerns on our platform, our Trust & Safety team reviews the content and reports the content to the National Center for Missing and Exploited Children (NCMEC) or Law Enforcement where appropriate as required by 18 U.S.C. § 2258A. NCMEC will then work with local and international law enforcement as necessary. 
+                </li>
+                <li>
+                User accounts reported to NCMEC are archived and banned from our platform at the time of reporting.
+                </li>
+                <li>
+                When submitting legal processes prompted by NCMEC reporting, include cybertip number and all of the user information provided. 
+                </li>
+                <li>
+                Law enforcement officials should indicate if a request pertains to a NCMEC reporting in the body of the email. 
+                </li>
+              </ul>
 
               <h5
                 className="text-[#23272a] mt-12 mb-4 text-[24px] leading-[120%] font-bold"
                 id="tujuh"
               >
-                Substance Abuse Support
+            Data Retention Policy
               </h5>
-              <p className="font-bold">
-                Substance Abuse and Mental Health Services Hotline
-              </p>
-              <p>
-                <span className="font-bold">Call: </span> 800-662-HELP
-              </p>
-              <a
-                href="https://www.samhsa.gov/"
-                className="text-[#00b0f4] hover:underline"
-              >
-                https://www.samhsa.gov/
-              </a>
-              <p className="mb-4 text-style: italic">
-                Please note that this is not a crisis hotline and should be used
-                for referrals only.
-              </p>
+              <ul className="mt-[16px] ml-[1em] list-disc">
+                <li>
+                Discord does not require and generally does not possess names, addresses or other personal information, as we do not require that information on sign-up. The subscriber information that we possess is limited to an email address, and, if the user is a paid user, we might have limited billing information. In certain circumstances, we might also have a phone number the user has verified. 
+                </li>
+                <li>
+                Due to privacy concerns, Discord removes most user identifiers once a user is deleted, including username and discriminator. 
+                </li>
+                <li className="text-style: italic">
+                Users can always be located by their 17-18 UID number
+                </li>
+                <li>
+                More information regarding Discords data retention and user privacy policy can be found <a href="/privacy" className="text-[#00b0f4] hover:underline">
+                      here
+                    </a>
+                    . 
+                </li>
+                <li>
+                Questions regarding Discords privacy policy can be sent to <a href="mailto:privacy@discord.com" className="text-[#00b0f4] hover:underline">
+                privacy@discord.com
+                    </a>
+                </li>
+              </ul>
 
               <h5
                 className="text-[#23272a] mt-12 mb-4 text-[24px] leading-[120%] font-bold"
                 id="delapan"
               >
-                Eating Disorder Support
+                 User Notification
               </h5>
-              <p className="font-bold">
-                National Eating Disorder Association (NEDA) Helpline
-              </p>
-              <p>
-                <span className="font-bold">Call or Text: </span> 1-800-931-2237
-              </p>
-              <a
-                href="https://www.nationaleatingdisorders.org/help-support/contact-helpline"
-                className="text-[#00b0f4] hover:underline"
-              >
-                https://www.nationaleatingdisorders.org/help-support/contact-helpline
-              </a>
-
-              <p className="font-bold mt-4">
-                Association of Anorexia Nervosa and Associated Disorders
-              </p>
-              <p>
-                <span className="font-bold">Call: </span> 630-577-1330
-              </p>
-              <a
-                href="https://anad.org/our-services/eating-disorders-helpline/"
-                className="text-[#00b0f4] hover:underline"
-              >
-                https://anad.org/our-services/eating-disorders-helpline/
-              </a>
-
+              <ul className="mt-[16px] ml-[1em] list-disc">
+                <li>
+                Discord reserves the right to notify users if their information is requested by law enforcement. 
+                </li>
+                <li>
+                Court orders compelling non-disclosure are required to ensure the user is not notified pursuant to 18 U.S.C. § 2705. 
+                </li>
+                <li className="text-style: italic">
+                Non-disclosure orders should include a date range. 
+                </li>
+                <li>
+                Once a non-disclosure order has expired, an extension is required for continued compliance. 
+                </li>
+                <li>
+                Merely <span className="text-style: italic">requesting </span> Discord to not notify a user is not sufficient. ​​Discord reserves the right to notify users in those instances. 
+                </li>
+              </ul>
+            
               <h5
                 className="text-[#23272a] mt-12 mb-4 text-[24px] leading-[120%] font-bold"
                 id="sembilan"
               >
-                Child Abuse and Domestic Violence
+                 Cost Reimbursement
               </h5>
-              <p className="font-bold">National Child Abuse Hotline</p>
-              <p>
-                <span className="font-bold">Call or Text: </span> 800-422-4453
-              </p>
-              <a
-                href="www.childhelp.org/childhelp-hotline/"
-                className="text-[#00b0f4] hover:underline"
-              >
-                www.childhelp.org/childhelp-hotline/
-              </a>
+              <ul className="mt-[16px] ml-[1em] list-disc">
+                <li>
+                Pursuant to 18 U.S.C. § 2706, Discord may require cost reimbursement if the legal process is unduly burdensome or has associated cost.
+                </li>
+              </ul>
 
-              <p className="font-bold mt-4">National Sexual Assault Hotline</p>
-              <p>
-                <span className="font-bold">Call: </span> 1-800-656-HOPE (4673)
+              <p className="mb-4 mt-24">
+              Still have questions?
               </p>
-              <a
-                href="https://hotline.rainn.org/online"
-                className="text-[#00b0f4] hover:underline"
-              >
-                https://hotline.rainn.org/online
-              </a>
-
-              <p className="font-bold mt-4">
-                National Domestic Violence Hotline
+              <p className="mb-4">
+              Law enforcement should send any additional questions and/or legal process to:
               </p>
-              <p>
-                <span className="font-bold">Call: </span> 1-800-799-7233,
-                1-800-787-3224 (TTY) En Español
+              <p className="mb-4">
+              lawenforcement@discord.com
               </p>
-              <a
-                href="https://www.thehotline.org/"
-                className="text-[#00b0f4] hover:underline"
-              >
-                https://www.thehotline.org/
-              </a>
-
-              <h5
-                className="text-[#23272a] mt-12 mb-4 text-[24px] leading-[120%] font-bold"
-                id="sepuluh"
-              >
-                LGBTQ+ Support
-              </h5>
-              <p className="font-bold">The Trevor Project</p>
-              <p>
-                <span className="font-bold">Call: </span> 1-866-488-7386
-              </p>
-              <p>
-                <span className="font-bold">Text: START </span> to 678-678
-              </p>
-              <a
-                href="https://www.thetrevorproject.org/get-help-now/"
-                className="text-[#00b0f4] hover:underline"
-              >
-                https://www.thetrevorproject.org/get-help-now/
-              </a>
-
-              <p className="font-bold mt-4">Trans Lifeline</p>
-              <p>
-                <span className="font-bold">Call: </span>877-565-8860
-              </p>
-              <a
-                href="https://translifeline.org/"
-                className="text-[#00b0f4] hover:underline"
-              >
-                https://translifeline.org/
-              </a>
+              <p className="mb-4">
+              If needed for mail service, our physical address is as follows:
+              </p>  
+              <p className="mb-4">
+              Discord, Inc. 444 De Haro St, Suite 200 San Francisco, CA, 94107
+              </p>  
+              <p className="mb-4">
+              If serving process by mail, please direct the mail to the Legal Department.
+              </p>  
+              
             </div>
           </div>
         </div>
@@ -693,4 +667,4 @@ function Mentalhealth() {
   );
 }
 
-export default Mentalhealth;
+export default WorkingwithLawEnforcement;

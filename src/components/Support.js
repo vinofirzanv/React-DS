@@ -141,7 +141,7 @@ function Support() {
     backgroundPositionX: "center",
     backgroundPositionY: "14px",
   };
-  let bgbanner = new URL("../assets/bg support.png", import.meta.url);
+
 
   const [show, setShow] = useState(false);
   const handleClick = () => {
@@ -151,16 +151,16 @@ function Support() {
 
 
   const [navbarOpen, setNavbarOpen] = useState(false);
-  const handleClickNav = () => {
-    setNavbarOpen(!navbarOpen);
-  };
+  // const handleClickNav = () => {
+  //   setNavbarOpen(!navbarOpen);
+  // };
 
   return (
     <Fragment>
       <header className="w-[90%] p-0 max-w-[1160px] mx-auto my-0 relative items-center flex justify-between h-[71px] box-border">
         <div className="logo">
           <Link to='/Content' className="px-[10px]">
-            <img src={logonav} className="max-h-[37px]"></img>
+            <img src={logonav} className="max-h-[37px]" alt="Gambar1"></img>
           </Link>
         </div>
 
@@ -468,7 +468,7 @@ function Support() {
 
         <section>
           <ul className="px-[5px] m-0 list-none flex flex-row flex-wrap justify-center w-full">
-            <a className="text-[#5865F2] bg-transparent">
+          <a href="/" className="text-[#5865F2] bg-transparent">
               <li
                 className="shadow-xl p-[5px] m-[10px] text-[#ccc] font-bold text-xs text-center rounded-tl-[5px] rounded-tr-[5px] rounded-bl-[5px] rounded-br-[5px]"
                 style={cat1}
@@ -483,7 +483,7 @@ function Support() {
               </li>
             </a>
 
-            <a className="text-[#5865F2] bg-transparent">
+            <a href="/" className="text-[#5865F2] bg-transparent">
               <li
                 className="bg-white w-[240px] h-[260px] shadow-xl p-[5px] m-[10px] text-[#ccc] font-bold text-[3rem] text-center rounded-tl-[5px] rounded-tr-[5px] rounded-bl-[5px] rounded-br-[5px]"
                 style={cat2}
@@ -497,7 +497,7 @@ function Support() {
                 </h3>
               </li>
             </a>
-            <a className="text-[#5865F2] bg-transparent">
+            <a href="/" className="text-[#5865F2] bg-transparent">
               <li
                 className="  bg-white shadow-xl p-[5px] m-[10px] text-[#ccc] font-bold text-[3rem] text-center rounded-tl-[5px] rounded-tr-[5px] rounded-bl-[5px] rounded-br-[5px] "
                 style={cat3}
@@ -511,7 +511,7 @@ function Support() {
                 </h3>
               </li>
             </a>
-            <a className="text-[#5865F2] bg-transparent">
+            <a href="/" className="text-[#5865F2] bg-transparent">
               <li
                 className=" bg-white shadow-xl p-[5px] m-[10px] text-[#ccc] font-bold text-[3rem] text-center rounded-tl-[5px] rounded-tr-[5px] rounded-bl-[5px] rounded-br-[5px]"
                 style={cat4}
@@ -525,7 +525,7 @@ function Support() {
                 </h3>
               </li>
             </a>
-            <a className="text-[#5865F2] bg-transparent">
+            <a href="/" className="text-[#5865F2] bg-transparent">
               <li
                 className="  bg-white shadow-xl p-[5px] m-[10px] text-[#ccc] font-bold text-[3rem] text-center rounded-tl-[5px] rounded-tr-[5px] rounded-bl-[5px] rounded-br-[5px]"
                 style={cat5}
@@ -539,7 +539,7 @@ function Support() {
                 </h3>
               </li>
             </a>
-            <a className="text-[#5865F2] bg-transparent">
+            <a href="/" className="text-[#5865F2] bg-transparent">
               <li
                 className="   bg-white shadow-xl p-[5px] m-[10px] text-[#ccc] font-bold text-[3rem] text-center rounded-tl-[5px] rounded-tr-[5px] rounded-bl-[5px] rounded-br-[5px]"
                 style={cat6}
@@ -555,7 +555,7 @@ function Support() {
               </li>
             </a>
 
-            <a className="text-[#5865F2] bg-transparent">
+            <a href="/" className="text-[#5865F2] bg-transparent">
               <li
                 className="   bg-white shadow-xl p-[5px] m-[10px] text-[#ccc] font-bold text-[3rem] text-center rounded-tl-[5px] rounded-tr-[5px] rounded-bl-[5px] rounded-br-[5px]"
                 style={cat7}
@@ -570,7 +570,7 @@ function Support() {
               </li>
             </a>
 
-            <a className="text-[#5865F2] bg-transparent">
+            <a href="/" className="text-[#5865F2] bg-transparent">
               <li
                 className=" bg-white shadow-xl p-[5px] m-[10px] text-[#ccc] font-bold text-[3rem] text-center rounded-tl-[5px] rounded-tr-[5px] rounded-bl-[5px] rounded-br-[5px]"
                 style={cat8}
@@ -585,7 +585,7 @@ function Support() {
               </li>
             </a>
 
-            <a className="text-[#5865F2] bg-transparent">
+            <a href="/" className="text-[#5865F2] bg-transparent">
               <li
                 className="  bg-white shadow-xl p-[5px] m-[10px] text-[#ccc] font-bold text-[3rem] text-center rounded-tl-[5px] rounded-tr-[5px] rounded-bl-[5px] rounded-br-[5px]"
                 style={cat9}
@@ -600,7 +600,7 @@ function Support() {
               </li>
             </a>
 
-            <a className="text-[#5865F2] bg-transparent">
+            <a href="/" className="text-[#5865F2] bg-transparent">
               <li
                 className=" bg-white shadow-xl p-[5px] m-[10px] text-[#ccc] font-bold text-[3rem] text-center rounded-tl-[5px] rounded-tr-[5px] rounded-bl-[5px] rounded-br-[5px]"
                 style={cat10}
@@ -624,7 +624,7 @@ function Support() {
 
         <section>
           <ul className="px-[5px] m-0 flex flex-row flex-wrap justify-center w-full">
-            <a href="https://tailwindcss.com/docs/display">
+           <a href="https://tailwindcss.com/docs/display">
               <li
                 className="  bg-[#ccc] shadow-xl p-[5px] m-[10px] text-[#ccc] font-bold text-[3rem] text-center rounded-tl-[5px] rounded-tr-[5px] rounded-bl-[5px] rounded-br-[5px]"
                 style={cat11}
@@ -660,7 +660,7 @@ function Support() {
         <footer className="bg-[#23272A] overflow-hidden m-0 p-0 mt-[70px] w-full box-border">
           <div className="w-full mx-auto max-w-[1100px] relative my-0 box-border">
             <div className="text-center flex-col flex items-center">
-              <a>
+            <a href="/">
                 <button
                   className="bg-[#3BA55C] whitespace-nowrap rounded-3xl 
                     text-center items-center cursor-pointer text-white mx-0 my-[50px] 
@@ -672,28 +672,28 @@ function Support() {
               </a>
 
               <div className="w-[814px] h-[145px] relative" style={ft}>
-                <a className="left-[87px] absolute top-[61px] opacity[.5]">
-                  <img src={ft2}></img>
+              <a href="/Login" className="left-[87px] absolute top-[61px] opacity[.5]">
+                  <img src={ft2} alt="Gambar2"></img>
                 </a>
-                <a className="left-[378px] absolute top-[61px] opacity-[.5]">
-                  <img src={android}></img>
+                <a href="https://play.google.com/store/apps/details?id=com.discord" className="left-[378px] absolute top-[61px] opacity-[.5]">
+                  <img src={android} alt="Gambar3"></img>
                 </a>
-                <a className="left-[470px] absolute top-[61px] opacity-[.5]">
-                  <img src={apple}></img>
+                <a href="https://apps.apple.com/us/app/discord-chat-for-games/id985746746" className="left-[470px] absolute top-[61px] opacity-[.5]">
+                  <img src={apple} alt="Gambar4"></img>
                 </a>
-                <a className="left-[622px] absolute top-[61px] opacity-[.5]">
-                  <img src={windows}></img>
+                <a href="/" className="left-[622px] absolute top-[61px] opacity-[.5]">
+                  <img src={windows} alt="Gambar4"></img>
                 </a>
-                <a className="left-[694px] absolute top-[61px] opacity-[.5]">
-                  <img src={osx}></img>
+                <a href="/" className="left-[694px] absolute top-[61px] opacity-[.5]">
+                  <img src={osx} alt="Gambar5"></img>
                 </a>
               </div>
             </div>
 
             <nav className="border-t-[white] border-t-[1px] border-t-solid items-center flex px-[30px] pb-[50px] mx-autopt-0">
               <div className=" flex flex-row h-[75px] mt-[20px]">
-                <a className="h-[38px] block">
-                  <img src={logofooter} className="w-[130px] h-[36px]"></img>
+              <a href="/" className="h-[38px] block">
+                  <img src={logofooter} className="w-[130px] h-[36px]" alt="GambarFooter"></img>
                 </a>
               </div>
               <div className="flex-grow-[1] h-full basis-[250px]"></div>
@@ -701,45 +701,45 @@ function Support() {
               <div className="flex h-full mt-30 mb-0 mx-0 w-full">
                 <div className="flex flex-col flex-wrap justify-between items-start w-full">
                   <div className="py-[8px] px-0 text-left">
-                    <a href=" " className="opacity-[.3] text-white">
+                  <a href="/" className="opacity-[.3] text-white">
                       Download
                     </a>
                   </div>
                   <div className="py-[8px] px-0 text-left">
-                    <a href=" " className="opacity-[.3] text-white">
+                  <a href="/" className="opacity-[.3] text-white">
                       Help & Support
                     </a>
                   </div>
                   <div className="py-[8px] px-0 text-left">
-                    <a href=" " className="opacity-[.3] text-white">
+                  <a href="/" className="opacity-[.3] text-white">
                       Feedback
                     </a>
                   </div>
                   <div className="py-[8px] px-0 text-left">
-                    <a href=" " className="opacity-[.3] text-white">
+                  <a href="/" className="opacity-[.3] text-white">
                       Status
                     </a>
                   </div>
                 </div>
                 <div className="flex flex-col flex-wrap justify-between items-start w-full">
                   <div className="py-[8px] px-0 text-left">
-                    <a href=" " className="opacity-[.3] text-white">
+                  <a href="/" className="opacity-[.3] text-white">
                       Company
                     </a>
                   </div>
                   <div className="py-[8px] px-0 text-left">
-                    <a href=" " className="opacity-[.3] text-white">
+                  <a href="/" className="opacity-[.3] text-white">
                       Jobs
                     </a>{" "}
                     <p>we're hiring</p>
                   </div>
                   <div className="py-[8px] px-0 text-left">
-                    <a href=" " className="opacity-[.3] text-white">
+                  <a href="/" className="opacity-[.3] text-white">
                       Blog
                     </a>
                   </div>
                   <div className="py-[8px] px-0 text-left">
-                    <a href=" " className="opacity-[.3] text-white">
+                  <a href="/" className="opacity-[.3] text-white">
                       Term & Privacy
                     </a>
                   </div>

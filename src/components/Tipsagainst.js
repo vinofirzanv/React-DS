@@ -50,10 +50,7 @@ function Tipsagainst() {
       setIsHovering3(false);
     }
   };
-  const [textColor, setTextColor] = useState("#23272a");
-  const handleChangeTextColor = (e) => {
-    setTextColor("#00b0f4");
-  };
+
   return (
     <Fragment>
       <Header></Header>
@@ -176,39 +173,53 @@ function Tipsagainst() {
                   }`}
                 >
                   <li className="block rounded-lg hover:bg-gray-300 ">
-                    <a className="block p-2 cursor-pointer">
-                      What is Discord?{" "}
-                    </a>
+                    <Link to={"/WhatisDiscord"}>
+                      <div className="block p-2 cursor-pointer">
+                        What is Discord?{" "}
+                      </div>
+                    </Link>
                   </li>
                   <li className="block rounded-lg hover:bg-gray-300">
-                    <a className="block p-2 cursor-pointer">
-                      Discord's commitment to a safe and trusted experience{" "}
-                    </a>
+                    <Link to={"/DiscordCommitment"}>
+                      <div className="block p-2 cursor-pointer">
+                        Discord's commitment to a safe and trusted experience{" "}
+                      </div>
+                    </Link>
                   </li>
                   <li className="block rounded-lg hover:bg-gray-300 ">
-                    <a className="block p-2 cursor-pointer">
-                      Helping your teen stay safe on Discord
-                    </a>
+                    <Link to={"/HelpingYourTeen"}>
+                      <div className="block p-2 cursor-pointer">
+                        Helping your teen stay safe on Discord
+                      </div>
+                    </Link>
                   </li>
                   <li className="block rounded-lg hover:bg-gray-300">
-                    <a className="block p-2 cursor-pointer">
-                      Talking about online safety with your teen
-                    </a>
+                    <Link to={"/TalkingAboutOnline"}>
+                      <div className="block p-2 cursor-pointer">
+                        Talking about online safety with your teen
+                      </div>
+                    </Link>
                   </li>
                   <li className="block rounded-lg hover:bg-gray-300">
-                    <a className="block p-2 cursor-pointer">
-                      Answering parents' and educators' top questions{" "}
-                    </a>
+                    <Link to={"/AnsweringParents"}>
+                      <div className="block p-2 cursor-pointer">
+                        Answering parents' and educators' top questions{" "}
+                      </div>
+                    </Link>
                   </li>
                   <li className="block rounded-lg hover:bg-gray-300">
-                    <a className="block p-2 cursor-pointer">
-                      If your teen encounters an issue{" "}
-                    </a>
+                    <Link to={"/EncountersanIssue"}>
+                      <div className="block p-2 cursor-pointer">
+                        If your teen encounters an issue{" "}
+                      </div>
+                    </Link>
                   </li>
                   <li className="block rounded-lg hover:bg-gray-300">
-                    <a className="block p-2 cursor-pointer">
-                      Working with CARU to protect users on Discord
-                    </a>
+                    <Link to={"/WorkingwithCARU"}>
+                      <div className="block p-2 cursor-pointer">
+                        Working with CARU to protect users on Discord
+                      </div>
+                    </Link>
                   </li>
                 </ul>
               </li>
@@ -237,37 +248,52 @@ function Tipsagainst() {
                   }`}
                 >
                   <li className="block rounded-lg hover:bg-gray-300 ">
-                    <a className="block p-2 cursor-pointer">Our policies </a>
+                  <Link to={"/OurPolicies"}>
+                    <div className="block p-2 cursor-pointer">Our policies </div>
+                    </Link>
                   </li>
                   <li className="block rounded-lg hover:bg-gray-300">
-                    <a className="block p-2 cursor-pointer">
+                  <Link to={"/EnforcingourRules"}>
+                    <div className="block p-2 cursor-pointer">
                       Enforcing our rules{" "}
-                    </a>
+                    </div>
+                    </Link>
                   </li>
                   <li className="block rounded-lg hover:bg-gray-300 ">
-                    <a className="block p-2 cursor-pointer">
+                  <Link to={"/HowweInvestigate"}>
+                    <div className="block p-2 cursor-pointer">
                       How we investigate
-                    </a>
+                    </div>
+                    </Link>
                   </li>
                   <li className="block rounded-lg hover:bg-gray-300">
-                    <a className="block p-2 cursor-pointer">
+                  <Link to={"/WhatActionweTake"}>
+                    <div className="block p-2 cursor-pointer">
                       What actions we take
-                    </a>
+                    </div>
+                    </Link>
                   </li>
                   <li className="block rounded-lg hover:bg-gray-300">
-                    <a className="block p-2 cursor-pointer">
+                  <Link to={"/HowyouCanAppeal"}>
+                    <div className="block p-2 cursor-pointer">
                       How you can appeal our actions{" "}
-                    </a>
+                    </div>
+                    </Link>
                   </li>
                   <li className="block rounded-lg hover:bg-gray-300">
-                    <a className="block p-2 cursor-pointer">
+                  <Link to={"/DiscordTransparencyReport"}>
+                    <div className="block p-2 cursor-pointer">
                       Discord's Transparency Report
-                    </a>
+                    </div>
+                    </Link>
                   </li>
                   <li className="block rounded-lg hover:bg-gray-300">
-                    <a className="block p-2 cursor-pointer">
+                    <Link to={"/WorkingwithLawEnforcement"}>
+                    <div className="block p-2 cursor-pointer">
                       Working with law enforcement
-                    </a>
+                    </div>
+                    </Link>
+                    
                   </li>
                 </ul>
               </li>
@@ -287,7 +313,7 @@ function Tipsagainst() {
               <div className="text-[12px] leading-[20px] font-bold uppercase text-[#23272a]">
                 Content
               </div>
-              <ol className="list-none " onClick={handleChangeTextColor}>
+              <ol className="list-none ">
                 <li className="mt-[24px] hover:underline">
                   <a
                     href="#satu"

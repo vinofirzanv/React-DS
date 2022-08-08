@@ -2318,7 +2318,7 @@ function Careers() {
                         <div className="flex items-center w-full h-full justify-between"> 
                           <div className="m-[8px] w-[40px] h-[40px] cursor-pointer rounded-[50%] bg-[#292c30] justify-center flex items-center">
                             <svg 
-                            class="arrowLeft-1uowgb"
+                            className="arrowLeft-1uowgb"
                             width="32px"
                             height="32px"
                             viewBox="0 0 32 32">
@@ -2328,7 +2328,7 @@ function Careers() {
 
                           <div className="m-[8px] w-[40px] h-[40px] cursor-pointer rounded-[50%] bg-[#292c30] justify-center flex items-center">
                             <svg 
-                            class="arrowLeft-1uowgb"
+                            className="arrowLeft-1uowgb"
                             width="32px"
                             height="32px"
                             viewBox="0 0 32 32">

@@ -1,8 +1,8 @@
 import React, { Fragment, useState } from "react";
-import Button from "./Button";
 import Safetyz from "../assets/Safety.svg";
 import Header from "./Header";
-import {Link} from 'react-router-dom';
+import { Link } from "react-router-dom";
+import Footer from "./Footer";
 
 function Safety() {
   const [isHovering, setIsHovering] = useState(false);
@@ -60,13 +60,13 @@ function Safety() {
           <div className="lg:grid box-border hidden mb-[40px] w-full grid-cols-12 gap-y-0 gap-x-5 py-0 px-[40px]">
             <ul className="flex border-b-[2px] border-gray-300 col-span-12 ">
               <li className="relative mb-[-2px] border-white border-b-[2px]">
-                <a className="cursor-pointer text-white">
+                <Link to={"/Safety"} className="cursor-pointer text-white">
                   <span className="flex pt-0 pb-[10px] px-[16px] items-center">
                     <span className="leading-[1.625] text-[20px]">
                       Safety Center
                     </span>
                   </span>
-                </a>
+                </Link>
               </li>
 
               <li
@@ -78,7 +78,12 @@ function Safety() {
                   <span className=" leading-[1.625] text-[20px]">
                     Controlling Your Experince
                   </span>
-                  <svg fill="white" width="24px" height="24px" viewBox="0 -3 20 20">
+                  <svg
+                    fill="white"
+                    width="24px"
+                    height="24px"
+                    viewBox="0 -3 20 20"
+                  >
                     <path d="M16.59 8.59004L12 13.17L7.41 8.59004L6 10L12 16L18 10L16.59 8.59004Z"></path>
                   </svg>
                 </span>
@@ -86,7 +91,8 @@ function Safety() {
                 <div>
                   <ul
                     className={`absolute z-10 top-10 left-4 p-4 rounded-lg box-border drop-shadow-lg  w-[356px] bg-white ${
-                      isHovering ? "" : "hidden" }`}
+                      isHovering ? "" : "hidden"
+                    }`}
                   >
                     <li className="block rounded-lg hover:bg-gray-300 ">
                       <Link to={"/ControllingExperience1"}>
@@ -148,8 +154,15 @@ function Safety() {
                 onMouseLeave={onMouseExit2}
               >
                 <span className="flex pt-0 px-[16px] pb-[10px] center text-white">
-                  <span className=" leading-[1.625] text-[20px]">Parents & Educators</span>
-                  <svg fill="white" width="24px" height="24px" viewBox="0 -3 20 20">
+                  <span className=" leading-[1.625] text-[20px]">
+                    Parents & Educators
+                  </span>
+                  <svg
+                    fill="white"
+                    width="24px"
+                    height="24px"
+                    viewBox="0 -3 20 20"
+                  >
                     <path d="M16.59 8.59004L12 13.17L7.41 8.59004L6 10L12 16L18 10L16.59 8.59004Z"></path>
                   </svg>
                 </span>
@@ -159,39 +172,53 @@ function Safety() {
                   }`}
                 >
                   <li className="block rounded-lg hover:bg-gray-300 ">
-                    <a className="block p-2 cursor-pointer">
-                      What is Discord?{" "}
-                    </a>
+                    <Link to={"/WhatisDiscord"}>
+                      <div className="block p-2 cursor-pointer">
+                        What is Discord?{" "}
+                      </div>
+                    </Link>
                   </li>
                   <li className="block rounded-lg hover:bg-gray-300">
-                    <a className="block p-2 cursor-pointer">
-                      Discord's commitment to a safe and trusted experience{" "}
-                    </a>
+                    <Link to={"/DiscordCommitment"}>
+                      <div className="block p-2 cursor-pointer">
+                        Discord's commitment to a safe and trusted experience{" "}
+                      </div>
+                    </Link>
                   </li>
                   <li className="block rounded-lg hover:bg-gray-300 ">
-                    <a className="block p-2 cursor-pointer">
-                      Helping your teen stay safe on Discord
-                    </a>
+                    <Link to={"/HelpingYourTeen"}>
+                      <div className="block p-2 cursor-pointer">
+                        Helping your teen stay safe on Discord
+                      </div>
+                    </Link>
                   </li>
                   <li className="block rounded-lg hover:bg-gray-300">
-                    <a className="block p-2 cursor-pointer">
-                      Talking about online safety with your teen
-                    </a>
+                    <Link to={"/TalkingAboutOnline"}>
+                      <div className="block p-2 cursor-pointer">
+                        Talking about online safety with your teen
+                      </div>
+                    </Link>
                   </li>
                   <li className="block rounded-lg hover:bg-gray-300">
-                    <a className="block p-2 cursor-pointer">
-                      Answering parents' and educators' top questions{" "}
-                    </a>
+                    <Link to={"/AnsweringParents"}>
+                      <div className="block p-2 cursor-pointer">
+                        Answering parents' and educators' top questions{" "}
+                      </div>
+                    </Link>
                   </li>
                   <li className="block rounded-lg hover:bg-gray-300">
-                    <a className="block p-2 cursor-pointer">
-                      If your teen encounters an issue{" "}
-                    </a>
+                    <Link to={"/EncountersanIssue"}>
+                      <div className="block p-2 cursor-pointer">
+                        If your teen encounters an issue{" "}
+                      </div>
+                    </Link>
                   </li>
                   <li className="block rounded-lg hover:bg-gray-300">
-                    <a className="block p-2 cursor-pointer">
-                      Working with CARU to protect users on Discord
-                    </a>
+                    <Link to={"/WorkingwithCARU"}>
+                      <div className="block p-2 cursor-pointer">
+                        Working with CARU to protect users on Discord
+                      </div>
+                    </Link>
                   </li>
                 </ul>
               </li>
@@ -202,8 +229,15 @@ function Safety() {
                 onMouseLeave={onMouseExit3}
               >
                 <span className="flex pt-0 px-[16px] pb-[10px] center text-white">
-                  <span className="leading-[1.625] text-[20px]">How We Enforce Rules </span>
-                  <svg fill="white" width="24px" height="24px" viewBox="0 -3 20 20">
+                  <span className="leading-[1.625] text-[20px]">
+                    How We Enforce Rules{" "}
+                  </span>
+                  <svg
+                    fill="white"
+                    width="24px"
+                    height="24px"
+                    viewBox="0 -3 20 20"
+                  >
                     <path d="M16.59 8.59004L12 13.17L7.41 8.59004L6 10L12 16L18 10L16.59 8.59004Z"></path>
                   </svg>
                 </span>
@@ -213,37 +247,52 @@ function Safety() {
                   }`}
                 >
                   <li className="block rounded-lg hover:bg-gray-300 ">
-                    <a className="block p-2 cursor-pointer">Our policies </a>
+                  <Link to={"/OurPolicies"}>
+                    <div className="block p-2 cursor-pointer">Our policies </div>
+                    </Link>
                   </li>
                   <li className="block rounded-lg hover:bg-gray-300">
-                    <a className="block p-2 cursor-pointer">
+                  <Link to={"/EnforcingourRules"}>
+                    <div className="block p-2 cursor-pointer">
                       Enforcing our rules{" "}
-                    </a>
+                    </div>
+                    </Link>
                   </li>
                   <li className="block rounded-lg hover:bg-gray-300 ">
-                    <a className="block p-2 cursor-pointer">
+                  <Link to={"/HowweInvestigate"}>
+                    <div className="block p-2 cursor-pointer">
                       How we investigate
-                    </a>
+                    </div>
+                    </Link>
                   </li>
                   <li className="block rounded-lg hover:bg-gray-300">
-                    <a className="block p-2 cursor-pointer">
+                  <Link to={"/WhatActionweTake"}>
+                    <div className="block p-2 cursor-pointer">
                       What actions we take
-                    </a>
+                    </div>
+                    </Link>
                   </li>
                   <li className="block rounded-lg hover:bg-gray-300">
-                    <a className="block p-2 cursor-pointer">
+                  <Link to={"/HowyouCanAppeal"}>
+                    <div className="block p-2 cursor-pointer">
                       How you can appeal our actions{" "}
-                    </a>
+                    </div>
+                    </Link>
                   </li>
                   <li className="block rounded-lg hover:bg-gray-300">
-                    <a className="block p-2 cursor-pointer">
+                  <Link to={"/DiscordTransparencyReport"}>
+                    <div className="block p-2 cursor-pointer">
                       Discord's Transparency Report
-                    </a>
+                    </div>
+                    </Link>
                   </li>
                   <li className="block rounded-lg hover:bg-gray-300">
-                    <a className="block p-2 cursor-pointer">
+                    <Link to={"/WorkingwithLawEnforcement"}>
+                    <div className="block p-2 cursor-pointer">
                       Working with law enforcement
-                    </a>
+                    </div>
+                    </Link>
+                    
                   </li>
                 </ul>
               </li>
@@ -256,7 +305,7 @@ function Safety() {
 
           <div className="flex flex-wrap lg:flex-row-reverse">
             <div className="my-5 lg:w-1/2">
-              <img src={Safetyz}></img>
+              <img src={Safetyz} alt="Gambar 1"></img>
             </div>
 
             <div className="lg:w-1/2 lg:my-5 lg:pl-10 lg:pt-14">
@@ -384,28 +433,28 @@ function Safety() {
           <div className="block col-span-1"></div>
           <div className="col-span-7 text-2xl   mt-0">
             <div className="text-[#31bff6] hover:underline cursor-pointer">
-              <a>Four steps to a super safe account</a>
+              <Link to={"/ControllingExperience1"}>Four steps to a super safe account</Link>
             </div>
             <div className="text-[#31bff6] mt-6 hover:underline cursor-pointer">
-              <a>Four steps to a super safe server</a>
-            </div>
-
-            <div className="text-[#31bff6] mt-6 hover:underline cursor-pointer">
-              <a>Role of administrators and moderators on Discord</a>
+            <Link to={"/ControllingExperience2"}>Four steps to a super safe server</Link>
             </div>
 
             <div className="text-[#31bff6] mt-6 hover:underline cursor-pointer">
-              <a>Reporting problems to Discord</a>
+            <Link to={"/Roleofadministrators"}>Role of administrators and moderators on Discord</Link>
             </div>
 
             <div className="text-[#31bff6] mt-6 hover:underline cursor-pointer">
-              <a>Mental health on Discord</a>
+            <Link to={"/Reportingproblems"}>Reporting problems to Discord</Link>
+            </div>
+
+            <div className="text-[#31bff6] mt-6 hover:underline cursor-pointer">
+            <Link to={"/Mentalhealth"}>Mental health on Discord</Link>
             </div>
             <div className="text-[#31bff6] mt-6 hover:underline cursor-pointer">
-              <a>Age-Restricted Content on Discord</a>
+            <Link to={"/AgeRestricted"}>Age-Restricted Content on Discord</Link>
             </div>
             <div className="text-[#31bff6] mt-6 hover:underline cursor-pointer">
-              <a>Tips against spam and hacking</a>
+            <Link to={"/Tipsagainst"}>Tips against spam and hacking</Link>
             </div>
           </div>
         </div>
@@ -425,28 +474,28 @@ function Safety() {
           <div className="block col-span-1"></div>
           <div className="col-span-7 text-2xl   mt-0">
             <div className="text-[#31bff6] hover:underline cursor-pointer">
-              <a>What is Discord? </a>
+            <Link to={"/WhatisDiscord"}>What is Discord? </Link>
             </div>
             <div className="text-[#31bff6] mt-6 hover:underline cursor-pointer">
-              <a>Discord's commitment to a safe and trusted experience</a>
-            </div>
-
-            <div className="text-[#31bff6] mt-6 hover:underline cursor-pointer">
-              <a>Helping your teen stay safe on Discord</a>
+            <Link to={"/DiscordCommitment"}>Discord's commitment to a safe and trusted experience</Link>
             </div>
 
             <div className="text-[#31bff6] mt-6 hover:underline cursor-pointer">
-              <a>Talking about online safety with your teen</a>
+            <Link to={"/HelpingYourTeen"}>Helping your teen stay safe on Discord </Link>
             </div>
 
             <div className="text-[#31bff6] mt-6 hover:underline cursor-pointer">
-              <a>Answering parents' and educators' top questions</a>
+            <Link to={"/TalkingAboutOnline"}>Talking about online safety with your teen</Link>
+            </div>
+
+            <div className="text-[#31bff6] mt-6 hover:underline cursor-pointer">
+            <Link to={"/AnsweringParents"}>Answering parents' and educators' top questions</Link>
             </div>
             <div className="text-[#31bff6] mt-6 hover:underline cursor-pointer">
-              <a>If your teen encounters an issue</a>
+            <Link to={"/EncountersanIssue"}>If your teen encounters an issue</Link>
             </div>
             <div className="text-[#31bff6] mt-6 hover:underline cursor-pointer">
-              <a>Working with CARU to protect users on Discord</a>
+            <Link to={"/WorkingWithCARU"}>Working with CARU to protect users on Discord</Link>
             </div>
           </div>
         </div>
@@ -466,32 +515,33 @@ function Safety() {
           <div className="block col-span-1"></div>
           <div className="col-span-7 text-2xl  mt-0">
             <div className="text-[#31bff6] hover:underline cursor-pointer">
-              <a>Our policies</a>
+            <Link to={"/OurPolicies"}>Our policies</Link>
             </div>
             <div className="text-[#31bff6] mt-6 hover:underline cursor-pointer">
-              <a>Enforcing our rules</a>
-            </div>
-
-            <div className="text-[#31bff6] mt-6 hover:underline cursor-pointer">
-              <a>How we investigate</a>
+            <Link to={"/EnforcingOurRules"}>Enforcing our rules</Link>
             </div>
 
             <div className="text-[#31bff6] mt-6 hover:underline cursor-pointer">
-              <a>What actions we take</a>
+            <Link to={"/HowweInvestigate"}>How we investigate</Link>
             </div>
 
             <div className="text-[#31bff6] mt-6 hover:underline cursor-pointer">
-              <a>How you can appeal our actions</a>
+            <Link to={"/WhatActionweTake"}>What actions we take</Link>
+            </div>
+
+            <div className="text-[#31bff6] mt-6 hover:underline cursor-pointer">
+            <Link to={"/HowyouCanAppeal"}>How you can appeal our actions</Link>
             </div>
             <div className="text-[#31bff6] mt-6 hover:underline cursor-pointer">
-              <a>Discord's Transparency Report</a>
+            <Link to={"/DiscordTransparencyReport"}>Discord's Transparency Report</Link>
             </div>
             <div className="text-[#31bff6] mt-6 hover:underline cursor-pointer">
-              <a>Working with law enforcement</a>
+            <Link to={"/WorkingwithLawEnforcement"}>Working with law enforcement</Link>
             </div>
           </div>
         </div>
       </header>
+      <Footer></Footer>
     </Fragment>
   );
 }

@@ -78,11 +78,16 @@ function Discover() {
       setSearchInput(event.target.value);
       const filteredData = data.filter(
         (item) => {
-          console.log(item.detail.title)
-         // return item?.detail?.title?.toString().toLowerCase().includes(event.target.value.toString().toLowerCase())
-          return Object.keys(item).some(key=>
-            item[key].toString().toLowerCase().includes(searchInput.toString().toLowerCase())
-            )
+          console.log(item.detail.map((it)=>{
+            return it.title
+          }))
+          const titleFilter = item.detail.map((it)=>{
+            return it.title
+          })
+          return titleFilter.toString().toLowerCase().includes(event.target.value.toString().toLowerCase())
+          // return Object.keys(titleFilter).some(key=>
+          //   item[key].toString().toLowerCase().includes(searchInput.toString().toLowerCase())
+          //   )
         }
       );
       console.log(filteredData)
