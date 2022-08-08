@@ -5,14 +5,9 @@ import {
   BrowserRouter as Router,
   Routes,
   Route,
-  useLocation,
 } from "react-router-dom";
 import Safety from "./components/Safety";
 import Support from "./components/Support";
-import Header2 from "./components/Header2";
-import Header3 from "./components/Header3";
-import Header from "./components/Header";
-import Footer from "./components/Footer";
 import Download from "./components/Download";
 import Nitro from "./components/Nitro";
 import Blog from "./components/Blog";
@@ -27,12 +22,25 @@ import Reportingproblems from "./components/Reportingproblems";
 import Mentalhealth from "./components/Mentalhealth";
 import AgeRestricted from "./components/AgeRestricted";
 import Tipsagainst from "./components/Tipsagainst";
+import WhatisDiscord from "./components/WhatisDiscord";
+import DiscordCommitment from "./components/DiscordCommitment";
+import HelpingYourTeen from "./components/HelpingYourTeen";
+import TalkingAboutOnline from "./components/TalkingAboutOnline";
+import AnsweringParents from "./components/AnsweringParents";
+import EncountersanIssue from "./components/EncountersanIssue";
+import WorkingwithCARU from "./components/WorkingwithCARU";
+import OurPolicies from "./components/OurPolicies";
+import EnforcingourRules from "./components/EnforcingourRules";
+import HowweInvestigate from "./components/HowweInvestigate";
+import WhatActionweTake from "./components/WhatActionweTake";
+import HowyouCanAppeal from "./components/HowyouCanAppeal";
+import DiscordTransparencyReport from "./components/DiscordTransparencyReport";
+import WorkingwithLawEnforcement from "./components/WorkingwithLawEnforcement";
 
 function App() {
   return (
     <div>
       <Router>
-        {/* <Header></Header> */}
         <Routes>
           <Route path="/" element={<Content />}></Route>
           <Route path="/Content" element={<Content />}></Route>
@@ -52,9 +60,21 @@ function App() {
           <Route path="/Mentalhealth" element={<Mentalhealth />}></Route>
           <Route path="/AgeRestricted" element={<AgeRestricted />}></Route>
           <Route path="/Tipsagainst" element={<Tipsagainst />}></Route>
-          
+          <Route path="/WhatisDiscord" element={<WhatisDiscord />}></Route>
+          <Route path="/DiscordCommitment" element={<DiscordCommitment />}></Route>
+          <Route path="/HelpingYourTeen" element={<HelpingYourTeen />}></Route>
+          <Route path="/TalkingAboutOnline" element={<TalkingAboutOnline />}></Route>
+          <Route path="/AnsweringParents" element={<AnsweringParents />}></Route>
+          <Route path="/EncountersanIssue" element={<EncountersanIssue />}></Route>
+          <Route path="/WorkingwithCARU" element={<WorkingwithCARU />}></Route>
+          <Route path="/OurPolicies" element={<OurPolicies />}></Route>
+          <Route path="/EnforcingourRules" element={<EnforcingourRules />}></Route>
+          <Route path="/HowweInvestigate" element={<HowweInvestigate />}></Route>
+          <Route path="/WhatActionweTake" element={<WhatActionweTake />}></Route>
+          <Route path="/HowyouCanAppeal" element={<HowyouCanAppeal />}></Route>
+          <Route path="/DiscordTransparencyReport" element={<DiscordTransparencyReport />}></Route>
+          <Route path="/WorkingwithLawEnforcement" element={<WorkingwithLawEnforcement />}></Route>
         </Routes>
-        {/* <Footer></Footer> */}
       </Router>
     </div>
   );
