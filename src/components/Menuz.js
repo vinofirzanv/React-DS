@@ -7,7 +7,7 @@ function Card({item}) {
       key={item.id}
     >
       <a
-        href=""
+        href="/"
         className="col-start-[span_3] col-end-auto hover:shadow-2xl rounded-2xl overflow-hidden bg-white text-black flex cursor-pointer p-[24px] flex-col content-between "
       >
         <div className="item-container">

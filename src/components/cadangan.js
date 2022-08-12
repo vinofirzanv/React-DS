@@ -18,7 +18,7 @@ function Careers() {
             <div className="py-[120px] ">
               <div className="mx-auto w-full max-w-[1260px] gird box-border grid-cols-12 py-0 px-[40px] gap-5">
                 <div className="grid-cols-12 w-full flex justify-center">
-                  <a href="" className="text-black text-center mb-8">
+                  <a href="/" className="text-black text-center mb-8">
                     {" "}
                     <button className="rounded-[28px] py-[16px] px-[32px] bg-white">
                       {" "}
@@ -167,7 +167,7 @@ function Careers() {
 
             <div className="w-full gap-y-1.5 max-w-[1260px] box-border grid grid-cols-12 gap-5 p-[40px]">
               <a
-                href=""
+                href="/"
                 className="col-start-[span_4] col-end-auto hover:shadow-2xl rounded-2xl overflow-hidden bg-white text-black flex cursor-pointer p-[24px] flex-col content-between "
               >
                 <div className="w-[75%] font-medium text-xl leading-[1.625] mb-5">
@@ -198,7 +198,7 @@ function Careers() {
 
             <div className="w-full gap-y-1.5 max-w-[1260px] box-border grid grid-cols-12 gap-5 p-[40px]">
               <a
-                href=""
+                href="/"
                 className="col-start-[span_4] col-end-auto hover:shadow-2xl rounded-2xl overflow-hidden bg-white text-black flex cursor-pointer p-[24px] flex-col content-between "
               >
                 <div className="w-[75%] font-medium text-xl leading-[1.625] mb-5">
@@ -229,7 +229,7 @@ function Careers() {
 
             <div className="w-full gap-y-1.5 max-w-[1260px] box-border grid grid-cols-12 gap-5 p-[40px]">
               <a
-                href=""
+                href="/"
                 className="col-start-[span_4] col-end-auto hover:shadow-2xl rounded-2xl overflow-hidden bg-white text-black flex cursor-pointer p-[24px] flex-col content-between "
               >
                 <div className="w-[75%] font-medium text-xl leading-[1.625] mb-5">
@@ -262,7 +262,7 @@ function Careers() {
 
             <div className="w-full gap-y-1.5 max-w-[1260px] box-border grid grid-cols-12 gap-5 p-[40px]">
               <a
-                href=""
+                href="/"
                 className="col-start-[span_4] col-end-auto hover:shadow-2xl rounded-2xl overflow-hidden bg-white text-black flex cursor-pointer p-[24px] flex-col content-between "
               >
                 <div className="w-[75%] font-medium text-xl leading-[1.625] mb-5">
@@ -295,7 +295,7 @@ function Careers() {
 
             <div className="w-full gap-y-1.5 max-w-[1260px] box-border grid grid-cols-12 gap-5 p-[40px]">
               <a
-                href=""
+                href="/"
                 className="col-start-[span_4] col-end-auto hover:shadow-2xl rounded-2xl overflow-hidden bg-white text-black flex cursor-pointer p-[24px] flex-col content-between "
               >
                 <div className="w-[75%] font-medium text-xl leading-[1.625] mb-5">
@@ -331,7 +331,7 @@ function Careers() {
 
             <div className="w-full gap-y-6 max-w-[1260px] box-border grid grid-cols-12 gap-5 p-[40px]">
               <a
-                href=""
+                href="/"
                 className="col-start-[span_4] col-end-auto hover:shadow-2xl rounded-2xl overflow-hidden bg-white text-black flex cursor-pointer p-[24px] flex-col content-between "
               >
                 <div className="w-[75%] font-medium text-2xl leading-[1.625] mb-20">
@@ -356,7 +356,7 @@ function Careers() {
               </a>
 
               <a
-                href=""
+                href="/"
                 className="col-start-[span_4] col-end-auto hover:shadow-2xl rounded-2xl overflow-hidden bg-white text-black flex cursor-pointer p-[24px] flex-col content-between "
               >
                 <div className="w-[75%] font-medium text-2xl leading-[1.625] ">
@@ -380,7 +380,7 @@ function Careers() {
               </a>
 
               <a
-                href=""
+                href="/"
                 className="col-start-[span_4] col-end-auto hover:shadow-2xl rounded-2xl overflow-hidden bg-white text-black flex cursor-pointer p-[24px] flex-col content-between "
               >
                 <div className="w-[75%] font-medium text-2xl leading-[1.625] ">
@@ -404,7 +404,7 @@ function Careers() {
               </a>
 
               <a
-                href=""
+                href="/"
                 className="col-start-[span_4] col-end-auto hover:shadow-2xl rounded-2xl overflow-hidden bg-white text-black flex cursor-pointer p-[24px] flex-col content-between "
               >
                 <div className="w-[75%] font-medium text-2xl leading-[1.625]">
@@ -436,7 +436,7 @@ function Careers() {
 
             <div className="w-full gap-y-1.5 max-w-[1260px] box-border grid grid-cols-12 gap-5 p-[40px]">
               <a
-                href=""
+                href="/"
                 className="col-start-[span_4] col-end-auto hover:shadow-2xl rounded-2xl overflow-hidden bg-white text-black flex cursor-pointer p-[24px] flex-col content-between "
               >
                 <div className="w-[75%] font-medium text-xl leading-[1.625] mb-5">
@@ -469,7 +469,7 @@ function Careers() {
 
             <div className="w-full gap-y-1.5 max-w-[1260px] box-border grid grid-cols-12 gap-5 p-[40px]">
               <a
-                href=""
+                href="/"
                 className="col-start-[span_4] col-end-auto hover:shadow-2xl rounded-2xl overflow-hidden bg-white text-black flex cursor-pointer p-[24px] flex-col content-between "
               >
                 <div className="w-[75%] font-medium text-xl leading-[1.625] mb-5">
@@ -494,7 +494,7 @@ function Careers() {
               </a>
 
               <a
-                href=""
+                href="/"
                 className="col-start-[span_4] col-end-auto hover:shadow-2xl rounded-2xl overflow-hidden bg-white text-black flex cursor-pointer p-[24px] flex-col content-between "
               >
                 <div className="w-[75%] font-medium text-xl leading-[1.625] mb-5">
@@ -519,7 +519,7 @@ function Careers() {
               </a>
 
               <a
-                href=""
+                href="/"
                 className="col-start-[span_4] col-end-auto hover:shadow-2xl rounded-2xl overflow-hidden bg-white text-black flex cursor-pointer p-[24px] flex-col content-between "
               >
                 <div className="w-[75%] font-medium text-xl leading-[1.625] mb-5">
@@ -544,7 +544,7 @@ function Careers() {
               </a>
 
               <a
-                href=""
+                href="/"
                 className="col-start-[span_4] col-end-auto hover:shadow-2xl rounded-2xl overflow-hidden bg-white text-black flex cursor-pointer p-[24px] flex-col content-between "
               >
                 <div className="w-[75%] font-medium text-xl leading-[1.625] mb-5">
@@ -569,7 +569,7 @@ function Careers() {
               </a>
 
               <a
-                href=""
+                href="/"
                 className="col-start-[span_4] col-end-auto hover:shadow-2xl rounded-2xl overflow-hidden bg-white text-black flex cursor-pointer p-[24px] flex-col content-between "
               >
                 <div className="w-[75%] font-medium text-xl leading-[1.625] mb-5">
@@ -594,7 +594,7 @@ function Careers() {
               </a>
 
               <a
-                href=""
+                href="/"
                 className="col-start-[span_4] col-end-auto hover:shadow-2xl rounded-2xl overflow-hidden bg-white text-black flex cursor-pointer p-[24px] flex-col content-between "
               >
                 <div className="w-[75%] font-medium text-xl leading-[1.625] mb-5">
@@ -627,7 +627,7 @@ function Careers() {
 
             <div className="w-full gap-y-20 lg:gap-y-1.5 max-w-[1260px] box-border grid grid-cols-4 lg:grid-cols-12 gap-5 p-[40px]">
               <a
-                href=""
+                href="/"
                 className="col-start-[span_4] col-end-auto hover:shadow-2xl rounded-2xl overflow-hidden bg-white text-black flex cursor-pointer p-[24px] flex-col content-between "
               >
                 <div className="w-[75%] font-medium text-xl leading-[1.625] mb-5">
@@ -658,7 +658,7 @@ function Careers() {
               </a>
 
               <a
-                href=""
+                href="/"
                 className="col-start-[span_4] col-end-auto hover:shadow-2xl rounded-2xl overflow-hidden bg-white text-black flex cursor-pointer p-[24px] flex-col content-between "
               >
                 <div className="w-[75%] font-medium text-xl leading-[1.625] mb-5">
@@ -689,7 +689,7 @@ function Careers() {
               </a>
 
               <a
-                href=""
+                href="/"
                 className="col-start-[span_4] col-end-auto hover:shadow-2xl rounded-2xl overflow-hidden bg-white text-black flex cursor-pointer p-[24px] flex-col content-between "
               >
                 <div className="w-[75%] font-medium text-xl leading-[1.625] mb-5">
@@ -720,7 +720,7 @@ function Careers() {
               </a>
 
               <a
-                href=""
+                href="/"
                 className="col-start-[span_4] col-end-auto hover:shadow-2xl rounded-2xl overflow-hidden bg-white text-black flex cursor-pointer p-[24px] flex-col content-between "
               >
                 <div className="w-[75%] font-medium text-xl leading-[1.625] mb-5">
@@ -751,7 +751,7 @@ function Careers() {
               </a>
 
               <a
-                href=""
+                href="/"
                 className="col-start-[span_4] col-end-auto hover:shadow-2xl rounded-2xl overflow-hidden bg-white text-black flex cursor-pointer p-[24px] flex-col content-between "
               >
                 <div className="w-[75%] font-medium text-xl leading-[1.625] mb-5">
@@ -782,7 +782,7 @@ function Careers() {
               </a>
 
               <a
-                href=""
+                href="/"
                 className="col-start-[span_4] col-end-auto hover:shadow-2xl rounded-2xl overflow-hidden bg-white text-black flex cursor-pointer p-[24px] flex-col content-between "
               >
                 <div className="w-[75%] font-medium text-xl leading-[1.625] mb-5">
@@ -813,7 +813,7 @@ function Careers() {
               </a>
 
               <a
-                href=""
+                href="/"
                 className="col-start-[span_4] col-end-auto hover:shadow-2xl rounded-2xl overflow-hidden bg-white text-black flex cursor-pointer p-[24px] flex-col content-between "
               >
                 <div className="w-[75%] font-medium text-xl leading-[1.625] mb-5">
@@ -852,7 +852,7 @@ function Careers() {
 
             <div className="w-full max-w-[1260px] box-border grid grid-cols-4 lg:grid-cols-12 gap-5 p-[40px]">
               <a
-                href=""
+                href="/"
                 className="col-start-[span_4] col-end-auto hover:shadow-2xl rounded-2xl overflow-hidden bg-white text-black flex cursor-pointer p-[24px] flex-col content-between "
               >
                 <div className="w-[75%] font-medium text-xl leading-[1.625] mb-5">
@@ -880,7 +880,7 @@ function Careers() {
               </a>
 
               <a
-                href=""
+                href="/"
                 className="col-start-[span_4] col-end-auto hover:shadow-2xl rounded-2xl overflow-hidden bg-white text-black flex cursor-pointer p-[24px] flex-col content-between "
               >
                 <div className="w-[75%] font-medium text-xl leading-[1.625] mb-5">
@@ -908,7 +908,7 @@ function Careers() {
               </a>
 
               <a
-                href=""
+                href="/"
                 className="col-start-[span_4] col-end-auto hover:shadow-2xl rounded-2xl overflow-hidden bg-white text-black flex cursor-pointer p-[24px] flex-col content-between "
               >
                 <div className="w-[75%] font-medium text-xl leading-[1.625] mb-5">
@@ -934,7 +934,7 @@ function Careers() {
               </a>
 
               <a
-                href=""
+                href="/"
                 className="col-start-[span_4] col-end-auto hover:shadow-2xl rounded-2xl overflow-hidden bg-white text-black flex cursor-pointer p-[24px] flex-col content-between "
               >
                 <div className="w-[75%] font-medium text-xl leading-[1.625] mb-5">
@@ -963,7 +963,7 @@ function Careers() {
               </a>
 
               <a
-                href=""
+                href="/"
                 className="col-start-[span_4] col-end-auto hover:shadow-2xl rounded-2xl overflow-hidden bg-white text-black flex cursor-pointer p-[24px] flex-col content-between "
               >
                 <div className="w-[75%] font-medium text-xl leading-[1.625] mb-5">
@@ -991,7 +991,7 @@ function Careers() {
               </a>
 
               <a
-                href=""
+                href="/"
                 className="col-start-[span_4] col-end-auto hover:shadow-2xl rounded-2xl overflow-hidden bg-white text-black flex cursor-pointer p-[24px] flex-col content-between "
               >
                 <div className="w-[75%] font-medium text-xl leading-[1.625] mb-5">
@@ -1019,7 +1019,7 @@ function Careers() {
               </a>
 
               <a
-                href=""
+                href="/"
                 className="col-start-[span_4] col-end-auto hover:shadow-2xl rounded-2xl overflow-hidden bg-white text-black flex cursor-pointer p-[24px] flex-col content-between "
               >
                 <div className="w-[75%] font-medium text-xl leading-[1.625] mb-5">
@@ -1047,7 +1047,7 @@ function Careers() {
               </a>
 
               <a
-                href=""
+                href="/"
                 className="col-start-[span_4] col-end-auto hover:shadow-2xl rounded-2xl overflow-hidden bg-white text-black flex cursor-pointer p-[24px] flex-col content-between "
               >
                 <div className="w-[75%] font-medium text-xl leading-[1.625] mb-5">
@@ -1075,7 +1075,7 @@ function Careers() {
               </a>
 
               <a
-                href=""
+                href="/"
                 className="col-start-[span_4] col-end-auto hover:shadow-2xl rounded-2xl overflow-hidden bg-white text-black flex cursor-pointer p-[24px] flex-col content-between "
               >
                 <div className="w-[75%] font-medium text-xl leading-[1.625] mb-5">
@@ -1103,7 +1103,7 @@ function Careers() {
               </a>
 
               <a
-                href=""
+                href="/"
                 className="col-start-[span_4] col-end-auto hover:shadow-2xl rounded-2xl overflow-hidden bg-white text-black flex cursor-pointer p-[24px] flex-col content-between "
               >
                 <div className="w-[75%] font-medium text-xl leading-[1.625] mb-5">
@@ -1131,7 +1131,7 @@ function Careers() {
               </a>
 
               <a
-                href=""
+                href="/"
                 className="col-start-[span_4] col-end-auto hover:shadow-2xl rounded-2xl overflow-hidden bg-white text-black flex cursor-pointer p-[24px] flex-col content-between "
               >
                 <div className="w-[75%] font-medium text-xl leading-[1.625] mb-5">
@@ -1159,7 +1159,7 @@ function Careers() {
               </a>
 
               <a
-                href=""
+                href="/"
                 className="col-start-[span_4] col-end-auto hover:shadow-2xl rounded-2xl overflow-hidden bg-white text-black flex cursor-pointer p-[24px] flex-col content-between "
               >
                 <div className="w-[75%] font-medium text-xl leading-[1.625] mb-5">
@@ -1187,7 +1187,7 @@ function Careers() {
               </a>
 
               <a
-                href=""
+                href="/"
                 className="col-start-[span_4] col-end-auto hover:shadow-2xl rounded-2xl overflow-hidden bg-white text-black flex cursor-pointer p-[24px] flex-col content-between "
               >
                 <div className="w-[75%] font-medium text-xl leading-[1.625] mb-5">
@@ -1215,7 +1215,7 @@ function Careers() {
               </a>
 
               <a
-                href=""
+                href="/"
                 className="col-start-[span_4] col-end-auto hover:shadow-2xl rounded-2xl overflow-hidden bg-white text-black flex cursor-pointer p-[24px] flex-col content-between "
               >
                 <div className="w-[75%] font-medium text-xl leading-[1.625] mb-5">
@@ -1243,7 +1243,7 @@ function Careers() {
               </a>
 
               <a
-                href=""
+                href="/"
                 className="col-start-[span_4] col-end-auto hover:shadow-2xl rounded-2xl overflow-hidden bg-white text-black flex cursor-pointer p-[24px] flex-col content-between "
               >
                 <div className="w-[75%] font-medium text-xl leading-[1.625] mb-5">
@@ -1280,7 +1280,7 @@ function Careers() {
 
             <div className="w-full max-w-[1260px] box-border grid grid-cols-4 lg:grid-cols-12 gap-5 p-[40px]">
               <a
-                href=""
+                href="/"
                 className="col-start-[span_4] col-end-auto hover:shadow-2xl rounded-2xl overflow-hidden bg-white text-black flex cursor-pointer p-[24px] flex-col content-between "
               >
                 <div className="w-[75%] font-medium text-xl leading-[1.625] mb-5">
@@ -1305,7 +1305,7 @@ function Careers() {
               </a>
 
               <a
-                href=""
+                href="/"
                 className="col-start-[span_4] col-end-auto hover:shadow-2xl rounded-2xl overflow-hidden bg-white text-black flex cursor-pointer p-[24px] flex-col content-between "
               >
                 <div className="w-[75%] font-medium text-xl leading-[1.625] mb-5">
@@ -1330,7 +1330,7 @@ function Careers() {
               </a>
 
               <a
-                href=""
+                href="/"
                 className="col-start-[span_4] col-end-auto hover:shadow-2xl rounded-2xl overflow-hidden bg-white text-black flex cursor-pointer p-[24px] flex-col content-between "
               >
                 <div className="w-[75%] font-medium text-xl leading-[1.625] mb-5">
@@ -1353,7 +1353,7 @@ function Careers() {
               </a>
 
               <a
-                href=""
+                href="/"
                 className="col-start-[span_4] col-end-auto hover:shadow-2xl rounded-2xl overflow-hidden bg-white text-black flex cursor-pointer p-[24px] flex-col content-between "
               >
                 <div className="w-[75%] font-medium text-xl leading-[1.625] mb-5">
@@ -1378,7 +1378,7 @@ function Careers() {
               </a>
 
               <a
-                href=""
+                href="/"
                 className="col-start-[span_4] col-end-auto hover:shadow-2xl rounded-2xl overflow-hidden bg-white text-black flex cursor-pointer p-[24px] flex-col content-between "
               >
                 <div className="w-[75%] font-medium text-xl leading-[1.625] mb-5">
@@ -1411,7 +1411,7 @@ function Careers() {
 
             <div className="w-full max-w-[1260px] box-border grid grid-cols-4 lg:grid-cols-12 gap-5 p-[40px]">
               <a
-                href=""
+                href="/"
                 className="col-start-[span_4] col-end-auto hover:shadow-2xl rounded-2xl overflow-hidden bg-white text-black flex cursor-pointer p-[24px] flex-col content-between "
               >
                 <div className="w-[75%] font-medium text-xl leading-[1.625] mb-5">
@@ -1436,7 +1436,7 @@ function Careers() {
               </a>
 
               <a
-                href=""
+                href="/"
                 className="col-start-[span_4] col-end-auto hover:shadow-2xl rounded-2xl overflow-hidden bg-white text-black flex cursor-pointer p-[24px] flex-col content-between "
               >
                 <div className="w-[75%] font-medium text-xl leading-[1.625] mb-5">
@@ -1461,7 +1461,7 @@ function Careers() {
               </a>
 
               <a
-                href=""
+                href="/"
                 className="col-start-[span_4] col-end-auto hover:shadow-2xl rounded-2xl overflow-hidden bg-white text-black flex cursor-pointer p-[24px] flex-col content-between "
               >
                 <div className="w-[75%] font-medium text-xl leading-[1.625] mb-5">
@@ -1486,7 +1486,7 @@ function Careers() {
               </a>
 
               <a
-                href=""
+                href="/"
                 className="col-start-[span_4] col-end-auto hover:shadow-2xl rounded-2xl overflow-hidden bg-white text-black flex cursor-pointer p-[24px] flex-col content-between "
               >
                 <div className="w-[75%] font-medium text-xl leading-[1.625] mb-5">
@@ -1519,7 +1519,7 @@ function Careers() {
 
             <div className="w-full max-w-[1260px] box-border grid grid-cols-4 lg:grid-cols-12 gap-5 p-[40px]">
               <a
-                href=""
+                href="/"
                 className="col-start-[span_4] col-end-auto hover:shadow-2xl rounded-2xl overflow-hidden bg-white text-black flex cursor-pointer p-[24px] flex-col content-between "
               >
                 <div className="w-[75%] font-medium text-xl leading-[1.625] mb-5">
@@ -1544,7 +1544,7 @@ function Careers() {
               </a>
 
               <a
-                href=""
+                href="/"
                 className="col-start-[span_4] col-end-auto hover:shadow-2xl rounded-2xl overflow-hidden bg-white text-black flex cursor-pointer p-[24px] flex-col content-between "
               >
                 <div className="w-[75%] font-medium text-xl leading-[1.625] mb-5">
@@ -1577,7 +1577,7 @@ function Careers() {
 
             <div className="w-full max-w-[1260px] box-border grid grid-cols-4 lg:grid-cols-12 gap-5 p-[40px]">
               <a
-                href=""
+                href="/"
                 className="col-start-[span_4] col-end-auto hover:shadow-2xl rounded-2xl overflow-hidden bg-white text-black flex cursor-pointer p-[24px] flex-col content-between "
               >
                 <div className="w-[75%] font-medium text-xl leading-[1.625] mb-5">
@@ -1610,7 +1610,7 @@ function Careers() {
 
             <div className="w-full max-w-[1260px] box-border grid grid-cols-4 lg:grid-cols-12 gap-5 p-[40px]">
               <a
-                href=""
+                href="/"
                 className="col-start-[span_4] col-end-auto hover:shadow-2xl rounded-2xl overflow-hidden bg-white text-black flex cursor-pointer p-[24px] flex-col content-between "
               >
                 <div className="w-[75%] font-medium text-xl leading-[1.625] mb-5">
@@ -1642,7 +1642,7 @@ function Careers() {
               </a>
 
               <a
-                href=""
+                href="/"
                 className="col-start-[span_4] col-end-auto hover:shadow-2xl rounded-2xl overflow-hidden bg-white text-black flex cursor-pointer p-[24px] flex-col content-between "
               >
                 <div className="w-[75%] font-medium text-xl leading-[1.625] mb-5">
@@ -1674,7 +1674,7 @@ function Careers() {
               </a>
 
               <a
-                href=""
+                href="/"
                 className="col-start-[span_4] col-end-auto hover:shadow-2xl rounded-2xl overflow-hidden bg-white text-black flex cursor-pointer p-[24px] flex-col content-between "
               >
                 <div className="w-[75%] font-medium text-xl leading-[1.625] mb-5">
@@ -1704,7 +1704,7 @@ function Careers() {
               </a>
 
               <a
-                href=""
+                href="/"
                 className="col-start-[span_4] col-end-auto hover:shadow-2xl rounded-2xl overflow-hidden bg-white text-black flex cursor-pointer p-[24px] flex-col content-between "
               >
                 <div className="w-[75%] font-medium text-xl leading-[1.625] mb-5">
@@ -1736,7 +1736,7 @@ function Careers() {
               </a>
 
               <a
-                href=""
+                href="/"
                 className="col-start-[span_4] col-end-auto hover:shadow-2xl rounded-2xl overflow-hidden bg-white text-black flex cursor-pointer p-[24px] flex-col content-between "
               >
                 <div className="w-[75%] font-medium text-xl leading-[1.625] mb-5">
@@ -1768,7 +1768,7 @@ function Careers() {
               </a>
 
               <a
-                href=""
+                href="/"
                 className="col-start-[span_4] col-end-auto hover:shadow-2xl rounded-2xl overflow-hidden bg-white text-black flex cursor-pointer p-[24px] flex-col content-between "
               >
                 <div className="w-[75%] font-medium text-xl leading-[1.625] mb-5">
@@ -1800,7 +1800,7 @@ function Careers() {
               </a>
 
               <a
-                href=""
+                href="/"
                 className="col-start-[span_4] col-end-auto hover:shadow-2xl rounded-2xl overflow-hidden bg-white text-black flex cursor-pointer p-[24px] flex-col content-between "
               >
                 <div className="w-[75%] font-medium text-xl leading-[1.625] mb-5">
@@ -1832,7 +1832,7 @@ function Careers() {
               </a>
 
               <a
-                href=""
+                href="/"
                 className="col-start-[span_4] col-end-auto hover:shadow-2xl rounded-2xl overflow-hidden bg-white text-black flex cursor-pointer p-[24px] flex-col content-between "
               >
                 <div className="w-[75%] font-medium text-xl leading-[1.625] mb-5">
@@ -1864,7 +1864,7 @@ function Careers() {
               </a>
 
               <a
-                href=""
+                href="/"
                 className="col-start-[span_4] col-end-auto hover:shadow-2xl rounded-2xl overflow-hidden bg-white text-black flex cursor-pointer p-[24px] flex-col content-between "
               >
                 <div className="w-[75%] font-medium text-xl leading-[1.625] mb-5">
@@ -1904,7 +1904,7 @@ function Careers() {
 
             <div className="w-full max-w-[1260px] box-border grid grid-cols-4 lg:grid-cols-12 gap-5 p-[40px]">
               <a
-                href=""
+                href="/"
                 className="col-start-[span_4] col-end-auto hover:shadow-2xl rounded-2xl overflow-hidden bg-white text-black flex cursor-pointer p-[24px] flex-col content-between "
               >
                 <div className="w-[75%] font-medium text-xl leading-[1.625] mb-5">
@@ -1929,7 +1929,7 @@ function Careers() {
               </a>
 
               <a
-                href=""
+                href="/"
                 className="col-start-[span_4] col-end-auto hover:shadow-2xl rounded-2xl overflow-hidden bg-white text-black flex cursor-pointer p-[24px] flex-col content-between "
               >
                 <div className="w-[75%] font-medium text-xl leading-[1.625] mb-5">
@@ -1962,7 +1962,7 @@ function Careers() {
 
             <div className="w-full max-w-[1260px] box-border grid grid-cols-4 lg:grid-cols-12 gap-5 p-[40px]">
               <a
-                href=""
+                href="/"
                 className="col-start-[span_4] col-end-auto hover:shadow-2xl rounded-2xl overflow-hidden bg-white text-black flex cursor-pointer p-[24px] flex-col content-between "
               >
                 <div className="w-[75%] font-medium text-xl leading-[1.625] mb-5">
@@ -1987,7 +1987,7 @@ function Careers() {
               </a>
 
               <a
-                href=""
+                href="/"
                 className="col-start-[span_4] col-end-auto hover:shadow-2xl rounded-2xl overflow-hidden bg-white text-black flex cursor-pointer p-[24px] flex-col content-between "
               >
                 <div className="w-[75%] font-medium text-xl leading-[1.625] mb-5">
@@ -2224,7 +2224,7 @@ function Careers() {
           <div className="bg-[#2c2f33] py-[120px] w-full flex items-center flex-col text-white ">
               <div className="w-full max-w-[1260px] gird grid-cols-12 box-border gap-5 py-0 px-[40px] ">
                       <div className="text-white col-span-12 mb-[120px] text-[24px] leading-[140%]">
-                        <p>If you're wanting to work with a motivated team on something that gives millions of users a space to find belonging, check out the four values of working at Discord <a href="" className="text-blue-800">on our blog </a>. For all roles, we're hiring people to join us in our beautiful San Francisco office (when it reopens), and for select, indicated positions, we're currently open to having people join our team remotely in these states:</p>
+                        <p>If you're wanting to work with a motivated team on something that gives millions of users a space to find belonging, check out the four values of working at Discord <a href="/" className="text-blue-800">on our blog </a>. For all roles, we're hiring people to join us in our beautiful San Francisco office (when it reopens), and for select, indicated positions, we're currently open to having people join our team remotely in these states:</p>
                         <p className="mt-[34px] text-center">Alabama - Arizona - California - Colorado - District of Columbia - Florida - Georgia - Illinois - Iowa - Massachusetts - Maryland - Michigan - Minnesota - Montana - Kansas - Nevada - New Jersey - New York - North Carolina - Oklahoma - Oregon - Pennsylvania - Texas - Virginia - Washington</p>
                       </div>
               </div>

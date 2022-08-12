@@ -6,36 +6,57 @@ import {
   Routes,
   Route,
 } from "react-router-dom";
-import Safety from "./components/Safety";
-import Support from "./components/Support";
-import Download from "./components/Download";
-import Nitro from "./components/Nitro";
-import Blog from "./components/Blog";
-import Careers from "./components/Careers";
+import Safety from "./pages/Safety/Safety";
+
+import Download from "./pages/Download/Download";
+import Nitro from "./pages/Nitro/Nitro";
+import Blog from "./pages/Blog/Blog";
+import Careers from "./pages/Careers/Careers";
 import Login from "./components/Login";
 import Register from "./components/Register";
-import Discover from "./components/Discover";
-import ControllingExperience1 from "./components/ControllingExperience1";
-import ControllingExperience2 from "./components/ControllingExperience2";
-import Roleofadministrators from "./components/Roleofadministrators";
-import Reportingproblems from "./components/Reportingproblems";
-import Mentalhealth from "./components/Mentalhealth";
-import AgeRestricted from "./components/AgeRestricted";
-import Tipsagainst from "./components/Tipsagainst";
-import WhatisDiscord from "./components/WhatisDiscord";
-import DiscordCommitment from "./components/DiscordCommitment";
-import HelpingYourTeen from "./components/HelpingYourTeen";
-import TalkingAboutOnline from "./components/TalkingAboutOnline";
-import AnsweringParents from "./components/AnsweringParents";
-import EncountersanIssue from "./components/EncountersanIssue";
-import WorkingwithCARU from "./components/WorkingwithCARU";
-import OurPolicies from "./components/OurPolicies";
-import EnforcingourRules from "./components/EnforcingourRules";
-import HowweInvestigate from "./components/HowweInvestigate";
-import WhatActionweTake from "./components/WhatActionweTake";
-import HowyouCanAppeal from "./components/HowyouCanAppeal";
-import DiscordTransparencyReport from "./components/DiscordTransparencyReport";
-import WorkingwithLawEnforcement from "./components/WorkingwithLawEnforcement";
+import Discover from "./pages/Discover/Discover";
+import ControllingExperience1 from "./pages/Safety/ControllingYourExperience/ControllingExperience1";
+import ControllingExperience2 from "./pages/Safety/ControllingYourExperience/ControllingExperience2";
+import Roleofadministrators from "./pages/Safety/ControllingYourExperience/Roleofadministrators";
+import Reportingproblems from "./pages/Safety/ControllingYourExperience/Reportingproblems";
+import Mentalhealth from "./pages/Safety/ControllingYourExperience/Mentalhealth";
+import AgeRestricted from "./pages/Safety/ControllingYourExperience/AgeRestricted";
+import Tipsagainst from "./pages/Safety/ControllingYourExperience/Tipsagainst";
+
+import WhatisDiscord from "./pages/Safety/ParentsEducators/WhatisDiscord";
+import DiscordCommitment from "./pages/Safety/ParentsEducators/DiscordCommitment";
+import HelpingYourTeen from "./pages/Safety/ParentsEducators/HelpingYourTeen";
+import TalkingAboutOnline from "./pages/Safety/ParentsEducators/TalkingAboutOnline";
+import AnsweringParents from "./pages/Safety/ParentsEducators/AnsweringParents";
+import EncountersanIssue from "./pages/Safety/ParentsEducators/EncountersanIssue";
+import WorkingwithCARU from "./pages/Safety/ParentsEducators/WorkingwithCARU";
+
+import OurPolicies from "./pages/Safety/HowWeEnforceRules/OurPolicies";
+import EnforcingourRules from "./pages/Safety/HowWeEnforceRules/EnforcingourRules";
+import HowweInvestigate from "./pages/Safety/HowWeEnforceRules/HowweInvestigate";
+import WhatActionweTake from "./pages/Safety/HowWeEnforceRules/WhatActionweTake";
+import HowyouCanAppeal from "./pages/Safety/HowWeEnforceRules/HowyouCanAppeal";
+import DiscordTransparencyReport from "./pages/Safety/HowWeEnforceRules/DiscordTransparencyReport";
+import WorkingwithLawEnforcement from "./pages/Safety/HowWeEnforceRules/WorkingwithLawEnforcement";
+
+import Support from "./pages/Support/Support";
+import DeveloperHelpCenter from "./pages/Support/DeveloperHelpCenter";
+import Announcement from "./pages/Support/Category/Announcement";
+import DiscordInterface from "./pages/Support/Category/DiscordInterface";
+import AccountSettings from "./pages/Support/Category/AccountSettings";
+import GettingStarted from "./pages/Support/Category/GettingStarted";
+import ServerSetup from "./pages/Support/Category/ServerSetup";
+import CommunityPrograms from "./pages/Support/Category/CommunityPrograms";
+import PerksandSubscriptions from "./pages/Support/Category/PerksandSubscriptions";
+import Billing from "./pages/Support/Category/Billing";
+import TrustySafety from "./pages/Support/Category/TrustySafety";
+import FAQ from "./pages/Support/Category/FAQ";
+
+import Feedback from "./pages/Support/Feedback";
+import CommunityPost from "./pages/Support/CommunityPost";
+import SubmitaRequest from "./pages/Support/SubmitaRequest";
+import BlogFeatured from "./pages/Blog/BlogFeatured";
+
 
 function App() {
   return (
@@ -74,6 +95,23 @@ function App() {
           <Route path="/HowyouCanAppeal" element={<HowyouCanAppeal />}></Route>
           <Route path="/DiscordTransparencyReport" element={<DiscordTransparencyReport />}></Route>
           <Route path="/WorkingwithLawEnforcement" element={<WorkingwithLawEnforcement />}></Route>
+          <Route path="/Feedback" element={<Feedback />}></Route>
+          <Route path="/CommunityPost" element={<CommunityPost />}></Route>
+          <Route path="/SubmitaRequest" element={<SubmitaRequest />}></Route>
+          <Route path="/Announcement" element={<Announcement />}></Route>
+          <Route path="/DiscordInterface" element={<DiscordInterface />}></Route>
+          <Route path="/AccountSettings" element={<AccountSettings />}></Route>
+          <Route path="/GettingStarted" element={<GettingStarted />}></Route>
+          <Route path="/ServerSetup" element={<ServerSetup />}></Route>
+          <Route path="/CommunityPrograms" element={<CommunityPrograms />}></Route>
+          <Route path="/PerksandSubscriptions" element={<PerksandSubscriptions />}></Route>
+          <Route path="/Billing" element={<Billing />}></Route>
+          <Route path="/TrustySafety" element={<TrustySafety />}></Route>
+          <Route path="/FAQ" element={<FAQ />}></Route>
+          <Route path="/DeveloperHelpCenter" element={<DeveloperHelpCenter />}></Route>
+          <Route path="/BlogFeatured" element={<BlogFeatured />}></Route>
+
+
         </Routes>
       </Router>
     </div>
