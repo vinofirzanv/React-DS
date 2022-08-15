@@ -8,6 +8,7 @@ import ListCategoryDs from "../../components/ListCategoryDs";
 import MenuDiscover from "../../components/MenuDiscover";
 import Gambar1 from "../../assets/Gambar-1.svg";
 import Footer from "../../components/Footer";
+import { Link } from "react-router-dom";
 
 // const uniqueIds = [];
 // const uniqueData = data.filter((element) => {
@@ -76,26 +77,28 @@ function Discover() {
   const filter = (buttons, event, type) => {
     if (type === "search") {
       setSearchInput(event.target.value);
-      const filteredData = data.filter(
-        (item) => {
-          console.log(item.detail.map((it)=>{
-            return it.title
-          }))
-          const titleFilter = item.detail.map((it)=>{
-            return it.title
+      const filteredData = data.filter((item) => {
+        console.log(
+          item.detail.map((it) => {
+            return it.title;
           })
-          return titleFilter.toString().toLowerCase().includes(event.target.value.toString().toLowerCase())
-          // return Object.keys(titleFilter).some(key=>
-          //   item[key].toString().toLowerCase().includes(searchInput.toString().toLowerCase())
-          //   )
-        }
-      );
-      console.log(filteredData)
+        );
+        const titleFilter = item.detail.map((it) => {
+          return it.title;
+        });
+        return titleFilter
+          .toString()
+          .toLowerCase()
+          .includes(event.target.value.toString().toLowerCase());
+        // return Object.keys(titleFilter).some(key=>
+        //   item[key].toString().toLowerCase().includes(searchInput.toString().toLowerCase())
+        //   )
+      });
+      console.log(filteredData);
       // return Object.keys(item).some(key=>
       //   item[key].toString().toLowerCase().includes(searchInput.toString().toLowerCase())
       //   )
       setMenuItem(filteredData);
-  
     } else {
       if (buttons.category === "Featured") {
         setMenuItem(data);
@@ -104,16 +107,11 @@ function Discover() {
           (item) => item.category === buttons.category
         );
         setMenuItem(filteredData);
-  
       }
-  
     }
   };
 
   const [searchInput, setSearchInput] = useState("");
-
-  
-  
 
   // data.map((x) =>
   //   dataBaru?.filter((a) => a.category === x.category && a.logoPath === x.logoPath).length > 0
@@ -124,8 +122,6 @@ function Discover() {
   // let dataSearch = data.filter(item =>{
   //   return item.category.toLowerCase().includes(searchInput.toLowerCase())
   // });
-
- 
 
   return (
     <div>
@@ -229,10 +225,7 @@ function Discover() {
               {count} Results Found
             </div>
 
-            <MenuDiscover
-              data={menuItem}
-              itemsPerPage={4}
-            />
+            <MenuDiscover data={menuItem} itemsPerPage={4} />
           </div>
         </div>
       </div>
@@ -246,11 +239,13 @@ function Discover() {
               </h1>
             </div>
 
-            <div className="flex flex-wrap text-center justify-center">
-              <div className="cursor-pointer rounded-[28px] mr-6 mt-6 inline-flex text-center bg-[#23272a] px-8 font-medium leading-[24px] py-4 text-white box-border">
-                Make Your Community Public
+            <a href="https://support.discord.com/hc/en-us/articles/4673515000983-Discord-Server-Web-Pages">
+              <div className="flex flex-wrap text-center justify-center">
+                <div className="cursor-pointer rounded-[28px] mr-6 mt-6 inline-flex text-center bg-[#23272a] px-8 font-medium leading-[24px] py-4 text-white box-border">
+                  Make Your Community Public
+                </div>
               </div>
-            </div>
+            </a>
           </div>
         </div>
       </div>
@@ -270,11 +265,13 @@ function Discover() {
               clogging up a group chat.
             </p>
 
-            <div className="flex flex-wrap text-center justify-center">
-              <div className="cursor-pointer rounded-[28px] mr-6 mb-32 inline-flex text-center bg-[#23272a] px-8 font-medium leading-[24px] py-4 w-[327px] justify-center text-white box-border">
-                Join Discord
+            <Link to={"/Register"}>
+              <div className="flex flex-wrap text-center justify-center">
+                <div className="cursor-pointer rounded-[28px] mr-6 mb-32 inline-flex text-center bg-[#23272a] px-8 font-medium leading-[24px] py-4 w-[327px] justify-center text-white box-border">
+                  Join Discord
+                </div>
               </div>
-            </div>
+            </Link>
           </div>
         </div>
       </header>

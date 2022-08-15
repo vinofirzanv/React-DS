@@ -81,11 +81,13 @@ function Register() {
 
 
 
-                    <button className="w-full bg-[#5865f2] rounded h-[44px] text-[16px] leading-[24px] mb-[8px] text-white relative flex justify-center text-center py-[2px] px-4">
+                    <div className="w-full bg-[#5865f2] rounded h-[44px] text-[16px] leading-[24px] mb-[8px] text-white relative flex justify-center text-center py-[2px] px-4">
                       <div className="my-auto mx-auto whitespace-nowrap">
+                        <Link to={"/Login"}>
                         Continue
+                        </Link>
                       </div>
-                    </button>
+                    </div>
 
                     <button className="text-[#00aff4] block px-0 mb-[20px] mt-[4px] w-auto h-auto relative text-[14px] font-medium leading-4">
                       <div className="my-0 mx-auto whitespace-nowrap">

@@ -8,7 +8,7 @@ function Card({item}) {
     >
       <a
         href="/"
-        className="col-start-[span_3] col-end-auto hover:shadow-2xl rounded-2xl overflow-hidden bg-white text-black flex cursor-pointer p-[24px] flex-col content-between "
+        className="col-start-[span_3] col-end-auto hover:shadow-2xl rounded-2xl overflow-hidden bg-white text-black flex cursor-pointer mt-5 p-[24px] flex-col content-between "
       >
         <div className="item-container">
           <div className="w-[75%] font-medium text-xl leading-[1.625] mb-5">
@@ -55,7 +55,7 @@ function Menuz({ menuItem }) {
             </div>
 
             {/* //className="w-full box-border grid grid-cols-4 lg:grid-cols-12 gap-5 p-[40px] mx-auto" */}
-            <div className="grid grid-cols-3 box-border w-full gap-5 max-w-[1260px] p-[40px] mx-auto">
+            <div className="lg:grid grid-cols-3 box-border w-full gap-5 max-w-[1260px] py-10 lg:p-[40px] mx-auto">
             {item.detail.map(it => <Card item={it}/>)}
             </div>
           </div>

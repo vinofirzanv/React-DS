@@ -51,7 +51,7 @@ function Careers() {
           <div className="bg-[#5865f2]">
             <Header></Header>
             <div className="py-[120px] ">
-              <div className="mx-auto w-full max-w-[1260px] gird box-border grid-cols-12 py-0 px-[40px] gap-5">
+              <div className="mx-auto w-full max-w-[1260px]  box-border lg:grid-cols-12 py-0 lg:px-[40px] gap-5">
                 <div className="grid-cols-12 w-full flex justify-center">
                   <a href="/" className="text-black text-center mb-8">
                     {" "}
@@ -61,10 +61,10 @@ function Careers() {
                     </button>
                   </a>
                 </div>
-                <h1 className="grid-cols-12 text-white text-center text-[56px] font-extrabold uppercase">
+                <h1 className="grid-cols-12 text-white text-center text-4xl lg:text-[56px] font-extrabold uppercase">
                   Work at Discord
                 </h1>
-                <div className="col-span-4 mt-[40px] text-white text-center text-xl px-40">
+                <div className="col-span-4 mt-[40px] text-white text-center text-xl lg:px-40">
                   Discord is home to passionate people who value our
                   mission—giving you the power to create belonging in your life.
                 </div>
@@ -72,7 +72,7 @@ function Careers() {
 
               <div className="mx-auto grid w-full max-w-[1260px] box-border grid-cols-12 py-0 px-[40px] gap-5">
                 <div className="relative col-start-3 col-end-[span_8] pt-[120px] ">
-                  <div className="relative z-50 rounded-2xl w-full block pb-[56.25%]">
+                  <div className="lg:relative z-50 rounded-2xl w-full block pb-[56.25%]">
                     <iframe
                       src="https://www.youtube.com/embed/hX9MOVIMYkg"
                       className="absolute top-0 left-0 w-full h-full will-change-[opacity]"

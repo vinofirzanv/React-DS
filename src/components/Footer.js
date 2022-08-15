@@ -26,82 +26,82 @@ function Footer() {
   ];
 
   let Links2 = [
-    { name: "Download", link: "/" },
+    { name: "Download", link: "/Download" },
 
-    { name: "Nitro", link: "/" },
+    { name: "Nitro", link: "/Nitro" },
 
     {
       name: "Status",
-      link: "https://www.youtube.com/discord",
+      link: "https://discordstatus.com/",
     },
   ];
 
   let Links3 = [
-    { name: "About", link: "/" },
+    { name: "About", link: "/Careers" },
 
-    { name: "Jobs", link: "/" },
+    { name: "Jobs", link: "/Careers" },
 
     {
       name: "Branding",
-      link: "https://www.youtube.com/discord",
+      link: "https://discord.com/branding",
     },
     {
       name: "Newsroom",
-      link: "https://www.youtube.com/discord",
+      link: "https://discord.com/newsroom",
     },
   ];
 
   let Links4 = [
     { name: "College", link: "/" },
 
-    { name: "Support", link: "/" },
+    { name: "Support", link: "/Support" },
 
     {
       name: "Safety",
-      link: "https://www.youtube.com/discord",
+      link: "/Safety",
     },
     {
       name: "Blog",
-      link: "https://www.youtube.com/discord",
+      link: "/Blog",
     },
     {
       name: "Feedback",
-      link: "https://www.youtube.com/discord",
+      link: "/Feedback",
     },
     {
       name: "Developers",
-      link: "https://www.youtube.com/discord",
+      link: "https://discord.com/developers/docs/intro",
     },
     {
       name: "Streamkit",
-      link: "https://www.youtube.com/discord",
+      link: "https://discord.com/streamkit",
     },
   ];
 
   let Links5 = [
-    { name: "Terms", link: "/" },
+    { name: "Terms", link: "https://discord.com/terms" },
 
-    { name: "Privacy", link: "/" },
+    { name: "Privacy", link: "https://discord.com/privacy" },
 
     {
       name: "Cookie Settings",
-      link: "https://www.youtube.com/discord",
+      link: "/",
     },
     {
       name: "Guidelines",
-      link: "https://www.youtube.com/discord",
+      link: "https://discord.com/guidelines",
     },
     {
       name: "Acknowledgements",
-      link: "https://www.youtube.com/discord",
+      link: "https://discord.com/acknowledgements",
     },
     {
       name: "Licenses",
-      link: "https://www.youtube.com/discord",
+      link: "https://discord.com/licenses",
     },
     {
       name: "Moderation",
-      link: "https://www.youtube.com/discord",
+      link: "https://discord.com/moderation",
     },
   ];
 

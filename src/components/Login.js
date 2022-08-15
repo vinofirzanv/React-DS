@@ -55,11 +55,11 @@ function Login() {
                       </div>
                     </button>
 
-                    <button className="w-full bg-[#5865f2] rounded h-[44px] text-[16px] leading-[24px] mb-[8px] text-white relative flex justify-center text-center py-[2px] px-4">
+                    <div className="w-full bg-[#5865f2] rounded h-[44px] text-[16px] leading-[24px] mb-[8px] text-white relative flex justify-center text-center py-[2px] px-4">
                       <div className="my-auto mx-auto whitespace-nowrap">
-                       <Link to={"/Content"}> Login  </Link> 
+                       <Link to={"/"}> Login  </Link> 
                       </div>
-                    </button>
+                    </div>
 
                     <div className="mt-[4px] ">
                       <span className="text-[14px] leading-[16px]">
