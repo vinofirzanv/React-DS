@@ -320,7 +320,7 @@ function ControllingExperience1() {
       </header>
 
       <div className="container mx-auto">
-        <div className="mt-[56px] mb-[96px] w-full max-w-[1260px] grid box-border grid-cols-12 gap-y-0 gap-x-5 py-0 px-[24px]">
+        <div className="mt-[56px] mb-[96px] w-full max-w-[1260px] lg:grid box-border grid-cols-12 gap-y-0 gap-x-5 py-0 px-[24px]">
           <div className="col-start-10 col-end-[span_3] block">
             <div className="sticky bg-[#f6f6f6] rounded-lg p-[24px] top-[20px] ">
               <div className="text-[12px] leading-[20px] font-bold uppercase text-[#23272a]">
@@ -363,7 +363,7 @@ function ControllingExperience1() {
             </div>
           </div>
 
-          <div className="col-start-1 col-end-[span_9] mt-0 row-start-1 row-end-auto">
+          <div className="col-start-1 col-end-[span_9] mt-10 lg:mt-0 row-start-1 row-end-auto">
             <div className="text-[#4f5660] text-[16px] leading-[24px]">
               <h5
                 className="text-[#23272a] mb-4 text-[24px] leading-[120%] font-bold"

@@ -56,6 +56,13 @@ import Feedback from "./pages/Support/Feedback";
 import CommunityPost from "./pages/Support/CommunityPost";
 import SubmitaRequest from "./pages/Support/SubmitaRequest";
 import BlogFeatured from "./pages/Blog/BlogFeatured";
+import Community from "./pages/Blog/Collections/Community";
+import DiscordHQ from "./pages/Blog/Collections/DiscordHQ";
+import EngineeringDesign from "./pages/Blog/Collections/EngineeringDesign";
+import PolicySafety from "./pages/Blog/Collections/PolicySafety";
+import ProductFeatures from "./pages/Blog/Collections/ProductFeatures";
+import HowtoDiscord from "./pages/Blog/Collections/HowtoDiscord";
+
 
 
 function App() {
@@ -110,8 +117,14 @@ function App() {
           <Route path="/FAQ" element={<FAQ />}></Route>
           <Route path="/DeveloperHelpCenter" element={<DeveloperHelpCenter />}></Route>
           <Route path="/BlogFeatured" element={<BlogFeatured />}></Route>
-
-
+          <Route path="/Community" element={<Community />}></Route>
+          <Route path="/DiscordHQ" element={<DiscordHQ />}></Route>
+          <Route path="/EngineeringDesign" element={<EngineeringDesign />}></Route>
+          <Route path="/PolicySafety" element={<PolicySafety />}></Route>
+          <Route path="/ProductFeatures" element={<ProductFeatures />}></Route>
+          <Route path="/HowtoDiscord" element={<HowtoDiscord />}></Route>
+          
+          
         </Routes>
       </Router>
     </div>

@@ -47,7 +47,8 @@ function HeaderBlack() {
           </div>
           <div
             className={
-              "justify-between items-center w-full md:flex md:w-auto md:order-1" +
+              
+              "justify-between items-center w-full md:w-auto lg:flex md:order-1 mt-2 rounded-lg bg-white lg:bg-[#23272a] z-10 px-10" +
               (navbarOpen ? " flex" : " hidden")
             }
             id="example-navbar-danger"
@@ -56,7 +57,7 @@ function HeaderBlack() {
             {Links.map((link) => (
               <li
                 key={link.name}
-                className="md:ml-8 text-xl md:my-0 my-7 text-white hover:underline"
+                className="md:ml-8 text-xl md:my-0 my-7 lg:text-white text-black hover:underline"
               >
                 <Link to={link.link}>{link.name}</Link>
               </li>

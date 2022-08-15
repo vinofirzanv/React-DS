@@ -19,12 +19,12 @@ function Download() {
   return (
     <Fragment>
       <HeaderBlack></HeaderBlack>
-      <header className="bg-[#23272a] lg:py-40 px-2 lg:pt-52 sm:px-4 py-2.5 dark:bg-gray-800">
-        <div className="container flex flex-wrap flex-row lg:flex-row-reverse my-auto mx-auto">
-          <div className="w-full text-black  lg:pl-40 lg:w-1/2">
+      <header className="bg-[#23272a] lg:py-40 px-2 lg:pt-40 sm:px-4 py-2.5 dark:bg-gray-800">
+        <div className="container flex flex-wrap flex-row lg:flex-row-reverse lg:my-auto lg:mx-auto px-5 mt-5 ">
+          <div className="w-full h-full hidden lg:block text-black  lg:pl-20 lg:w-1/2">
             <img className="" src={DownloadBanner} alt="Gambar2" />
           </div>
-          <div className="w-full lg:pl-4 lg:pt-6 lg:w-1/2 text-white">
+          <div className="w-full lg:pl-5 lg:pt-6 lg:w-1/2 text-white">
             <h1 className="font-bold text-3xl lg:text-5xl pt-3 mb-5">
               GET DISCORD FOR ANY DEVICE
             </h1>
@@ -32,7 +32,7 @@ function Download() {
               An adventure awaits. Hang out with your friends on our desktop app
               and keep the conversation going on mobile.
             </h2>
-            <div className="cursor-pointer w-auto rounded-[28px] lg:inline-flex lg:mr-5  mt-6 inline-flex text-center bg-[#5865f2] px-8 font-medium leading-[24px] py-4 text-white box-border fill-white">
+            <div className="cursor-pointer w-full items-center justify-center lg:w-auto rounded-[28px] lg:inline-flex lg:mr-5  my-6 inline-flex text-center bg-[#5865f2] px-8 font-medium leading-[24px] py-4 text-white box-border fill-white">
               <svg
                 width="24px"
                 height="24px"
@@ -119,10 +119,12 @@ function Download() {
           </div>
         </div>
       </div> */}
-      <div className="w-full px-[120px] flex flex-col items-center my-[50px] ">
-        <div className="w-full box-border grid grid-cols-8 gap-5 py-0 px-[40px] container">
-          <div className="grid-rows-[156px_auto_156px_auto_156px] grid-cols-[1fr_1fr] col-span-12 grid gap-5">
-            <div className="h-[600px] rounded-2xl p-[56px] col-start-[span_1] col-end-auto row-start-[span_2] row-end-auto bg-[#f6f6f6] mx-auto overflow-hidden">
+      
+      <div className="w-full px-[85px] lg:px-[120px] flex flex-col items-center my-[50px] ">
+        <div className="w-full box-border grid grid-cols-8 gap-5 py-0 lg:px-[40px] container">
+          <div className="lg:grid-rows-[156px_auto_156px_auto_156px] lg:grid-cols-[1fr_1fr] col-span-12 grid gap-5">
+            
+            <div className="h-[600px] rounded-2xl p-[56px] lg:col-start-[span_1] lg:col-end-auto lg:row-start-[span_2] lg:row-end-auto bg-[#f6f6f6] mx-auto overflow-hidden">
               <div className="flex flex-col items-center">
                 <h3 className="font-medium text-3xl">iOS</h3>
                 <a
@@ -137,7 +139,7 @@ function Download() {
               </div>
             </div>
 
-            <div className="h-[600px] rounded-2xl p-[56px] col-start-2 col-end-auto row-start-2 row-end-[span_2] bg-[#f6f6f6] mx-auto overflow-hidden">
+            <div className="h-[600px] rounded-2xl p-[56px] lg:col-start-2 lg:col-end-auto row-start-2 row-end-[span_2] bg-[#f6f6f6] lg:mx-auto overflow-hidden">
               <div className="flex flex-col items-center">
                 <h3 className="font-medium text-3xl">Android</h3>
                 <a

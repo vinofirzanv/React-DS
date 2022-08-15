@@ -168,10 +168,10 @@ function Discover() {
         className="relative overflow-hidden flex flex-col center h-[400px] pb-0 w-full grid-cols-12 mb-[48px] "
         style={bgf}
       >
-        <div className=" mx-auto w-full max-w-[1260px] px-40 pt-[60px] pb-[120px]  box-border grid grid-cols-12 gap-x-[20px] gap-y-0 p-10">
-          <div className="col-start-2 col-end-[col-span-8] text-center text-white z-10">
+        <div className=" mx-auto w-full max-w-[1260px] lg:px-40 pt-[60px] pb-[120px]  box-border lg:grid grid-cols-12 gap-x-[20px] gap-y-0 p-10">
+          <div className="col-start-2 col-end-[col-span-8] lg:text-center text-white z-10">
             <div className="mb-2 mt-[40px] w-full">
-              <h1 className="text-[44px] text-white font-extrabold leading-[95%] uppercase">
+              <h1 className="text-[30px] lg:text-[44px] text-white font-extrabold leading-[95%] uppercase">
                 Find your community on discord
               </h1>
               <div className="mt-[16px] text-[16px] font-medium leading-[18px] text-[#fff]">
@@ -193,7 +193,7 @@ function Discover() {
       </div>
 
       <div className="w-full flex items-center flex-col container mx-auto">
-        <div className="w-full box-border grid grid-cols-12 gap-x-[20px] py-0 px-[40px] gap-y-0">
+        <div className="w-full box-border lg:grid grid-cols-12 gap-x-[20px] py-0 px-[40px] gap-y-0">
           <div className="col-start-2 col-end-[span_10] mb-[40px] h-[52px] flex ">
             <div className="mr-[16px] flex-1 text-[16px] pr-[16px] h-auto flex items-center rounded-lg bg-[#e3e5e8]">
               <div className="flex-1 flex flex-col">
@@ -222,7 +222,7 @@ function Discover() {
           </div>
         </div>
 
-        <div className="w-full box-border grid grid-cols-12 gap-y-0 gap-x-5 px-[40px] container mx-auto">
+        <div className="w-full box-border lg:grid grid-cols-12 gap-y-0 gap-x-5 px-[40px] container mx-auto">
           <ListCategoryDs button={buttons} filter={filter}></ListCategoryDs>
           <div className="col-start-[span_7] col-end-auto">
             <div className="text-[20px] leading-[24px] text-black font-bold mb-[16px]">
@@ -241,7 +241,7 @@ function Discover() {
         <div className=" mx-auto my-auto w-full max-w-[1260px] box-border grid grid-cols-12  ">
           <div className="col-start-2 col-end-[col-span-8] text-center text-white z-10">
             <div className="mb-2">
-              <h1 className="text-4xl font-extrabold ">
+              <h1 className="text-2xl lg:text-4xl font-extrabold ">
                 Have a server you want to add to Discovery?
               </h1>
             </div>
@@ -271,7 +271,7 @@ function Discover() {
             </p>
 
             <div className="flex flex-wrap text-center justify-center">
-              <div className="cursor-pointer rounded-[28px] mr-6 mt-6 inline-flex text-center bg-[#23272a] px-8 font-medium leading-[24px] py-4 w-[327px] justify-center text-white box-border">
+              <div className="cursor-pointer rounded-[28px] mr-6 mb-32 inline-flex text-center bg-[#23272a] px-8 font-medium leading-[24px] py-4 w-[327px] justify-center text-white box-border">
                 Join Discord
               </div>
             </div>

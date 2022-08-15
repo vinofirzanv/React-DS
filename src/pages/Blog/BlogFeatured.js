@@ -63,35 +63,35 @@ function BlogFeatured() {
                     className={`absolute z-10 top-10 left-4 p-4  box-border drop-shadow-lg  text-black bg-white ${
                       isHovering ? "" : "hidden" }`}
                   >
-                    <li className="block rounded-lg  ">
-                      <a href="support.js" className="block p-2 cursor-pointer hover:text-blue-700 ">
+                  <li className="block rounded-lg  ">
+                      <Link to={"/Community"} className="block p-2 cursor-pointer hover:text-blue-700 ">
                       Community
-                      </a>
+                      </Link>
                     </li>
                     <li className="block rounded-lg ">
-                    <a href="support.js" className="block p-2 cursor-pointer hover:text-blue-700 ">
+                    <Link to={"/DiscordHQ"} className="block p-2 cursor-pointer hover:text-blue-700 ">
                       Discord HQ
-                      </a>
+                      </Link>
                     </li>
                     <li className="block rounded-lg  ">
-                    <a href="support.js" className="block p-2 cursor-pointer hover:text-blue-700 ">
+                    <Link to={"/EngineeringDesign"} className="block p-2 cursor-pointer hover:text-blue-700 ">
                       Engineering & Design
-                      </a>
+                      </Link>
                     </li>
                     <li className="block rounded-lg ">
-                    <a href="support.js" className="block p-2 cursor-pointer hover:text-blue-700 ">
+                    <Link to={"/PolicySafety"} className="block p-2 cursor-pointer hover:text-blue-700 ">
                       Policy & Safety
-                      </a>
+                      </Link>
                     </li>
                     <li className="block rounded-lg ">
-                    <a href="support.js" className="block p-2 cursor-pointer hover:text-blue-700 ">
+                    <Link to={"/ProductFeatures"} className="block p-2 cursor-pointer hover:text-blue-700 ">
                       Product & Features
-                      </a>
+                      </Link>
                     </li>
                     <li className="block rounded-lg ">
-                    <a href="support.js" className="block p-2 cursor-pointer hover:text-blue-700 ">
+                    <Link to={"/ResourcesEducation"} className="block p-2 cursor-pointer hover:text-blue-700 ">
                       Resources & Education
-                      </a>
+                      </Link>
                     </li>
           
                   </ul>

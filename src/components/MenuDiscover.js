@@ -75,7 +75,7 @@ function Card({ item }) {
       <a href="/" className="flex flex-row ">
         <img
           src={item.gambar}
-          className="object-cover h-[144px] max-w-[256px] w-full rounded-lg mr-4"
+          className="hidden lg:inline-block object-cover h-[144px] max-w-[256px] w-full rounded-lg mr-4"
           alt="gambar"
         />
 
@@ -105,7 +105,7 @@ function Card({ item }) {
             </div>
           </div>
 
-          <div className="flex mt-auto bg-[#e2e5e8] py-1 px-2 rounded w-fit">
+          <div className="hidden lg:flex mt-auto bg-[#e2e5e8] py-1 px-2 rounded w-fit">
             <div className="mr-1">
               <div className="w-4 h-4 flex relative justify-center items-center">
                 <svg

@@ -17,34 +17,34 @@ function Nitro() {
       <Header></Header>
       <div className="relative ">
         <div className=" bg-gradient-to-r from-[#b473f5] to-[#e292aa] w-full flex items-center flex-col  ">
-          <div className="container mt-[120px] mb-[176px]  box-border grid grid-cols-12 p-[40px] gap-y-0 gap-x-[20px]">
-            <div className="col-start-1 col-end-[span_6] relative z-30">
+          <div className="container mt-[120px] mb-[176px]  box-border grid lg:grid-cols-12 p-[40px] gap-y-0 gap-x-[20px]">
+            <div className="lg:col-start-1 lg:col-end-[span_6]  relative z-30">
               <img
-                className="mx-0 mt-0 block w-[300px]  "
+                className="mx-8 mt-0 block lg:w-[300px]  "
                 src={Nitros}
                 alt="Gambar1"
               />
             </div>
 
-            <div className="col-start-1 col-end-[_span_6] relative text-left text-white mt-[40px] text-[24px] leading-[140%] z-30">
+            <div className="lg:col-start-1 lg:col-end-[span_6]  relative text-center lg:text-left text-white mt-[40px] lg:text-[24px] leading-[140%] mx-5 z-30">
               Get a enhanced Discord experience for one low monthly cost.
               Upgrade your emoji, enjoy bigger file uploads, stand out in your
               favorite Discords, and more.
             </div>
 
-            <div className="col-start-1 col-end-[span_6] flex flex-wrap mt-[40px] z-30">
-              <button className="mr-[42px] w-auto mb-[24px] inline-flex py-[16px] px-[32px] rounded-[28px] items-center justify-center shadow-slate-700 hover:shadow-2xl  bg-black text-white text-[20px] leading-6 font-medium cursor-pointer">
+            <div className="lg:col-start-1 lg:col-end-[span_6] flex flex-wrap mt-[40px] z-30">
+              <button className="lg:mr-[42px] w-full lg:w-auto mb-[24px] inline-flex py-[16px]  lg:px-[32px] rounded-[28px] items-center justify-center shadow-slate-700 hover:shadow-2xl  bg-black text-white text-[20px] leading-6 font-medium cursor-pointer">
                 $99.99 per year{" "}
                 <div className="bg-[#5865f2] rounded-3xl py-0 px-2 ml-[10px] text-[12px] leading-6">
                   16% off
                 </div>
               </button>
-              <button className=" w-auto mb-[24px] inline-flex py-[16px] px-[32px] rounded-[28px] items-center shadow-slate-700 hover:shadow-2xl justify-center bg-black text-white text-[20px] leading-6 font-medium cursor-pointer">
+              <button className=" lg:w-auto w-full mb-[24px] inline-flex py-[16px] lg:px-[32px] rounded-[28px] items-center shadow-slate-700 hover:shadow-2xl justify-center bg-black text-white text-[20px] leading-6 font-medium cursor-pointer">
                 $9.99 per month
               </button>
             </div>
 
-            <div className="absolute top-0 left-0 overflow-hidden z-10 w-full h-full">
+            <div className="hidden lg:flex absolute top-0 left-0 overflow-hidden z-10 w-full h-full">
               <video
                 src={videoHeader}
                 loop
@@ -60,12 +60,12 @@ function Nitro() {
       </div>
 
       <div className="container w-full flex flex-col mx-auto items-center ">
-        <div className=" pt-[120px] w-full grid box-border py-0 px-[40px] gap-x-20 gap-y-0 text-black grid-cols-12">
-          <h2 className="col-span-12 text-center text-[40px] font-extrabold leading-[95%] uppercase">
+        <div className=" pt-[120px] w-full lg:grid box-border py-0 px-[40px] gap-x-20 gap-y-0 text-black lg:grid-cols-12">
+          <h2 className="lg:col-span-12 text-center text-[20px] lg:text-[40px] font-extrabold leading-[95%] uppercase">
             DISCORD NITRO ENHANCES YOUR ALL-IN-ONE DISCORD VOICE, VIDEO, AND
             TEXT CHAT.
           </h2>
-          <div className="col-span-12 text-center text-[24px] leading-[140%] mt-[24px]">
+          <div className="col-span-12 text-center lg:text-[24px] leading-[140%] mt-[24px]">
             Check out the perks you'll get.
           </div>
         </div>
@@ -114,41 +114,41 @@ function Nitro() {
           ></Card>
         </div>
 
-        <div className="py-[120px] w-full grid grid-cols-12 gap-x-5 gap-y-0 px-[40px]">
-          <h3 className="text-center text-black col-span-12 leading-[120%] font-medium text-[32px]">
+        <div className="py-[120px] w-full lg:grid grid-cols-12 gap-x-5 gap-y-0 px-[40px]">
+          <h3 className="text-center text-black col-span-12 leading-[120%] font-semibold lg:text-[32px]">
             Doitdoitdoitdoitdoitdoit
           </h3>
-          <button className="col-start-3 col-end-[span_4] inline-flex mt-[40px] py-[16px] px-[32px] rounded-[28px] justify-center bg-black shadow-slate-700 hover:shadow-2xl text-white text-[20px] leading-6 font-medium cursor-pointer">
+          <button className="w-full col-start-3 col-end-[span_4] inline-flex mt-[40px] py-[16px] px-[32px] rounded-[28px] justify-center bg-black shadow-slate-700 hover:shadow-2xl text-white text-[20px] leading-6 font-medium cursor-pointer">
             $99.99 per year{" "}
             <div className="bg-[#5865f2] rounded-3xl py-0 px-2 ml-[10px] text-[12px] leading-6">
               16% off
             </div>
           </button>
-          <button className="col-span-4 col-end-auto mt-[40px] py-[16px] px-[32px] rounded-[28px] justify-center bg-black text-white text-[20px]  shadow-slate-700 hover:shadow-2xl leading-6 font-medium cursor-pointer">
+          <button className="w-full col-span-4 col-end-auto mt-[40px] py-[16px] px-[32px] rounded-[28px] justify-center bg-black text-white text-[20px]  shadow-slate-700 hover:shadow-2xl leading-6 font-medium cursor-pointer">
             $9.99 per month
           </button>
         </div>
       </div>
 
       <div className="flex flex-col bg-[#7289da] relative text-white text-center pt-[120px] pb-[150px] w-full ">
-        <div className="w-full containter grid grid-cols-12 gap-y-0 gap-x-5 py-0 px-[40px] ">
+        <div className="w-full containter lg:grid grid-cols-12 gap-y-0 gap-x-5 py-0 px-[40px] ">
           <div className="col-start-7 col-end-[span_6]">
             <img
               className="w-[200px] "
               src={NitrosClassic}
               alt="Nitro Classic"
             />
-            <div className="mt-[24px] text-white text-[20px] leading-[1.625]">
+            <div className="text-left mt-[24px] text-white text-[20px] leading-[1.625]">
               Keep it simple — get the base chat perks without a Server Boost.
             </div>
             <div className="flex flex-wrap mt-[32px]">
-              <button className="mr-[42px] w-auto mb-[24px] inline-flex py-[16px] px-[32px] rounded-[28px] items-center justify-center shadow-slate-700 hover:shadow-2xl  bg-black text-white text-[20px] leading-6 font-medium cursor-pointer">
+              <button className="lg:mr-[42px] w-full lg:w-auto mb-[24px] inline-flex py-[16px] px-[32px] rounded-[28px] items-center justify-center shadow-slate-700 hover:shadow-2xl  bg-black text-white text-[20px] leading-6 font-medium cursor-pointer">
                 $99.99 per year{" "}
                 <div className="bg-[#5865f2] rounded-3xl py-0 px-2 ml-[10px] text-[12px] leading-6">
                   16% off
                 </div>
               </button>
-              <button className=" w-auto mb-[24px] inline-flex py-[16px] px-[32px] rounded-[28px] items-center shadow-slate-700 hover:shadow-2xl justify-center bg-black text-white text-[20px] leading-6 font-medium cursor-pointer">
+              <button className="w-full lg:w-auto mb-[24px] inline-flex py-[16px] px-[32px] rounded-[28px] items-center shadow-slate-700 hover:shadow-2xl justify-center bg-black text-white text-[20px] leading-6 font-medium cursor-pointer">
                 $9.99 per month
               </button>
             </div>

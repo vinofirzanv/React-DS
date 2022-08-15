@@ -299,17 +299,17 @@ function Safety() {
             </ul>
           </div>
 
-          <div className="font-bold text-white lg:font-bold lg:text-7xl text-4xl lg:pl-10 my-5">
+          <div className="font-bold text-white lg:font-bold lg:text-7xl text-3xl lg:pl-10 my-5 mx-5">
             <h1>DISCORD SAFETY CENTER</h1>
           </div>
 
-          <div className="flex flex-wrap lg:flex-row-reverse">
+          <div className="flex flex-wrap lg:flex-row-reverse mx-5">
             <div className="my-5 lg:w-1/2">
               <img src={Safetyz} alt="Gambar 1"></img>
             </div>
 
-            <div className="lg:w-1/2 lg:my-5 lg:pl-10 lg:pt-14">
-              <div className="lg:mb-5 ">
+            <div className="lg:w-1/2 lg:my-5 lg:pl-10 lg:pt-14 text-white mb-5 ">
+              <div className="mb-5 ">
                 <p>
                   Discord is a place dedicated to talking and hanging out with
                   your friends, family and communities. Millions of diverse
@@ -335,14 +335,14 @@ function Safety() {
         </div>
       </header>
 
-      <header className="bg-[#f6f6f6] pt-32 pb-32 border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-800">
+      <header className="bg-[#f6f6f6] lg:pt-32 lg:pb-32 border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-800">
         <div className="container mx-auto flex flex-wrap">
           <div>
-            <div className="font-bold text-black lg:font-bold lg:text-5xl text-4xl lg:pl-10 my-5">
+            <div className="font-bold text-black font-extraboldlg:text-5xl text-2xl lg:pl-10 mx-5 my-5">
               <h1>PRINCIPLES</h1>
             </div>
-            <div className="lg:pl-10 lg:pr-10 text-[#4f5660] ">
-              <div className="lg:mb-5 mb-10 ">
+            <div className="lg:pl-10 lg:pr-10 text-[#4f5660] mx-5 ">
+              <div className="lg:mb-5 mb-10 text-[15px]">
                 <p>
                   We want to make sure that Discord has the ability for everyone
                   to have a safe, positive and inclusive experience, no matter
@@ -364,9 +364,9 @@ function Safety() {
             </div>
           </div>
 
-          <div className="box-border grid lg:grid-cols-12 lg:mx-10 lg:mb-16 gap-x-0 gap-y-5">
-            <div className=" mt-14 col-span-4">
-              <h3 className="mb-2 font-medium text-4xl">
+          <div className="box-border grid lg:grid-cols-12 lg:mx-10 lg:mb-16 gap-x-0 gap-y-5 mx-5">
+            <div className=" lg:mt-14 col-span-4">
+              <h3 className="mb-2 font-bold lg:text-4xl">
                 We’re determined to make sure that Discord will always be a
                 welcoming place for you.
               </h3>
@@ -378,8 +378,8 @@ function Safety() {
 
             <div className="block col-span-2"></div>
 
-            <div className="col-span-5 mt-14">
-              <h3 className="mb-2 font-medium text-4xl">
+            <div className="col-span-5 lg:mt-14">
+              <h3 className="mb-2 font-bold lg:text-4xl">
                 Privacy is incredibly important to us.
               </h3>
               <div className="text-[#4f5660]">
@@ -389,8 +389,8 @@ function Safety() {
               </div>
             </div>
 
-            <div className=" mt-14 col-span-4">
-              <h3 className="mb-2 font-medium text-4xl">
+            <div className=" lg:mt-14 col-span-4">
+              <h3 className="mb-2 font-bold lg:text-4xl">
                 Safety is just as important.
               </h3>
               <div className="text-[#4f5660]">
@@ -404,8 +404,8 @@ function Safety() {
 
             <div className="block col-span-2"></div>
 
-            <div className="col-span-5 mt-14">
-              <h3 className="mb-2 font-medium text-4xl">
+            <div className="col-span-5 lg:mt-14">
+              <h3 className="mb-2 font-bold lg:text-4xl">
                 Finally, Discord is pseudonymous.
               </h3>
               <div className="text-[#4f5660]">
@@ -419,11 +419,11 @@ function Safety() {
         </div>
       </header>
 
-      <header className="bg-white pt-32 pb-32 flex-col">
+      <header className="bg-white lg:pt-32 lg:pb-32 flex-col">
         <div className="grid container mx-auto box-border lg:grid-cols-12 p-10 gap-x-0 gap-y-5">
           <div className="col-span-4 mt-0">
-            <h3 className="font-bold text-4xl">Controlling Your Experience</h3>
-            <div className="mt-6 text-[#4f5660] text-2xl ">
+            <h3 className="font-bold lg:text-4xl">Controlling Your Experience</h3>
+            <div className="mt-6 text-[#4f5660] lg:text-2xl ">
               These resources will help you learn how you can create the best
               Discord experience for you. We cover everything from account tips,
               to server management, to how to report problems directly to our
@@ -431,7 +431,7 @@ function Safety() {
             </div>
           </div>
           <div className="block col-span-1"></div>
-          <div className="col-span-7 text-2xl   mt-0">
+          <div className="col-span-7 lg:text-2xl   mt-0">
             <div className="text-[#31bff6] hover:underline cursor-pointer">
               <Link to={"/ControllingExperience1"}>Four steps to a super safe account</Link>
             </div>
@@ -460,11 +460,11 @@ function Safety() {
         </div>
       </header>
 
-      <header className="bg-[#F6F6F6] pt-32 pb-32 flex-col">
+      <header className="bg-[#F6F6F6] lg:pt-32 lg:pb-32 flex-col">
         <div className="grid container mx-auto box-border lg:grid-cols-12 p-10 gap-x-0 gap-y-5">
           <div className="col-span-4 mt-0">
-            <h3 className="font-bold text-4xl">Parents & Educators</h3>
-            <div className="mt-6 text-[#4f5660] text-xl ">
+            <h3 className="font-bold lg:text-4xl">Parents & Educators</h3>
+            <div className="mt-6 text-[#4f5660] lg:text-xl ">
               We know that teenagers and students are excited about
               communicating on Discord, which can lead to questions from parents
               and educators. Here you can find our top tips for your teens and
@@ -472,7 +472,7 @@ function Safety() {
             </div>
           </div>
           <div className="block col-span-1"></div>
-          <div className="col-span-7 text-2xl   mt-0">
+          <div className="col-span-7 lg:text-2xl   mt-0">
             <div className="text-[#31bff6] hover:underline cursor-pointer">
             <Link to={"/WhatisDiscord"}>What is Discord? </Link>
             </div>
@@ -501,11 +501,11 @@ function Safety() {
         </div>
       </header>
 
-      <header className="bg-white pt-32 pb-32 flex-col">
+      <header className="bg-white lg:pt-32 lg:pb-32 flex-col">
         <div className="grid container mx-auto box-border lg:grid-cols-12 p-10 gap-x-0 gap-y-5">
           <div className="col-span-4 mt-0">
-            <h3 className="font-bold text-4xl">How We Enforce Rules</h3>
-            <div className="mt-6 text-[#4f5660] text-xl ">
+            <h3 className="font-bold lg:text-4xl">How We Enforce Rules</h3>
+            <div className="mt-6 text-[#4f5660] lg:text-xl ">
               These articles help provide clarity about how we address different
               situations on Discord, from how we investigate to how we work with
               3rd parties like law enforcement. You can also find our annual
@@ -513,7 +513,7 @@ function Safety() {
             </div>
           </div>
           <div className="block col-span-1"></div>
-          <div className="col-span-7 text-2xl  mt-0">
+          <div className="col-span-7 lg:text-2xl  mt-0">
             <div className="text-[#31bff6] hover:underline cursor-pointer">
             <Link to={"/OurPolicies"}>Our policies</Link>
             </div>

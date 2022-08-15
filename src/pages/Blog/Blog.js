@@ -86,34 +86,34 @@ function Blog() {
                       isHovering ? "" : "hidden" }`}
                   >
                     <li className="block rounded-lg  ">
-                      <a href="support.js" className="block p-2 cursor-pointer hover:text-blue-700 ">
+                      <Link to={"/Community"} className="block p-2 cursor-pointer hover:text-blue-700 ">
                       Community
-                      </a>
+                      </Link>
                     </li>
                     <li className="block rounded-lg ">
-                    <a href="support.js" className="block p-2 cursor-pointer hover:text-blue-700 ">
+                    <Link to={"/DiscordHQ"} className="block p-2 cursor-pointer hover:text-blue-700 ">
                       Discord HQ
-                      </a>
+                      </Link>
                     </li>
                     <li className="block rounded-lg  ">
-                    <a href="support.js" className="block p-2 cursor-pointer hover:text-blue-700 ">
+                    <Link to={"/EngineeringDesign"} className="block p-2 cursor-pointer hover:text-blue-700 ">
                       Engineering & Design
-                      </a>
+                      </Link>
                     </li>
                     <li className="block rounded-lg ">
-                    <a href="support.js" className="block p-2 cursor-pointer hover:text-blue-700 ">
+                    <Link to={"/PolicySafety"} className="block p-2 cursor-pointer hover:text-blue-700 ">
                       Policy & Safety
-                      </a>
+                      </Link>
                     </li>
                     <li className="block rounded-lg ">
-                    <a href="support.js" className="block p-2 cursor-pointer hover:text-blue-700 ">
+                    <Link to={"/ProductFeatures"} className="block p-2 cursor-pointer hover:text-blue-700 ">
                       Product & Features
-                      </a>
+                      </Link>
                     </li>
                     <li className="block rounded-lg ">
-                    <a href="support.js" className="block p-2 cursor-pointer hover:text-blue-700 ">
+                    <Link to={"/ResourcesEducation"} className="block p-2 cursor-pointer hover:text-blue-700 ">
                       Resources & Education
-                      </a>
+                      </Link>
                     </li>
           
                   </ul>
@@ -175,10 +175,10 @@ function Blog() {
         </header>
       </div>
 
-      <div className="h-[410px] pt-[72px] bg-[#404eed] uppercase"></div>
+      <div className="lg:h-[410px] h-[150px] pt-[72px] bg-[#404eed] uppercase"></div>
 
       <div className="my-[100px]">
-        <div className="mt-[-442px] mb-[120px] relative block w-auto max-w-[1480px] min-h-[80px] mx-auto px-[40px] object-fill">
+        <div className="lg:mt-[-442px] mt-[-200px] mb-[120px] relative block w-auto max-w-[1480px] min-h-[80px] mx-auto px-[40px] object-fill">
           <div className="px-[16px]">
             <div className="transition-all">
               <div className="transition-all">
@@ -186,7 +186,7 @@ function Blog() {
                   <img
                     alt="Gambar1"
                     src={Blog1}
-                    className="relative w-full min-h-[352px] rounded-lg opacity-[1]"
+                    className="relative lg:w-full lg:min-h-[352px] rounded-lg opacity-[1]"
                   ></img>
                 </a>
               </div>
@@ -210,7 +210,7 @@ function Blog() {
 
         <div className="relative block w-auto max-w-[1480px] min-h-[80px] mx-auto px-[40px] object-fill">
           <div className="content-none table w-full">
-            <div className="px-4 w-1/2 relative float-left min-h-[1px]">
+            <div className="px-4 lg:w-1/2 relative float-left min-h-[1px]">
               <a href="/" className="w-full inline-block">
                 <img
                  alt="Gambar2"
@@ -233,7 +233,7 @@ function Blog() {
                 </div>
               </a>
             </div>
-            <div className="px-4 w-1/2 relative float-left min-h-[1px]">
+            <div className="px-4 lg:w-1/2 relative float-left min-h-[1px]">
               <a href="/" className="w-full inline-block">
                 <img
                  alt="Gambar3"
@@ -259,9 +259,9 @@ function Blog() {
           </div>
         </div>
 
-        <div className="relative block w-auto max-w-[1480px] min-h-[80px] mx-auto px-[40px] object-fill">
+        <div className="relative block w-auto max-w-[1480px] min-h-[80px] mx-auto lg:px-[40px] object-fill">
           <div className="table content-none mt-[72px] w-full">
-            <div className="flex px-[16px] justify-start float-left flex-wrap items-start w-1/3">
+            <div className="flex px-[16px] justify-start float-left flex-wrap items-start lg:w-1/3">
               <a href="/" className="w-full self-auto  max-w-full inline-block">
                 <img
                     alt="Gambar4"
@@ -285,7 +285,7 @@ function Blog() {
               </a>
             </div>
 
-            <div className="flex px-[16px] justify-start float-left flex-wrap items-start w-1/3">
+            <div className="flex px-[16px] justify-start float-left flex-wrap items-start lg:w-1/3">
               <a href="/" className="w-full self-auto  max-w-full inline-block">
                 <img
                     alt="Gambar4"
@@ -310,7 +310,7 @@ function Blog() {
               </a>
             </div>
 
-            <div className="flex px-[16px] justify-start float-left flex-wrap items-start w-1/3">
+            <div className="flex px-[16px] justify-start float-left flex-wrap items-start lg:w-1/3">
               <a href="/" className="w-full self-auto  max-w-full inline-block">
                 <img
                     alt="Gambar5"
@@ -334,7 +334,7 @@ function Blog() {
               </a>
             </div>
 
-            <div className="flex px-[16px] justify-start float-left flex-wrap items-start w-1/3">
+            <div className="flex px-[16px] justify-start float-left flex-wrap items-start lg:w-1/3">
               <a href="/" className="w-full self-auto  max-w-full inline-block">
                 <img
                     alt="Gambar6"
@@ -359,7 +359,7 @@ function Blog() {
               </a>
             </div>
 
-            <div className="flex px-[16px] justify-start float-left flex-wrap items-start w-1/3">
+            <div className="flex px-[16px] justify-start float-left flex-wrap items-start lg:w-1/3">
               <a href="/" className="w-full self-auto  max-w-full inline-block">
                 <img
                     alt="Gambar7"
@@ -384,7 +384,7 @@ function Blog() {
               </a>
             </div>
 
-            <div className="flex px-[16px] justify-start float-left flex-wrap items-start w-1/3">
+            <div className="flex px-[16px] justify-start float-left flex-wrap items-start lg:w-1/3">
               <a href="/" className="w-full self-auto  max-w-full inline-block">
                 <img
                     alt="Gambar8"
@@ -410,10 +410,10 @@ function Blog() {
           </div>
         </div>
 
-        <div className="relative block w-auto max-w-[1480px] min-h-[80px] mx-auto px-[40px] object-fill">
-          <div className="mt-[80px] p-[40px] rounded-lg bg-[#f6f6f6]">
+        <div className="relative block w-auto max-w-[1480px] min-h-[80px] mx-auto lg:px-[40px] object-fill">
+          <div className="mt-[80px] py-5 lg:p-[40px] rounded-lg bg-[#f6f6f6]">
             <div className="table content-none mt-[72px] w-full">
-              <div className="w-[33%] relative float-left min-h-[1px] px-[10px]">
+              <div className="lg:w-[33%] relative float-left min-h-[1px] px-[10px]">
                 <div className=" mb-[8px] font-medium text-base">
                   COLLECTIONS
                 </div>
@@ -436,8 +436,8 @@ function Blog() {
                 </a>
               </div>
 
-              <div className="w-[67%] relative float-left min-h-[1px] pl-[48px] px-[10px]">
-                <div className="mb-[48px] pl-[16px]">
+              <div className="lg:w-[67%] relative my-10 float-left min-h-[1px] lg:pl-[48px] px-[10px]">
+                <div className="mb-[48px] lg:pl-[16px]">
                   <a href="/" className="block w-full hover:text-[#5865f2] ">
                     <img
                         alt="Gambar10"
@@ -450,9 +450,9 @@ function Blog() {
                   </a>
                 </div>
 
-                <div className="table mx-0 w-1/3 float-left" >
+                <div className="table mx-0 lg:w-1/3 float-left" >
                 <div className="w-full px-0 relative float-left min-h-1">
-                  <div className="pl-4 ">
+                  <div className="lg:pl-4 ">
                       <a href="/" className="w-full max-w-full inline-block hover:text-[#5865f2] ">
                       <img src={Blogmini1} alt="Gambar11" className="w-full h-[150px] min-h-0 mb-5 rounded-lg object-cover hover:text-[#5865f2]"></img>
                       <div className="text-black font-medium text-[18px] leading-[125%] hover:text-[#5865f2]">
@@ -463,9 +463,9 @@ function Blog() {
                 </div>
               </div>
 
-              <div className="table mx-0 w-1/3 float-left" >
+              <div className="table mx-0 lg:w-1/3 float-left" >
                 <div className="w-full px-0 relative float-left min-h-1">
-                  <div className="pl-4">
+                  <div className="lg:pl-4">
                       <a href="/" className="w-full max-w-full inline-block hover:text-[#5865f2] ">
                       <img src={Blogmini2} alt="Gambar12" className="w-full h-[150px] min-h-0 mb-5 rounded-lg object-cover"></img>
                       <div className="text-black font-medium text-[18px] leading-[125%]">
@@ -476,7 +476,7 @@ function Blog() {
                 </div>
               </div>
 
-              <div className="table mx-0 w-1/3 float-left" >
+              <div className="table mx-0 lg:w-1/3 float-left" >
                 <div className="w-full px-0 relative float-left min-h-1">
                   <div className="pl-4">
                       <a href="/" className="w-full max-w-full inline-block hover:text-[#5865f2] ">
@@ -496,10 +496,10 @@ function Blog() {
           </div>
         </div>
 
-        <div className="relative block w-auto max-w-[1480px] min-h-[80px] mx-auto px-[40px] object-fill">
-          <div className="mt-[80px] p-[40px] rounded-lg bg-[#f6f6f6]">
+        <div className="relative block w-auto max-w-[1480px] min-h-[80px] mx-auto lg:px-[40px] object-fill">
+          <div className="mt-[80px] py-5 lg:p-[40px] rounded-lg bg-[#f6f6f6]">
             <div className="table content-none mt-[72px] w-full">
-              <div className="w-[33%] relative float-left min-h-[1px] px-[10px]">
+              <div className="lg:w-[33%] relative float-left min-h-[1px] px-[10px]">
                 <div className=" mb-[8px] font-medium text-base">
                   COLLECTIONS
                 </div>
@@ -521,8 +521,8 @@ function Blog() {
                 </a>
               </div>
 
-              <div className="w-[67%] relative float-left min-h-[1px] pl-[48px] px-[10px]">
-                <div className="mb-[48px] pl-[16px]">
+              <div className="lg:w-[67%] relative float-left min-h-[1px] lg:pl-[48px] px-[10px]">
+                <div className="mb-[48px] lg:pl-[16px]">
                   <a href="/" className="block w-full hover:text-[#5865f2] ">
                     <img
                      alt="Gambar15"
@@ -535,9 +535,9 @@ function Blog() {
                   </a>
                 </div>
 
-                <div className="table mx-0 w-1/3 float-left" >
+                <div className="table mx-0 lg:w-1/3 float-left" >
                 <div className="w-full px-0 relative float-left min-h-1">
-                  <div className="pl-4">
+                  <div className="lg:pl-4">
                       <a href="/" className="w-full max-w-full inline-block hover:text-[#5865f2] ">
                       <img src={Blogmini3}  alt="Gambar15" className="w-full h-[150px] min-h-0 mb-5 rounded-lg object-cover"></img>
                       <div className="text-black font-medium text-[18px] leading-[125%]">
@@ -548,9 +548,9 @@ function Blog() {
                 </div>
               </div>
 
-              <div className="table mx-0 w-1/3 float-left" >
+              <div className="table mx-0 lg:w-1/3 float-left" >
                 <div className="w-full px-0 relative float-left min-h-1">
-                  <div className="pl-4">
+                  <div className="lg:pl-4">
                       <a href="/" className="w-full max-w-full inline-block hover:text-[#5865f2] ">
                       <img src={community3}  alt="Gambar16" className="w-full h-[150px] min-h-0 mb-5 rounded-lg object-cover"></img>
                       <div className="text-black font-medium text-[18px] leading-[125%]">
@@ -561,9 +561,9 @@ function Blog() {
                 </div>
               </div>
 
-              <div className="table mx-0 w-1/3 float-left" >
+              <div className="table mx-0 lg:w-1/3 float-left" >
                 <div className="w-full px-0 relative float-left min-h-1">
-                  <div className="pl-4">
+                  <div className="lg:pl-4">
                       <a href="/" className="w-full max-w-full inline-block hover:text-[#5865f2] ">
                       <img src={community2}  alt="Gambar17" className="w-full h-[150px] min-h-0 mb-5 rounded-lg object-cover"></img>
                       <div className="text-black font-medium text-[18px] leading-[125%]">
@@ -581,10 +581,10 @@ function Blog() {
           </div>
         </div>
         
-        <div className="relative block w-auto max-w-[1480px] min-h-[80px] mx-auto px-[40px] object-fill">
-          <div className="mt-[80px] p-[40px] rounded-lg bg-[#f6f6f6]">
+        <div className="relative block w-auto max-w-[1480px] min-h-[80px] mx-auto lg:px-[40px] object-fill">
+          <div className="mt-[80px] lg:p-[40px] py-5 rounded-lg bg-[#f6f6f6]">
             <div className="table content-none mt-[72px] w-full">
-              <div className="w-[33%] relative float-left min-h-[1px] px-[10px]">
+              <div className="lg:w-[33%] relative float-left min-h-[1px] px-[10px]">
                 <div className=" mb-[8px] font-medium text-base">
                   COLLECTIONS
                 </div>
@@ -606,8 +606,8 @@ function Blog() {
                 </a>
               </div>
 
-              <div className="w-[67%] relative float-left min-h-[1px] pl-[48px] px-[10px]">
-                <div className="mb-[48px] pl-[16px]">
+              <div className="lg:w-[67%] relative float-left min-h-[1px] lg:pl-[48px] px-[10px]">
+                <div className="mb-[48px] lg:pl-[16px]">
                   <a href="/" className="block w-full hover:text-[#5865f2] ">
                     <img
                      alt="Gambar18"
@@ -620,9 +620,9 @@ function Blog() {
                   </a>
                 </div>
 
-                <div className="table mx-0 w-1/3 float-left" >
+                <div className="table mx-0 lg:w-1/3 float-left" >
                 <div className="w-full px-0 relative float-left min-h-1">
-                  <div className="pl-4">
+                  <div className="lg:pl-4">
                       <a href="/" className="w-full max-w-full inline-block hover:text-[#5865f2] ">
                       <img src={re3} alt="Gambar19" className="w-full h-[150px] min-h-0 mb-5 rounded-lg object-cover"></img>
                       <div className="text-black font-medium text-[18px] leading-[125%]">
@@ -633,9 +633,9 @@ function Blog() {
                 </div>
               </div>
 
-              <div className="table mx-0 w-1/3 float-left" >
+              <div className="table mx-0 lg:w-1/3 float-left" >
                 <div className="w-full px-0 relative float-left min-h-1">
-                  <div className="pl-4">
+                  <div className="lg:pl-4">
                       <a href="/" className="w-full max-w-full inline-block hover:text-[#5865f2] ">
                       <img src={re4} alt="Gambar19" className="w-full h-[150px] min-h-0 mb-5 rounded-lg object-cover"></img>
                       <div className="text-black font-medium text-[18px] leading-[125%]">
@@ -646,9 +646,9 @@ function Blog() {
                 </div>
               </div>
 
-              <div className="table mx-0 w-1/3 float-left" >
+              <div className="table mx-0 lg:w-1/3 float-left" >
                 <div className="w-full px-0 relative float-left min-h-1">
-                  <div className="pl-4">
+                  <div className="lg:pl-4">
                       <a href="/" className="w-full max-w-full inline-block hover:text-[#5865f2] ">
                       <img src={re5} alt="Gambar20" className="w-full h-[150px] min-h-0 mb-5 rounded-lg object-cover"></img>
                       <div className="text-black font-medium text-[18px] leading-[125%]">
@@ -666,10 +666,10 @@ function Blog() {
           </div>
         </div>
         
-        <div className="relative block w-auto max-w-[1480px] min-h-[80px] mx-auto px-[40px] object-fill">
-          <div className="mt-[80px] p-[40px] rounded-lg bg-[#f6f6f6]">
+        <div className="relative block w-auto max-w-[1480px] min-h-[80px] mx-auto lg:px-[40px] object-fill">
+          <div className="mt-[80px] lg:p-[40px] py-5 rounded-lg bg-[#f6f6f6]">
             <div className="table content-none mt-[72px] w-full">
-              <div className="w-[33%] relative float-left min-h-[1px] px-[10px]">
+              <div className="lg:w-[33%] relative float-left min-h-[1px] px-[10px]">
                 <div className=" mb-[8px] font-medium text-base">
                   COLLECTIONS
                 </div>
@@ -691,8 +691,8 @@ function Blog() {
                 </a>
               </div>
 
-              <div className="w-[67%] relative float-left min-h-[1px] pl-[48px] px-[10px]">
-                <div className="mb-[48px] pl-[16px]">
+              <div className="lg:w-[67%] relative float-left min-h-[1px] lg:pl-[48px] px-[10px]">
+                <div className="mb-[48px] lg:pl-[16px]">
                   <a href="/" className="block w-full hover:text-[#5865f2] ">
                     <img
                       alt="Gambar22"
@@ -705,9 +705,9 @@ function Blog() {
                   </a>
                 </div>
 
-                <div className="table mx-0 w-1/3 float-left" >
+                <div className="table mx-0 lg:w-1/3 float-left" >
                 <div className="w-full px-0 relative float-left min-h-1">
-                  <div className="pl-4">
+                  <div className="lg:pl-4">
                       <a href="/" className="w-full max-w-full inline-block hover:text-[#5865f2] ">
                       <img src={ds3} alt="Gambar23" className="w-full h-[150px] min-h-0 mb-5 rounded-lg object-cover"></img>
                       <div className="text-black font-medium text-[18px] leading-[125%]">
@@ -718,9 +718,9 @@ function Blog() {
                 </div>
               </div>
 
-              <div className="table mx-0 w-1/3 float-left" >
+              <div className="table mx-0 lg:w-1/3 float-left" >
                 <div className="w-full px-0 relative float-left min-h-1">
-                  <div className="pl-4">
+                  <div className="lg:pl-4">
                       <a href="/" className="w-full max-w-full inline-block hover:text-[#5865f2] ">
                       <img src={ds4} alt="Gambar23" className="w-full h-[150px] min-h-0 mb-5 rounded-lg object-cover"></img>
                       <div className="text-black font-medium text-[18px] leading-[125%]">
@@ -731,9 +731,9 @@ function Blog() {
                 </div>
               </div>
 
-              <div className="table mx-0 w-1/3 float-left" >
+              <div className="table mx-0 lg:w-1/3 float-left" >
                 <div className="w-full px-0 relative float-left min-h-1">
-                  <div className="pl-4">
+                  <div className="lg:pl-4">
                       <a href="/" className="w-full max-w-full inline-block hover:text-[#5865f2] ">
                       <img src={ds5}  alt="Gambar24" className="w-full h-[150px] min-h-0 mb-5 rounded-lg object-cover"></img>
                       <div className="text-black font-medium text-[18px] leading-[125%]">
@@ -751,10 +751,10 @@ function Blog() {
           </div>
         </div>
 
-        <div className="relative block w-auto max-w-[1480px] min-h-[80px] mx-auto px-[40px] object-fill">
-          <div className="mt-[80px] p-[40px] rounded-lg bg-[#f6f6f6]">
+        <div className="relative block w-auto max-w-[1480px] min-h-[80px] mx-auto lg:px-[40px] object-fill">
+          <div className="mt-[80px] lg:p-[40px] rounded-lg bg-[#f6f6f6]">
             <div className="table content-none mt-[72px] w-full">
-              <div className="w-[33%] relative float-left min-h-[1px] px-[10px] mt-[24px]">
+              <div className="lg:w-[33%] relative float-left min-h-[1px] px-[10px] mt-[24px]">
                 <div className=" mb-[8px] font-medium text-base">
                   COLLECTIONS
                 </div>
@@ -776,8 +776,8 @@ function Blog() {
                 </a>
               </div>
 
-              <div className="w-[67%] relative float-left min-h-[1px] pl-[48px] px-[10px]">
-                <div className="mb-[48px] pl-[16px] w-1/2 float-left">
+              <div className="lg:w-[67%] relative float-left min-h-[1px] lg:pl-[48px] px-[10px]">
+                <div className="mb-[48px] lg:pl-[16px] lg:w-1/2 float-left">
                   <a href="/" className="block w-full hover:text-[#5865f2] ">
                     <img
                      alt="Gambar26"
@@ -790,7 +790,7 @@ function Blog() {
                   </a>
                 </div>
 
-                <div className="mb-[48px] pl-[16px] w-1/2 float-left">
+                <div className="mb-[48px] lg:pl-4 lg:w-1/2 float-left">
                   <a href="/" className="block w-full hover:text-[#5865f2] ">
                     <img
                     alt="Gambar27"
@@ -803,7 +803,7 @@ function Blog() {
                   </a>
                 </div>
              
-                <div className="mb-[48px] pl-[16px] w-1/2 float-left">
+                <div className="mb-[48px] lg:pl-4 lg:w-1/2 float-left">
                   <a href="/" className="block w-full hover:text-[#5865f2] ">
                     <img
                     alt="Gambar28"
@@ -816,7 +816,7 @@ function Blog() {
                   </a>
                 </div>
 
-                <div className="mb-[48px] pl-[16px] w-1/2 float-left">
+                <div className="mb-[48px] lg:pl-4 lg:w-1/2 float-left">
                   <a href="/" className="block w-full hover:text-[#5865f2] ">
                     <img
                     alt="Gambar29"
@@ -835,10 +835,10 @@ function Blog() {
           </div>
         </div>
 
-        <div className="relative block w-auto max-w-[1480px] min-h-[80px] mx-auto px-[40px] object-fill">
-          <div className="mt-[80px] p-[40px] rounded-lg bg-[#f6f6f6]">
+        <div className="relative block w-auto max-w-[1480px] min-h-[80px] mx-auto lg:px-[40px] object-fill">
+          <div className="mt-[80px] lg:p-[40px] py-5 rounded-lg bg-[#f6f6f6]">
             <div className="table content-none mt-[72px] w-full">
-              <div className="w-[33%] relative float-left min-h-[1px] px-[10px] mt-[24px]">
+              <div className="lg:w-[33%] relative float-left min-h-[1px] px-[10px] mt-[24px]">
                 <div className=" mb-[8px] font-medium">
                   COLLECTIONS
                 </div>
@@ -860,8 +860,8 @@ function Blog() {
                 </a>
               </div>
 
-              <div className="w-[67%] relative float-left min-h-[1px] pl-[48px] px-[10px]">
-                <div className="mb-[48px] pl-[16px] w-1/2 float-left">
+              <div className="lg:w-[67%] relative float-left min-h-[1px] lg:pl-[48px] px-[10px]">
+                <div className="mb-[48px] lg:pl-4 lg:w-1/2 float-left">
                   <a href="/" className="block w-full hover:text-[#5865f2] ">
                     <img
                     alt="Gambar31"
@@ -874,7 +874,7 @@ function Blog() {
                   </a>
                 </div>
 
-                <div className="mb-[48px] pl-[16px] w-1/2 float-left">
+                <div className="mb-[48px] lg:pl-4 lg:w-1/2 float-left">
                   <a href="/" className="block w-full hover:text-[#5865f2] ">
                     <img
                     alt="Gambar32"
@@ -887,7 +887,7 @@ function Blog() {
                   </a>
                 </div>
              
-                <div className="mb-[48px] pl-[16px] w-1/2 float-left">
+                <div className="mb-[48px] lg:pl-4 lg:w-1/2 float-left">
                   <a href="/" className="block w-full hover:text-[#5865f2] ">
                     <img
                     alt="Gambar33"
@@ -900,7 +900,7 @@ function Blog() {
                   </a>
                 </div>
 
-                <div className="mb-[48px] pl-[16px] w-1/2 float-left">
+                <div className="mb-[48px] lg:pl-4 lg:w-1/2 float-left">
                   <a href="/" className="block w-full hover:text-[#5865f2] ">
                     <img
                     alt="Gambar34"

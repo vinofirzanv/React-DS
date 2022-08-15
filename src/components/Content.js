@@ -58,10 +58,10 @@ function Content() {
       <Header></Header>
 
       <div className="relative bg-[#404eed] overflow-hidden flex flex-col center min-h-[626px] pb-0 w-full grid-cols-12 ">
-        <div className=" mx-auto w-full max-w-[1260px] px-40 pt-[60px] pb-[120px]  box-border grid grid-cols-12 gap-x-[20px] gap-y-0 p-10">
-          <div className="col-start-2 col-end-[col-span-8] text-center text-white z-10">
+        <div className=" mx-auto w-full max-w-[1260px] lg:px-40 pt-[60px] pb-[120px]  box-border grid grid-cols-12 lg:gap-x-[20px] gap-y-0 p-10">
+          <div className="col-start-2 col-end-[col-span-8] lg:text-center text-white z-10">
             <div className="mb-2">
-              <h1 className="text-6xl font-extrabold uppercase">
+              <h1 className="text-3xl lg:text-6xl font-extrabold uppercase">
                 IMAGINE A PLACE...
               </h1>
               <div className="mt-10">
@@ -72,8 +72,8 @@ function Content() {
               </div>
             </div>
 
-            <div className="flex flex-wrap text-center justify-center">
-              <div className="cursor-pointer rounded-[28px] mr-6 mt-6 inline-flex text-center bg-white px-8 font-medium leading-[24px] py-4 text-black box-border hover:text-blue-600 hover:fill-blue-600 fill-black">
+            <div className="flex flex-wrap lg:text-center lg:justify-center">
+              <div className="cursor-pointer rounded-full mr-6 mt-6 inline-flex text-center bg-white px-8 py-4  font-medium leading-[24px] text-black box-border hover:text-blue-600 hover:fill-blue-600 fill-black">
                 <svg
                   width="24px"
                   height="24px"
@@ -87,22 +87,22 @@ function Content() {
                 </svg>
                 Download for Windows
               </div>
-              <div className="cursor-pointer rounded-full mt-6 inline-flex text-center bg-[#23272a] px-5 py-4 text-white box-border">
+              <div className="cursor-pointer  rounded-full mr-6 mt-6 font-medium inline-flex text-center bg-[#23272a] px-8 py-4  text-white box-border">
                 <Button>Open Discord in your browser</Button>
               </div>
             </div>
           </div>
 
           <div className="md:absolute md:top-0 md:left-0 z-0 md:w-full md:h-full">
-            <div className=" md:top-auto md:bottom-0 block w-auto absolute ml-[-1280px] left-1/2">
+            <div className=" hidden md:top-auto md:bottom-0 lg:block w-auto absolute ml-[-1280px] left-1/2">
               <img src={MidBanner} alt="banner" />
             </div>
 
-            <div className="absolute bottom-0 left-1/2 block h-auto w-auto max-w-none ml-[-1030px] transform-none">
+            <div className="absolute bottom-0 lg:left-1/2 lg:block lg:h-auto lg:w-auto w-full max-w-none lg:ml-[-1030px] transform-none">
               <img src={Banner} alt="banner" />
             </div>
 
-            <div className="absolute w-full bottom-0 left-1/2 block ml-[370px] ">
+            <div className="hidden absolute w-full bottom-0 left-1/2 lg:block ml-[370px] ">
               <img src={Banner2} alt="banner" />
             </div>
           </div>
@@ -168,11 +168,11 @@ function Content() {
 
       <header className="bg-[#F6F6F6] px-2 lg:py-40 sm:px-4 py-2.5 dark:bg-gray-800">
         <div className="container flex flex-wrap mx-auto ">
-          <div className="w-full text-center lg:pl-4 lg:pt-6 ">
+          <div className="w-full lg:text-center lg:pl-4 lg:pt-6 ">
             <h2 className="font-bold lg:text-5xl text-2xl mt-5 mb-5">
               RELIABLE TECH FOR STAYING CLOSE
             </h2>
-            <p className="mb-5 lg:px-44">
+            <p className="mb-5 lg:px-44 ">
               Low-latency voice and video feels like you’re in the same room.
               Wave hello over video, watch friends stream their games, or gather
               up and have a drawing session with screen share
@@ -193,12 +193,12 @@ function Content() {
         <div className="pt-[80px] w-full flex flex-col">
           <div className="mb-[120px] flex justify-center flex-col items-center flex-wrap">
             <div className="relative z-0 w-full flex justify-center">
-              <img src={Gambar5}></img>
+              <img src={Gambar5} alt="Gambar5"></img>
             </div>
-            <h2 className="text-center font-bold text-[32px] leading-[120%] lg:text-4xl mb-5 z-10">
+            <h2 className="lg:text-center font-bold text-[32px] leading-[120%] mx-5 lg:text-4xl mb-5 z-10">
               Ready to start your journey?
             </h2>
-            <div className="cursor-pointer w-auto rounded-[28px] mr-6 mt-6 inline-flex text-center bg-[#5865f2] px-8 font-medium leading-[24px] py-4 text-white box-border fill-white">
+            <div className="cursor-pointer w-full lg:w-auto rounded-[28px] mr-6 mt-6 inline-flex text-center justify-center bg-[#5865f2] px-8 font-medium leading-[24px] py-4 text-white box-border fill-white">
                 <svg
                   width="24px"
                   height="24px"
